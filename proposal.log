@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.27)  5 APR 2015 02:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.27)  5 APR 2015 23:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -79,10 +79,10 @@ Overfull \hbox (0.94551pt too wide) in paragraph at lines 75--76
 
 ] (./proposal.aux) ) 
 Here is how much of TeX's memory you used:
- 243 strings out of 493117
- 2654 string characters out of 6135433
+ 244 strings out of 493117
+ 2657 string characters out of 6135433
  57909 words of memory out of 5000000
- 3776 multiletter control sequences out of 15000+600000
+ 3777 multiletter control sequences out of 15000+600000
  9760 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  22i,6n,19p,795b,185s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -94,7 +94,7 @@ ts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
 m/cmr17.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmti10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mu10.pfb>
-Output written on proposal.pdf (10 pages, 111661 bytes).
+Output written on proposal.pdf (10 pages, 112394 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream

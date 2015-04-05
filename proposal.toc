@@ -13,7 +13,7 @@
 \contentsline {paragraph}{RFID vs Barcodes}{5}
 \contentsline {subsection}{\numberline {1.5}Importance of Item-level Identification}{5}
 \contentsline {paragraph}{Food Safety and traceability}{5}
-\contentsline {paragraph}{Transparency}{5}
+\contentsline {paragraph}{Transparency}{6}
 \contentsline {section}{\numberline {2}Aims and Objectives}{6}
 \contentsline {subsection}{\numberline {2.1}Aims}{6}
 \contentsline {subsection}{\numberline {2.2}Objectives}{6}
