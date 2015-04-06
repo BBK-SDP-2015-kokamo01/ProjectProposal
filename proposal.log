@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.27)  6 APR 2015 02:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.27)  6 APR 2015 04:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -23,62 +23,56 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (./proposal.aux)
+)
+\drop=\skip43
+ (./proposal.aux)
 \openout1 = `proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
  [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./proposal.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 12.
+(Font)              <10.95> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 12.
+(Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 12.
-
-(./proposal.toc)
+(Font)              <6> on input line 2.
+)
 \tf@toc=\write3
 \openout3 = `proposal.toc'.
 
- [2] [3
+ [1] [2
 
-] [4
+] [3
 
-]
-
-LaTeX Warning: Citation `2' on page 5 undefined on input line 55.
-
-
-Overfull \hbox (23.00073pt too wide) in paragraph at lines 61--62
-[]\OT1/cmr/m/n/10 Image of pie goes here: put in Ap-pendix Im-age will explain-
-Supermarkets
+] [4]
+Overfull \hbox (6.24168pt too wide) in paragraph at lines 95--96
+ \OT1/cmr/bx/n/10.95 Wa-genin-gen Uni-ver-sity[] \OT1/cmr/m/n/10 Re-searchers i
+n the Nether-lands are work-
  []
 
 [5]
-Overfull \hbox (7.94514pt too wide) in paragraph at lines 69--70
-\OT1/cmr/m/n/10 the Nether-lands Pack-ag-ing Cen-tre who of-fer pack-ag-ing so-
-lu-tions through-
- []
-
-[6]
-Overfull \hbox (0.94551pt too wide) in paragraph at lines 87--88
+Overfull \hbox (0.94551pt too wide) in paragraph at lines 118--119
  \OT1/cmr/bx/n/10.95 RFID vs Bar-codes[] \OT1/cmr/m/n/10 Bar-codes are printed,
  there-for can not change. 
  []
 
-[7] [8] [9
+[6] [7] [8
+
+] [9
 
 ] [10
 
@@ -86,33 +80,28 @@ Overfull \hbox (0.94551pt too wide) in paragraph at lines 87--88
 
 ] [12
 
-] (./proposal.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] (./proposal.aux) ) 
 Here is how much of TeX's memory you used:
- 241 strings out of 493117
- 2603 string characters out of 6135433
- 57909 words of memory out of 5000000
- 3774 multiletter control sequences out of 15000+600000
- 9144 words of font info for 32 fonts, out of 8000000 for 9000
+ 247 strings out of 493117
+ 2699 string characters out of 6135433
+ 58909 words of memory out of 5000000
+ 3780 multiletter control sequences out of 15000+600000
+ 10695 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 21i,6n,19p,860b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
-ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmu10.pfb>
-Output written on proposal.pdf (12 pages, 116158 bytes).
+ 22i,4n,19p,1350b,145s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmcsc10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr17.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmti10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mu10.pfb>
+Output written on proposal.pdf (13 pages, 133950 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 79 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
