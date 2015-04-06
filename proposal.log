@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.27)  6 APR 2015 23:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.27)  7 APR 2015 00:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -24,6 +24,13 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
 \drop=\skip43
  (./proposal.aux)
 \openout1 = `proposal.aux'.
@@ -40,7 +47,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
- [1
+[1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./proposal.toc
@@ -59,9 +66,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ] [3
 
 ] [4]
-Overfull \hbox (6.24168pt too wide) in paragraph at lines 95--96
- \OT1/cmr/bx/n/10.95 Wa-genin-gen Uni-ver-sity[] \OT1/cmr/m/n/10 Re-searchers i
-n the Nether-lands are work-
+Overfull \hbox (5.2648pt too wide) in paragraph at lines 95--96
+ \T1/cmr/bx/n/10.95 Wa-genin-gen Uni-ver-sity[] \T1/cmr/m/n/10 Re-searchers in 
+the Nether-lands are work-
  []
 
 [5] [6] [7] [8] [9
@@ -76,26 +83,32 @@ n the Nether-lands are work-
 
 ] (./proposal.aux) ) 
 Here is how much of TeX's memory you used:
- 247 strings out of 493117
- 2699 string characters out of 6135433
+ 465 strings out of 493117
+ 4362 string characters out of 6135433
  58909 words of memory out of 5000000
- 3780 multiletter control sequences out of 15000+600000
- 10695 words of font info for 37 fonts, out of 8000000 for 9000
+ 3984 multiletter control sequences out of 15000+600000
+ 17402 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 22i,4n,19p,1350b,145s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmcsc10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr17.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmti10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mu10.pfb>
-Output written on proposal.pdf (14 pages, 137244 bytes).
+ 22i,4n,19p,1349b,151s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-supe
+r/cm-super-t1.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-sup
+er/sfbx1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super
+/sfbx1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/s
+fbx1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfb
+x1440.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfcc0
+900.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfcc109
+5.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfcc1200.
+pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pf
+b></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on proposal.pdf (14 pages, 250156 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 107 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
