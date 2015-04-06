@@ -1,28 +1,34 @@
-\contentsline {section}{\numberline {1}Introduction}{3}
-\contentsline {subsection}{\numberline {1.1}Background}{3}
-\contentsline {subsection}{\numberline {1.2}Problem}{3}
-\contentsline {paragraph}{Environmental}{4}
-\contentsline {paragraph}{Economical}{4}
-\contentsline {paragraph}{Social}{4}
-\contentsline {paragraph}{Human memory}{4}
-\contentsline {paragraph}{Lifestyle}{4}
-\contentsline {subsection}{\numberline {1.3}Current measures to combat waste}{5}
-\contentsline {subsection}{\numberline {1.4}Internet of things and SmartCities}{5}
-\contentsline {paragraph}{A bit of history}{5}
-\contentsline {paragraph}{SmartCities}{5}
-\contentsline {paragraph}{RFID vs Barcodes}{5}
-\contentsline {subsection}{\numberline {1.5}Importance of Item-level Identification}{5}
-\contentsline {paragraph}{Food Safety and traceability}{5}
-\contentsline {paragraph}{Transparency}{6}
-\contentsline {section}{\numberline {2}Aims and Objectives}{6}
-\contentsline {subsection}{\numberline {2.1}Aims}{6}
-\contentsline {subsection}{\numberline {2.2}Objectives}{6}
-\contentsline {section}{\numberline {3}Development}{7}
-\contentsline {subsection}{\numberline {3.1}Methodology}{7}
-\contentsline {subsection}{\numberline {3.2}Framework}{7}
-\contentsline {subsection}{\numberline {3.3}Architecture}{7}
-\contentsline {subsection}{\numberline {3.4}Tools}{7}
-\contentsline {section}{\numberline {4}Conclusion}{8}
-\contentsline {subsection}{\numberline {4.1}Limitations}{8}
-\contentsline {section}{\numberline {5}Schedule}{9}
-\contentsline {subsection}{\numberline {5.1}Timetable}{9}
+\contentsline {section}{\numberline {1}Mandatory: Title Page-look at slides for specs!}{1}
+\contentsline {section}{\numberline {2}Introduction}{4}
+\contentsline {subsection}{\numberline {2.1}Background}{4}
+\contentsline {subsection}{\numberline {2.2}Problem}{4}
+\contentsline {paragraph}{Environmental}{5}
+\contentsline {paragraph}{Economical}{5}
+\contentsline {paragraph}{Social}{5}
+\contentsline {paragraph}{Human memory}{5}
+\contentsline {paragraph}{Lifestyle}{5}
+\contentsline {subsection}{\numberline {2.3}Current Measures to Combat Waste}{6}
+\contentsline {paragraph}{Governments}{6}
+\contentsline {paragraph}{Wageningen University}{6}
+\contentsline {paragraph}{Pecking University}{6}
+\contentsline {paragraph}{Smart Fridges}{6}
+\contentsline {paragraph}{TooSkee and LeanPath}{6}
+\contentsline {subsection}{\numberline {2.4}Internet of Things and SmartCities}{7}
+\contentsline {paragraph}{A bit of history}{7}
+\contentsline {paragraph}{SmartCities}{7}
+\contentsline {paragraph}{RFID vs Barcodes}{7}
+\contentsline {subsection}{\numberline {2.5}Importance of Item-level Identification}{7}
+\contentsline {paragraph}{Food Safety and traceability}{7}
+\contentsline {paragraph}{Transparency}{7}
+\contentsline {section}{\numberline {3}Aims and Objectives}{8}
+\contentsline {subsection}{\numberline {3.1}Aims}{8}
+\contentsline {subsection}{\numberline {3.2}Objectives}{8}
+\contentsline {section}{\numberline {4}Development}{9}
+\contentsline {subsection}{\numberline {4.1}Methodology}{9}
+\contentsline {subsection}{\numberline {4.2}Framework}{9}
+\contentsline {subsection}{\numberline {4.3}Architecture}{9}
+\contentsline {subsection}{\numberline {4.4}Tools}{9}
+\contentsline {section}{\numberline {5}Conclusion}{10}
+\contentsline {subsection}{\numberline {5.1}Limitations}{10}
+\contentsline {section}{\numberline {6}Schedule}{11}
+\contentsline {subsection}{\numberline {6.1}Timetable}{11}
