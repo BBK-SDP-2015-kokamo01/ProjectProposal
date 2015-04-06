@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.27)  6 APR 2015 04:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.27)  6 APR 2015 23:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -64,21 +64,15 @@ Overfull \hbox (6.24168pt too wide) in paragraph at lines 95--96
 n the Nether-lands are work-
  []
 
-[5]
-Overfull \hbox (0.94551pt too wide) in paragraph at lines 118--119
- \OT1/cmr/bx/n/10.95 RFID vs Bar-codes[] \OT1/cmr/m/n/10 Bar-codes are printed,
- there-for can not change. 
- []
-
-[6] [7] [8
-
-] [9
+[5] [6] [7] [8] [9
 
 ] [10
 
 ] [11
 
 ] [12
+
+] [13
 
 ] (./proposal.aux) ) 
 Here is how much of TeX's memory you used:
@@ -98,10 +92,10 @@ ts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
 m/cmr17.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmti10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mu10.pfb>
-Output written on proposal.pdf (13 pages, 133950 bytes).
+Output written on proposal.pdf (14 pages, 137244 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 82 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
