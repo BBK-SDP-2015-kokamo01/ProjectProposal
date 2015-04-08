@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.27)  8 APR 2015 01:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.27)  8 APR 2015 03:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -66,7 +66,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ] [3
 
 ] [4]
-Overfull \hbox (5.2648pt too wide) in paragraph at lines 95--96
+Overfull \hbox (5.2648pt too wide) in paragraph at lines 98--99
  \T1/cmr/bx/n/10.95 Wa-genin-gen Uni-ver-sity[] \T1/cmr/m/n/10 Re-searchers in 
 the Nether-lands are work-
  []
@@ -83,11 +83,11 @@ the Nether-lands are work-
 Here is how much of TeX's memory you used:
  466 strings out of 493117
  4365 string characters out of 6135433
- 58909 words of memory out of 5000000
+ 57909 words of memory out of 5000000
  3985 multiletter control sequences out of 15000+600000
  17402 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 22i,4n,19p,1349b,151s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 22i,5n,19p,1349b,151s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-supe
 r/cm-super-t1.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-sup
 er/sfbx1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super
@@ -103,7 +103,7 @@ usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></us
 r/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/
 local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/lo
 cal/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on proposal.pdf (14 pages, 255122 bytes).
+Output written on proposal.pdf (14 pages, 255753 bytes).
 PDF statistics:
  107 PDF objects out of 1000 (max. 8388607)
  76 compressed objects within 1 object stream
