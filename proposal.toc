@@ -7,31 +7,33 @@
 \contentsline {paragraph}{Environmental}{4}
 \contentsline {paragraph}{Economical}{4}
 \contentsline {paragraph}{Social}{4}
-\contentsline {paragraph}{Human Memory}{4}
-\contentsline {paragraph}{Lifestyle}{5}
+\contentsline {paragraph}{Human memory}{4}
+\contentsline {paragraph}{LifeStyle}{4}
 \contentsline {subsection}{\numberline {1.3}Current Measures to Combat Waste}{5}
 \contentsline {paragraph}{Governments}{5}
+\contentsline {paragraph}{Anaerobic Digestion}{5}
 \contentsline {paragraph}{Wageningen University}{5}
-\contentsline {paragraph}{Pecking University}{6}
-\contentsline {paragraph}{Smart Fridges}{6}
+\contentsline {paragraph}{Peking University}{6}
+\contentsline {paragraph}{Smart Refrigerator}{6}
 \contentsline {paragraph}{TooSkee \& LeanPath}{6}
 \contentsline {subsection}{\numberline {1.4}Internet of Things and SmartCities}{7}
 \contentsline {paragraph}{A bit of history}{7}
 \contentsline {paragraph}{SmartCities}{7}
 \contentsline {paragraph}{Product identification: RFID vs Barcodes}{7}
 \contentsline {subsection}{\numberline {1.5}Importance of Item-level Identification}{8}
-\contentsline {paragraph}{Transparency \& Consumer Rights}{8}
-\contentsline {paragraph}{Amendment of human errors}{9}
-\contentsline {paragraph}{Food Safety and traceability}{9}
-\contentsline {paragraph}{Supply Chain Intelligence}{9}
-\contentsline {section}{\numberline {2}Aims and Objectives}{10}
-\contentsline {subsection}{\numberline {2.1}Aims}{10}
-\contentsline {subsection}{\numberline {2.2}Objectives}{10}
-\contentsline {subsection}{\numberline {2.3}Limitations}{10}
-\contentsline {section}{\numberline {3}Development}{11}
-\contentsline {subsection}{\numberline {3.1}Methodology}{11}
-\contentsline {subsection}{\numberline {3.2}Framework}{11}
-\contentsline {subsection}{\numberline {3.3}Architecture}{11}
-\contentsline {subsection}{\numberline {3.4}Tools}{11}
-\contentsline {section}{\numberline {4}Schedule}{12}
-\contentsline {subsection}{\numberline {4.1}Timetable}{12}
+\contentsline {paragraph}{Remote Amendment of human errors}{8}
+\contentsline {paragraph}{Food Safety and traceability}{8}
+\contentsline {paragraph}{Transparency \& Consumer Rights}{9}
+\contentsline {paragraph}{Supply Chain Intelligence}{10}
+\contentsline {section}{\numberline {2}Aims and Objectives}{11}
+\contentsline {subsection}{\numberline {2.1}Aims}{11}
+\contentsline {paragraph}{Senario}{11}
+\contentsline {subsection}{\numberline {2.2}Objectives}{11}
+\contentsline {subsection}{\numberline {2.3}Limitations}{11}
+\contentsline {section}{\numberline {3}Development}{12}
+\contentsline {subsection}{\numberline {3.1}Methodology}{12}
+\contentsline {subsection}{\numberline {3.2}Framework}{12}
+\contentsline {subsection}{\numberline {3.3}Architecture}{12}
+\contentsline {subsection}{\numberline {3.4}Tools}{12}
+\contentsline {section}{\numberline {4}Schedule}{13}
+\contentsline {subsection}{\numberline {4.1}Timetable}{13}
