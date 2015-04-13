@@ -65,7 +65,7 @@ Over production of produce is a global issue with food waste exceeding two billi
 
 \vspace{\baselineskip}
 
-This project will take a consumer-centric approach to tackle the issue of waste. The United Kingdom alone is estimated to generate15million tonnes of food waste every year, 7 million of which is accountable to domestic households. Having stated this, retailers contribute largely to the figures as they strive to meet contrived demands, self-orchestrated by marketing to boost revenue, causing waste that would have resided at the retailer to be pushed down the chain and ultimately dumped with the consumers. By providing consumers tools to better manage their inventory that would aid a lifestyle of maximal resource utilisation with minimum waste, demand could be controlled keeping waste at bay with the retailers. Essentially creating an upstream ripple effect and discouraging the over production of food by targeting the root cause of the problem.
+This project will take a consumer-centric approach to tackle the issue of waste. The United Kingdom alone is estimated to generate 15 million tonnes of food waste every year, 7 million of which is accountable to domestic households. Having stated this, retailers contribute largely to the figures as they strive to meet contrived demands, self-orchestrated by marketing to boost revenue, causing waste that would have resided at the retailer to be pushed down the chain and ultimately dumped with the consumers. By providing consumers tools to better manage their inventory that would aid a lifestyle of maximal resource utilisation with minimum waste, demand could be controlled keeping waste at bay with the retailers. Essentially creating an upstream ripple effect and discouraging the over production of food by targeting the root cause of the problem.
 
 
 
@@ -125,7 +125,7 @@ Cutting edge innovations such as the atmosphere and temperature sensing RFID tag
 
 This notion of efficiency driven, interconnected networks can be applied to the supply chain. Interleaving processes can be machine managed, making it less error prone and complex pipelines and components become transparent. Allowing the promulgation of waste occurrence to it?s counterparts so that preemptive waste prevention measures could be established in advance. An example of this is if a store shelf holding boxes of cornflakes can report to the start of the chain that there are still x-units to sell, so for the next x dates cornflakes need not be produced. Giving opportunity for demand to catch up and reducing back-log of stock.
 
-\paragraph{Product identification: RFID vs Barcodes}Product identification and registration is fundamental for retailers to monitor stock and analyse sales totals. To accomplish this task, barcodes have been implemented in the supply chain since the 1970?s. This method of identification accelerate and digitalised the checkout process. 
+\paragraph{Product Identification: RFID vs Barcodes}Product identification and registration is fundamental for retailers to monitor stock and analyse sales totals. To accomplish this task, barcodes have been implemented in the supply chain since the 1970?s. This method of identification accelerate and digitalised the checkout process. 
 
 For the barcode to be read successfully there must be no obstructions between the laser and the barcode, this includes dirt or scratches that distort the image. The laser must be kept parallel to the barcode for a successful read and simultaneous scanning is not possible. It is also note worthy to mention that barcodes are unique to the product type but not at the item-level. For example in a crate filled with milk made by the same manufacture will all have the same barcode thus a machine would not be able to distinguish one item from another. However they are universally recognised and inexpensive to print. 
 
@@ -146,10 +146,10 @@ measurement of food waste at different stages of the chain and between different
 countries was pretty incompatible. Until that is resolved, the EU level probably has to
 be aspirational, exculpatory and a matter of learning from best practice. 12'}
 
-\paragraph{Remote Amendment of human errors}
+\paragraph{Remote Amendment of Human Errors}
 Foods is regularly recalled due to human errors in printing the incorrect information on the label or neglecting to provide information the doesn?t abide by regulations. Food perfectly fit for consupmtion is destined to become to waste by using RFID tags could remotely be updated, issuing immediate alerts to consumers of the mistake and the amended error. This provides a different approach to error management. With the information being online it can be accessible anywhere.
 
-\paragraph{Food Safety and traceability}
+\paragraph{Food Safety and Traceability}
 In the past there has been numerous incidents where products have been recalled due to the presence of bacteria or abnormalities in foods. A notable incident is the 2013 meat adulteration scandal in the EU where traces of horse meat where discovered in foods such as minced meat and ready prepared meals. The time and resources to trace trough the supply chain was estimated to have cost the Food Standard Agency (FSA) \pounds900,000 between 2011?2012. And a further \pounds1.6 million between 2012?13 \cite{3}. Other casualties include the reputations and integrity of the blameless producers falsely accused due to inaccurate data that implicated them as the guilty. 
 
 With item-level identification the contaminated produce could be traced back immediately and the products recalled. For example if an infected animal is used in various products, all items holding that particular code can be instantly traceable, compartmentalising the outbreak and maximising efficiency in damage control. 
@@ -183,9 +183,83 @@ Electronic product code (EPC)Developed in Massachusetts Institute of Technology 
 \section{Aims and Objectives}
 \subsection{Aims}
 
-\paragraph{Senario}The user purchases food and stocks his/her fridge. Information such as the brand name, expire date, allergy information will be persisted externally. A reader installed in the fridge will identify the items. When a product is removed a it is time stamped with the inventory list updated and 
+The aim is to demonstrate the use of item-level RFID tagging and the positive contribution to waste reduction. Using the ubiquitous computing paradigm the application should seamlessly integrate into the domestic home environment. Enhancing the routinely activity of food supply replenishment and assisting the optimum utilisation of resources. 
+
+
+\iffalse
+ \paragraph{\textbf{\textit{Embedded}}}
+ \begin{flushleft}  A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items.
+  \end{flushleft}
+  
+   \paragraph{\textbf{\textit{Context Aware}}}
+ \begin{flushleft}  A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items.
+  \end{flushleft}
+  
+   \paragraph{\textbf{\textit{Personalised}}}
+ \begin{flushleft}  A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items.
+  \end{flushleft}
+  
+   \paragraph{\textbf{\textit{Adaptive}}}
+ \begin{flushleft}  A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items.
+  \end{flushleft}
+  
+     \paragraph{\textbf{\textit{Anticipatory}}}
+ \begin{flushleft}  A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items.
+  \end{flushleft}
+\fi
+
+
+\begin{itemize}
+  %\setlength{\parskip}{0cm}%
+  \item[] \textbf{Embedded}
+  \begin{flushleft}  A fridge that contains a readers that can detect the presence of NFC tags and routinely scan the items and detect any change. The changes can be sent to subscribing devices to be notified of the change.
+  \end{flushleft}
+  \item[] \textbf{Context Aware} 
+    \begin{flushleft} These devices can recognize family and family situational context
+With the use of RFID it can recognise that a certain member of the family has approached the fridge and extracted an item. Dietary information such as calories, allergies can be displayed for a particular member in the house. 
+\end{flushleft}
+  \item[] \textbf{Personalised} 
+    \begin{flushleft} These devices can recognize family and family situational context
+With the use of RFID it can recognise that a certain member of the family has approached the fridge and extracted an item. Dietary information such as calories, allergies can be displayed for a particular member in the house. 
+\end{flushleft}
+  \item[] \textbf{Adaptive} 
+    \begin{flushleft} These devices can recognize family and family situational context
+With the use of RFID it can recognise that a certain member of the family has approached the fridge and extracted an item. Dietary information such as calories, allergies can be displayed for a particular member in the house. 
+\end{flushleft}
+  \item[] \textbf{Anticipatory} 
+    \begin{flushleft} These devices can recognize family and family situational context
+With the use of RFID it can recognise that a certain member of the family has approached the fridge and extracted an item. Dietary information such as calories, allergies can be displayed for a particular member in the house. 
+\end{flushleft}
+\end{itemize}
+
+
+\paragraph{Scenario}On the way home from work Rachel visits the supermarket. She consults her smartphone for a reminder of what her fridge contained. A recommended shopping list has been generated in accordance to previous purchases and to each family members schedule. She will need less food than the previous week as she has a family dinner scheduled at her mother-in-laws this weekend. She browses the poultry aisle and notices a special offer on chicken, ?Buy two get the third free? the label reads. According to the application the fridge already contains chicken that must be consumed by tomorrow. She decides against the purchase. The next item on the list is milk, but then her phone notifies her that her husband Frank has just stocked the fridge with a one litre carton of semi-skimmed milk. She completes the shopping and arrives home and restocks the fridge. Her daughter Ingrid is on the way home form college, her parents are working late and she must prepare dinner for herself and younger brother this evening. The app recommends spaghetti Bolognese. As unloads the items from the fridge an alert is sent to he phone of some core item details previously set up. One of the details highlights a warning that the sauce has not been packaged in a nut free zone. Dean has a nut allergy. She ops for a chicken salad instead. At the end of the week the total a visual analysis report is broadcasted to all members.
 
 \subsection{Objectives}
+
+\begin{enumerate}
+   \item \textbf{Embedded}
+     \begin{flushleft}  A fridge that contains a reader that reads tagged items
+   \end{flushleft}
+   \item \textbf{Context Aware}
+   \begin{flushleft} These devices can recognize family and family situational context
+With the use of RFID it can recognise that a certain member of the family has approached the fridge and extracted an item. Dietary information such as calories, allergies can be displayed for a particular member in the house. 
+  \end{flushleft}
+   \item \textbf{Personalised}
+   \begin{flushleft}they can be tailored to family needs
+Prioritisation of fresh food consumption to minimise the possibility of waste. Automatic meal plan generation with the items in the fridge.
+  \end{flushleft}
+   \item \textbf{Adaptive}
+   \begin{flushleft}they can change in response to the family
+If food is nearing expiration a notification must be sent to subscribing users. 
+In the context where there are multiple inhabitants the fridge must respond to updates from all subscribing users.  if one member stocks the fridge it must notify others deterring other members to also purchase.
+  \end{flushleft}
+   \item \textbf{Anticipatory}
+   \begin{flushleft} they can anticipate family desires without conscious mediation.
+Automatic shopping list generation in accordance to previous items stocked. Dietary requirements and the number of people i the house.  
+ \end{flushleft}
+\end{enumerate}
+
 \subsection{Limitations}
 \clearpage
 
