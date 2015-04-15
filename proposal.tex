@@ -1,5 +1,6 @@
 \documentclass[a4paper, 11pt]{article}
 %\usepackage[parfill]{parskip}
+\usepackage{ragged2e}
 
 %\title{Some Title I haven't decided yet}
 %\author{Keimi Okamoto}
@@ -188,7 +189,7 @@ The aim is to demonstrate the use of item-level RFID tagging and the positive co
 
 \iffalse
  \paragraph{\textbf{\textit{Embedded}}}
- \begin{flushleft}  A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items.
+A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items A fridge that contains a reader that reads tagged items.
   \end{flushleft}
   
    \paragraph{\textbf{\textit{Context Aware}}}
@@ -208,53 +209,59 @@ The aim is to demonstrate the use of item-level RFID tagging and the positive co
   \end{flushleft}
 \fi
 
-
+\vspace{\baselineskip}
 \begin{itemize}
   %\setlength{\parskip}{0cm}%
+    \setlength{\parskip}{-0.5em}
   \item[] \textbf{Embedded}
-  \begin{flushleft}  The fridge will be embedded with RFID readers and the groceries will be tagged holding an ID that corresponds to a URL where the item details will be accessible from any subscribing smart devices. The fridge will be responsible for the persistence of incoming data and the logging of any alteration to the state of the fridge. i.e If items are added or removed.
+  \begin{flushleft}\justify The fridge will be embedded with RFID readers and the groceries will be tagged holding an ID that corresponds to a URL where the item details will be accessible from any subscribing smart devices. The fridge will be responsible for the persistence of incoming data and the logging of any alteration to the state of the fridge. i.e If items are added or removed.
   \end{flushleft}
+  \vspace{\baselineskip}
+
   \item[] \textbf{Context Aware} 
-    \begin{flushleft} With the use of location sensors such as GPS, if one of the subscribing users is near a supermarket a notification containing an itemised list of products and the quality necessary to optimally restock relative to the number of inhabitants and the items previously purchased reducing impulse buying and over purchasing. (With the exception to override the feature if any of the members are expecting guests for diners.) Additionally, the contents of the fridge may also be observed through a smart device for quick reminders on what is back at home. At a particular timing, for example half an hour before arriving home from work, the application may recommend a quick and easy recipe inspiring the use of the produce purchased.
+    \begin{flushleft}\justify With the use of location sensors such as GPS, if one of the subscribing users is near a supermarket a notification containing an itemised list of products and the quality necessary to optimally restock relative to the number of inhabitants and the items previously purchased reducing impulse buying and over purchasing. (With the exception to override the feature if any of the members are expecting guests for diners.) Additionally, the contents of the fridge may also be observed through a smart device for quick reminders on what is back at home. At a particular timing, for example half an hour before arriving home from work, the application may recommend a quick and easy recipe inspiring the use of the produce purchased.
 \end{flushleft}
+\vspace{\baselineskip}
+
   \item[] \textbf{Personalised} 
-    \begin{flushleft} Automatic meal plan generation with the items in the fridge tailored to the dietary requirements of the diners. Personalised allergy warnings if a user attempts to remove something from the fridge that contains the offending item. An end of week analysis for the household of how much food was consumed in time and the translation to monetary savings as motivation.
+    \begin{flushleft}\justify Automatic meal plan generation with the items in the fridge tailored to the dietary requirements of the diners. Personalised allergy warnings if a user attempts to remove something from the fridge that contains the offending item. An end of week analysis for the household of how much food was consumed in time and the translation to monetary savings as motivation.
 \end{flushleft}
+\vspace{\baselineskip}
+
   \item[] \textbf{Adaptive} 
-    \begin{flushleft} The system must adapt to the change in the environment. When more food is added to the fridge the prioritisation of consumption according to the expiration date must be kept ordered to minimise the possibility of waste. If one user alters the state of the fridge updates must be available to all other users informing of the change.
+    \begin{flushleft}\justify The system must adapt to the change in the environment. When more food is added to the fridge the prioritisation of consumption according to the expiration date must be kept ordered to minimise the possibility of waste. If one user alters the state of the fridge updates must be available to all other users informing of the change.
 \end{flushleft}
+\vspace{\baselineskip}
+ \clearpage
+
   \item[] \textbf{Anticipatory} 
-    \begin{flushleft} If the system sees that more food is in the fridge than what the family?s usual consumption value as sees a high possibility of waste tips to extend product life such as freezing or cooking and advice such as donating or sharing with the community or friends will be made. Sending out an alert to local charities or friends, neighbours to share the unwanted food. 
+    \begin{flushleft}\justify If the system sees that more food is in the fridge than what the family?s usual consumption value as sees a high possibility of waste tips to extend product life such as freezing or cooking and advice such as donating or sharing with the community or friends will be made. Sending out an alert to local charities or friends, neighbours to share the unwanted food. 
 \end{flushleft}
 \end{itemize}
 
 
-\paragraph{Scenario}On the way home from work Rachel visits the supermarket. She consults her smartphone for a reminder of what her fridge contained and is a recommended shopping list has been generated for her. She will need less food than the previous week as she has a family dinner scheduled at her mother-in-laws this weekend. She browses the poultry aisle and notices a special offer on chicken, ?Buy two get the third free? the label reads. According to the application the fridge already contains chicken that must be consumed by tomorrow. She decides against the purchase and carries on, the next item on the list is milk. But then her phone notifies her that her husband Frank has just stocked the fridge with a one litre carton of semi-skimmed milk. She completes the shopping and arrives home and restocks the fridge. Her daughter Ingrid is on the way home form college, her parents are working late and she must prepare dinner for herself and younger brother Dean this evening. As she scrolls through the items on the screen of the smartPhone the app recommends cheese and onion quiche, ready in 20mins and one of Deans favourite. After they have had dinner Ingrid decides to prepare desert, as she unloads the cheesecake from the fridge her smartPhone signals an alert. The screen highlights a warning that the cheesecake contains gelatine. Ingrid is a vegetarian, she opts for the yoghurt instead and serves the cheesecake to her brother. At the end of the week a visual chart representing the analysis of the families savings and is broadcasted to all members.
+\paragraph{Scenario}On the way home from work Rachel visits the supermarket. She consults her smartphone for a reminder of what her fridge contains back at home. A shopping list has been generated for her. She will need less food than the previous week as she has a family dinner scheduled at her mother?s this weekend. She browses the poultry aisle and notices a special offer on chicken, ?Buy two get the third free? the label reads. According to the application the fridge already contains chicken that must be consumed by tomorrow. She decides against the purchase and carries on, the next item on the list is milk. But then her phone notifies her that her husband Frank has just stocked the fridge with a one litre carton of semi-skimmed milk. She completes the shopping and arrives home and restocks the fridge. Her daughter Ingrid is on the way home form college, her parents are working late and she must prepare dinner for herself and younger brother Dean this evening. As she scrolls through the items on the screen of the smartPhone the app recommends cheese and onion quiche, ready in 20mins and one of Dean?s favourites. After dinner Ingrid decides to prepare desert, as she unloads the cheesecake from the fridge her smartPhone signals a warning that the cheesecake contains gelatine. Ingrid is a vegetarian, she opts for the yoghurt instead and serves the cheesecake to her brother. At the end of the week a visual chart representing the analysis of the families savings and quantity of food consumed is broadcasted to all members.
 
-\paragraph{Further Extension\dots} As with the internet of things as more objects join the internet the larger the network will grown and communication lines will open. Giving endless opportunity for the project to grow. Devices such as fitness trackers can connect and calculate the amount of calories consumed to the amount of calories burned. Applications such as MyGROCER will be able to detect when a product is 
+\paragraph{Further Extension\dots} As more objects join the internet of things, modules will connect with existing systems, supporting one another and providing the ability to develop more sophisticated intelligence with shared data. Devices such as fitness trackers that calculate the amount of calories exhausted can work cooperatively and recommend the optimal diet for the individual to lead a healthy lifestyle. Smart shopping solution that aids the shopper through a personalised shopping experience with the use of RFID reader embedded smartCarts such as MyGROCER[5] could work in conjunction with the fridge and retailers can responsibly source shoppers with personalised promotions. BigData analysis on consumer purchases.
+
 
 \subsection{Objectives}
 
 \begin{enumerate}
-   \item \textbf{Embedded}
-     \begin{flushleft}  A fridge that contains a reader that reads tagged items
+   \item \textbf{Setting up a smart environment}
+     \begin{flushleft}  
    \end{flushleft}
-   \item \textbf{Context Aware}
-   \begin{flushleft} These devices can recognize family and family situational context
-With the use of RFID it can recognise that a certain member of the family has approached the fridge and extracted an item. Dietary information such as calories, allergies can be displayed for a particular member in the house. 
+   \item \textbf{Configuring and connecting Hardware and Devices}
+   \begin{flushleft}
   \end{flushleft}
-   \item \textbf{Personalised}
-   \begin{flushleft}they can be tailored to family needs
-Prioritisation of fresh food consumption to minimise the possibility of waste. Automatic meal plan generation with the items in the fridge.
+   \item \textbf{Data Persistence and Retrieval}
+   \begin{flushleft}
   \end{flushleft}
-   \item \textbf{Adaptive}
-   \begin{flushleft}they can change in response to the family
-If food is nearing expiration a notification must be sent to subscribing users. 
-In the context where there are multiple inhabitants the fridge must respond to updates from all subscribing users.  if one member stocks the fridge it must notify others deterring other members to also purchase.
+   \item \textbf{Situational Awareness}
+   \begin{flushleft}
   \end{flushleft}
-   \item \textbf{Anticipatory}
-   \begin{flushleft} they can anticipate family desires without conscious mediation.
-Automatic shopping list generation in accordance to previous items stocked. Dietary requirements and the number of people i the house.  
+   \item \textbf{Software Design}
+   \begin{flushleft} 
  \end{flushleft}
 \end{enumerate}
 
