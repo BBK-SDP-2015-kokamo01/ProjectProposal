@@ -8,33 +8,33 @@
 \contentsline {paragraph}{Economical}{4}
 \contentsline {paragraph}{Social}{4}
 \contentsline {paragraph}{Human memory}{4}
-\contentsline {paragraph}{LifeStyle}{4}
-\contentsline {subsection}{\numberline {1.3}Current Measures to Combat Waste}{5}
+\contentsline {paragraph}{Lifestyle}{4}
+\contentsline {subsection}{\numberline {1.3}Current Measures to Combat Waste or Current content monitoring systems}{5}
 \contentsline {paragraph}{Governments}{5}
 \contentsline {paragraph}{Anaerobic Digestion}{5}
 \contentsline {paragraph}{Wageningen University}{5}
-\contentsline {paragraph}{Peking University}{6}
+\contentsline {paragraph}{Pecking University}{6}
 \contentsline {paragraph}{Smart Refrigerator}{6}
 \contentsline {paragraph}{TooSkee \& LeanPath}{6}
-\contentsline {subsection}{\numberline {1.4}Internet of Things and SmartCities}{7}
+\contentsline {subsection}{\numberline {1.4}Ubiquitous Computing}{7}
 \contentsline {paragraph}{A bit of history}{7}
 \contentsline {paragraph}{SmartCities}{7}
 \contentsline {paragraph}{Product Identification: RFID vs Barcodes}{7}
-\contentsline {subsection}{\numberline {1.5}Importance of Item-level Identification}{8}
+\contentsline {subsection}{\numberline {1.5}Importance of Item-Level Identification}{8}
 \contentsline {paragraph}{Remote Amendment of Human Errors}{8}
 \contentsline {paragraph}{Food Safety and Traceability}{8}
 \contentsline {paragraph}{Transparency \& Consumer Rights}{9}
 \contentsline {paragraph}{Supply Chain Intelligence}{10}
 \contentsline {section}{\numberline {2}Aims and Objectives}{11}
 \contentsline {subsection}{\numberline {2.1}Aims}{11}
-\contentsline {paragraph}{Scenario}{12}
 \contentsline {paragraph}{Further Extension\dots }{12}
-\contentsline {subsection}{\numberline {2.2}Objectives}{12}
+\contentsline {subsection}{\numberline {2.2}Objectives}{13}
 \contentsline {subsection}{\numberline {2.3}Limitations}{13}
-\contentsline {section}{\numberline {3}Development}{14}
-\contentsline {subsection}{\numberline {3.1}Methodology}{14}
-\contentsline {subsection}{\numberline {3.2}Framework}{14}
-\contentsline {subsection}{\numberline {3.3}Architecture}{14}
-\contentsline {subsection}{\numberline {3.4}Tools}{14}
-\contentsline {section}{\numberline {4}Schedule}{15}
-\contentsline {subsection}{\numberline {4.1}Timetable}{15}
+\contentsline {paragraph}{System Architecture}{14}
+\contentsline {paragraph}{Hardware}{14}
+\contentsline {paragraph}{Data Persistance}{14}
+\contentsline {paragraph}{Software Design}{14}
+\contentsline {paragraph}{Testing}{14}
+\contentsline {paragraph}{Risks \& Pitfalls}{14}
+\contentsline {section}{\numberline {3}Schedule}{15}
+\contentsline {subsection}{\numberline {3.1}Timetable}{15}
