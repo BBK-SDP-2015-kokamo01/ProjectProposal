@@ -9,22 +9,22 @@
 \contentsline {paragraph}{Social}{4}
 \contentsline {paragraph}{Human memory}{4}
 \contentsline {paragraph}{Lifestyle}{4}
-\contentsline {subsection}{\numberline {1.3}Current Measures to Combat Waste or Current content monitoring systems}{5}
-\contentsline {paragraph}{Governments}{5}
-\contentsline {paragraph}{Anaerobic Digestion}{5}
-\contentsline {paragraph}{Wageningen University}{5}
-\contentsline {paragraph}{Pecking University}{6}
-\contentsline {paragraph}{Smart Refrigerator}{6}
-\contentsline {paragraph}{TooSkee \& LeanPath}{6}
+\contentsline {subsection}{\numberline {1.3}Current Waste Management Methods}{5}
+\contentsline {paragraph}{Manual Efforts}{5}
+\contentsline {paragraph}{Nanotechnology}{5}
+\contentsline {paragraph}{Mobile Applications}{5}
+\contentsline {paragraph}{SmartFridge}{6}
+\contentsline {paragraph}{RFID}{6}
 \contentsline {subsection}{\numberline {1.4}Ubiquitous Computing}{7}
 \contentsline {paragraph}{A bit of history}{7}
 \contentsline {paragraph}{SmartCities}{7}
-\contentsline {paragraph}{Product Identification: RFID vs Barcodes}{7}
-\contentsline {subsection}{\numberline {1.5}Importance of Item-Level Identification}{8}
+\contentsline {subsection}{\numberline {1.5}Product Identification}{7}
+\contentsline {subsubsection}{\numberline {1.5.1}RFID vs Barcodes}{7}
+\contentsline {subsubsection}{\numberline {1.5.2}Importance of Item-Level Identification}{8}
 \contentsline {paragraph}{Remote Amendment of Human Errors}{8}
 \contentsline {paragraph}{Food Safety and Traceability}{8}
 \contentsline {paragraph}{Transparency \& Consumer Rights}{9}
-\contentsline {paragraph}{Supply Chain Intelligence}{10}
+\contentsline {paragraph}{Supply Chain Intelligence}{9}
 \contentsline {section}{\numberline {2}Aims and Objectives}{11}
 \contentsline {subsection}{\numberline {2.1}Aims}{11}
 \contentsline {paragraph}{Further Extension\dots }{12}
