@@ -15,16 +15,16 @@
 \contentsline {paragraph}{Mobile Applications}{5}
 \contentsline {paragraph}{SmartFridge}{6}
 \contentsline {paragraph}{RFID}{6}
-\contentsline {subsection}{\numberline {1.4}Ubiquitous Computing}{7}
-\contentsline {paragraph}{A bit of history}{7}
-\contentsline {paragraph}{SmartCities}{7}
-\contentsline {subsection}{\numberline {1.5}Product Identification}{7}
-\contentsline {subsubsection}{\numberline {1.5.1}RFID vs Barcodes}{7}
-\contentsline {subsubsection}{\numberline {1.5.2}Importance of Item-Level Identification}{8}
+\contentsline {subsection}{\numberline {1.4}Product Identification}{7}
+\contentsline {subsubsection}{\numberline {1.4.1}RFID vs Barcodes}{7}
+\contentsline {subsubsection}{\numberline {1.4.2}Importance of Item-Level Identification}{7}
 \contentsline {paragraph}{Remote Amendment of Human Errors}{8}
-\contentsline {paragraph}{Food Safety and Traceability}{8}
-\contentsline {paragraph}{Transparency \& Consumer Rights}{9}
+\contentsline {paragraph}{Food Safety and traceability}{8}
+\contentsline {paragraph}{Transparency \& Consumer Rights}{8}
 \contentsline {paragraph}{Supply Chain Intelligence}{9}
+\contentsline {subsection}{\numberline {1.5}Ubiquitous Computing}{9}
+\contentsline {paragraph}{A bit of history}{9}
+\contentsline {paragraph}{SmartCities}{10}
 \contentsline {section}{\numberline {2}Aims and Objectives}{11}
 \contentsline {subsection}{\numberline {2.1}Aims}{11}
 \contentsline {paragraph}{Further Extension\dots }{12}

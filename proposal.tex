@@ -115,19 +115,6 @@ Dutch researchers form NXP Semiconductors have been working with the Netherlands
 
 The use of RFID has been prevalent in the supply chain but it is yet to be deployed at the item-level and is primarily used for asset monitoring rather than waste management. RFID in the supply chain has been recognition for it?s contribution to stock monitoring and the simplistic way in which shipments can be identified. The next section will discuss how products are identified and explore the limitations of current methods and the benefits of item-level RFID tagging. 
 
-\vspace{\baselineskip}
-\vspace{\baselineskip}
-\vspace{\baselineskip}
-
-
-\subsection{Ubiquitous Computing}
-\paragraph{A bit of history} The first appliance to go online was a Coca-Cola vending machine developed in Carnegie Mellon University in 1982. Users were able to connect via the internet and check if the canned beverages were chilled, this information would be the deciding factor on whether the user would make the trip to the machine. This technological advancement gave an insight into a new era were objects were able to cater to our immediate needs, depending on the current circumstance and deliver us information with which we are able to make an informed decision. With the enablement of machine to machine communications, a once passive and inanimate object is able to actively communicate with other ?things? through a network, sharing data and working harmoniously to maximise efficiency to permissively aid our everyday lives.
-
-\paragraph{SmartCities} The motivation behind Smart Cities is the idea of a self sustaining ecosystem made up of active object, supporting the efficient and economical utilisation of resources. The digital regulation of sectors such as, mobility, home, energy and waste management assists a better quality of life for its citizens. Information and communications systems are designed to deal with autonomous fault detection and self-healing intelligence with minimal, if not, the complete elimination of human intervention. 
-
-This notion of efficiency driven, interconnected networks can be applied to the supply chain. Interleaving processes can be machine managed, making it less error prone and complex pipelines and components become transparent. Allowing the promulgation of waste occurrence to it?s counterparts so that preemptive waste prevention measures could be established in advance. An example of this is if a store shelf holding boxes of cornflakes can report to the start of the chain that there are still x-units to sell, so for the next x dates cornflakes need not be produced. Giving opportunity for demand to catch up and reducing back-log of stock.
-
-
 
 \vspace{\baselineskip}
 \vspace{\baselineskip}
@@ -135,12 +122,13 @@ This notion of efficiency driven, interconnected networks can be applied to the 
 
 \subsection{Product Identification}
 
-\subsubsection{RFID vs Barcodes}Product identification and registration is fundamental for retailers to monitor stock and analyse sales totals. To accomplish this task, barcodes have been implemented in the supply chain since the 1970?s. This method of identification accelerate and digitalised the checkout process. 
+\subsubsection{RFID vs Barcodes}Currently barcodes are the most widely used method of item identification. Barcodes have been implemented in the supply chain since the 1970?s for stock monitoring and sales total analysis as well as the acceleration and digitalisation of the checkout process. Barcode are universally recognised and inexpensive to print making it difficult for manufacturers to accept other technologies. There are however a few disadvantages to this technology.
 
-For the barcode to be read successfully there must be no obstructions between the laser and the barcode, this includes dirt or scratches that distort the image. The laser must be kept parallel to the barcode for a successful read and simultaneous scanning is not possible. It is also note worthy to mention that barcodes are unique to the product type but not at the item-level. For example in a crate filled with milk made by the same manufacture will all have the same barcode thus a machine would not be able to distinguish one item from another. However they are universally recognised and inexpensive to print. 
+Firstly, for the barcode to be read successfully there must be no obstructions between the laser and the barcode, this includes dirt or scratches that distort the image. Secondly, the laser must be kept parallel to the barcode for a successful read and simultaneous scanning is not possible. It is also note worthy to mention that barcodes are unique to the product type but not at the item-level. For example it is not possible to distinguish the difference between one milk carton and another made by the same manufacturer, meaning a machine is not able to distinguish one item from another.
 
-Unlike barcodes lasers are not needed to for reads. RFID utilises electromagnetic radio fields for communication, so long long as the tag is within the vicinity of the field it is able be read or written and even allow multiple tags to be read simultaneously. Tag have varied memory capacity but typically very low. Usually the size of a URL can be written, this is enough to bridge between object and the web where additional data can be stored or updated as external data storage is abundant. URL?s also provide individuality to an object, allowing customised granular information to be stored and accessible at the item-level.
+In contrast RFID does not require a laser, RFID utilises electromagnetic radio fields for communication. So long as the tag is within the vicinity of the field it can be read and even facilitate the simultaneous reads of multiple tags. Tag have varied memory capacity but typically very low, usually the size of a URL can be stored, this is enough to bridge between object and the internet where additional data can be stored or updated as external data storage is abundant. URL?s also provide individuality to an object, allowing customised granular information to be stored and accessible at the item-level. Once the barcode is printed it is hardcoded on to the product giving little room for errors but with the RFID remote alterations of the product is possible.
 
+RFID offerers simplicity as demonstrated by contactless payment and the Oyster card for the London transport system. RFID is also already prevalent in supply chains to monitor and track stock and even livestock. Companies such Marks \& Spenser have tagged their clothing for inventory keeping and theft prevention. While RFID is becoming more accepted some will question whether item-level uniqueness is a necessity for the food supply chain, where the product lifecycle can be as short as a few days and if the practical values out weigh the economical penalties. The next section will highlight advantages and disadvantages.
 
 \subsubsection{Importance of Item-Level Identification}
 \emph{'The amount of food waste in the industrialised countries exceeds the total first
@@ -153,16 +141,14 @@ countries was pretty incompatible. Until that is resolved, the EU level probably
 be aspirational, exculpatory and a matter of learning from best practice. 12'}
 
 \paragraph{Remote Amendment of Human Errors}
-Foods is regularly recalled due to human errors in printing the incorrect information on the label or neglecting to provide information the doesn?t abide by regulations. Food perfectly fit for consupmtion is destined to become to waste by using RFID tags could remotely be updated, issuing immediate alerts to consumers of the mistake and the amended error. This provides a different approach to error management. With the information being online it can be accessible anywhere.
+Perfectly consumable foods is regularly recalled and wasted due to human errors such as misprinted information on the label or neglecting to provide information that doesn?t abide by food standard regulations.With RFID, tags can be remotely updated, issuing immediate alerts to consumers of the mistake and the amended error. This provides a different approach to error management.
 
-\paragraph{Food Safety and Traceability}
-In the past there has been numerous incidents where products have been recalled due to the presence of bacteria or abnormalities in foods. A notable incident is the 2013 meat adulteration scandal in the EU where traces of horse meat where discovered in foods such as minced meat and ready prepared meals. The time and resources to trace trough the supply chain was estimated to have cost the Food Standard Agency (FSA) \pounds900,000 between 2011?2012. And a further \pounds1.6 million between 2012?13 \cite{3}. Other casualties include the reputations and integrity of the blameless producers falsely accused due to inaccurate data that implicated them as the guilty. 
+\paragraph{Food Safety and traceability}
+In the past there has been numerous incidents where products have been recalled due to the presence of bacteria or abnormalities. A notable incident is the 2013 meat adulteration scandal in the EU, where traces of horse meat where discovered in various products such as minced meat and ready prepared meals. The time and resources to trace back through the supply chain was estimated to have cost the Food Standard Agency (FSA) \pounds900,000 between 2011?2012. And a further \pounds1.6 million between 2012?13 \cite{3}. Other casualties include the reputations and integrity of the blameless producers falsely accused due to inaccurate data that implicated them as the guilty. 
 
 With item-level identification the contaminated produce could be traced back immediately and the products recalled. For example if an infected animal is used in various products, all items holding that particular code can be instantly traceable, compartmentalising the outbreak and maximising efficiency in damage control. 
 
-batches of meat may also be mixed. (In article 18 by the)
-(*1)Environment, Food and Rural Affairs Committee: Evidence,
-example:Article 3 of Commission Implementing Regulation EU
+With item-level identification the contaminated produce could be traced back immediately and the products recalled. For example if an infected animal is used in various products, all items holding that particular code can be instantly traceable, compartmentalising the outbreak and maximising efficiency in damage control. 
 
 \paragraph{Transparency \& Consumer Rights}
 The law enforces that labels of fresh meat must contain the country of origin, but this does not apply to the same meat that is processed, such as hamburgers, pies and sausages. (cite article 18) Meats may also be mixed providing that the animals are slaughtered in the same country, meaning a single hamburger could be made up of several cows. 
@@ -181,6 +167,21 @@ Areas such as Japan where vegetables and livestock were exposed to radiation due
 As with any data collection the issue of privacy arises but this is not within the scope of this project. 
 
 Electronic product code (EPC)Developed in Massachusetts Institute of Technology Auto-ID Centre, with the aim of providing a unique identification for every physical object in the world. EPC Network
+
+
+\vspace{\baselineskip}
+\vspace{\baselineskip}
+\vspace{\baselineskip}
+
+
+\subsection{Ubiquitous Computing}
+\paragraph{A bit of history} The first appliance to go online was a Coca-Cola vending machine developed in Carnegie Mellon University in 1982. Users were able to connect via the internet and check if the canned beverages were chilled, this information would be the deciding factor on whether the user would make the trip to the machine. This technological advancement gave an insight into a new era were objects were able to cater to our immediate needs, depending on the current circumstance and deliver us information with which we are able to make an informed decision. With the enablement of machine to machine communications, a once passive and inanimate object is able to actively communicate with other ?things? through a network, sharing data and working harmoniously to maximise efficiency to permissively aid our everyday lives.
+
+\paragraph{SmartCities} The motivation behind Smart Cities is the idea of a self sustaining ecosystem made up of active object, supporting the efficient and economical utilisation of resources. The digital regulation of sectors such as, mobility, home, energy and waste management assists a better quality of life for its citizens. Information and communications systems are designed to deal with autonomous fault detection and self-healing intelligence with minimal, if not, the complete elimination of human intervention. 
+
+This notion of efficiency driven, interconnected networks can be applied to the supply chain. Interleaving processes can be machine managed, making it less error prone and complex pipelines and components become transparent. Allowing the promulgation of waste occurrence to it?s counterparts so that preemptive waste prevention measures could be established in advance. An example of this is if a store shelf holding boxes of cornflakes can report to the start of the chain that there are still x-units to sell, so for the next x dates cornflakes need not be produced. Giving opportunity for demand to catch up and reducing back-log of stock.
+
+
 
 \clearpage
 %........................
