@@ -27,15 +27,16 @@
 \contentsline {paragraph}{SmartCities}{10}
 \contentsline {section}{\numberline {2}Aims and Objectives}{11}
 \contentsline {subsection}{\numberline {2.1}Aims}{11}
-\contentsline {subsection}{\numberline {2.2}Scenario}{12}
+\contentsline {paragraph}{Scenario}{12}
 \contentsline {paragraph}{Further Extension\dots }{12}
-\contentsline {subsection}{\numberline {2.3}Objectives}{13}
-\contentsline {subsection}{\numberline {2.4}Limitations}{13}
-\contentsline {paragraph}{System Architecture}{14}
-\contentsline {paragraph}{Hardware}{14}
-\contentsline {paragraph}{Data Persistance}{14}
-\contentsline {paragraph}{Software Design}{14}
-\contentsline {paragraph}{Testing}{14}
-\contentsline {paragraph}{Risks \& Pitfalls}{14}
-\contentsline {section}{\numberline {3}Schedule}{15}
-\contentsline {subsection}{\numberline {3.1}Timetable}{15}
+\contentsline {subsection}{\numberline {2.2}Objectives}{14}
+\contentsline {subsection}{\numberline {2.3}Limitations}{14}
+\contentsline {paragraph}{System Architecture}{15}
+\contentsline {paragraph}{Hardware}{15}
+\contentsline {paragraph}{Data Persistance}{15}
+\contentsline {paragraph}{Software Design}{15}
+\contentsline {paragraph}{Testing}{15}
+\contentsline {paragraph}{Risks \& Pitfalls}{15}
+\contentsline {section}{\numberline {3}Methodology}{16}
+\contentsline {section}{\numberline {4}Schedule}{16}
+\contentsline {subsection}{\numberline {4.1}Timetable}{16}
