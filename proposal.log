@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.27)  19 APR 2015 17:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.27)  20 APR 2015 02:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -53,23 +53,66 @@ File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
 \drop=\skip57
- (./proposal.aux)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/epigraph/epigraph.sty
+Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
+\beforeepigraphskip=\skip58
+\afterepigraphskip=\skip59
+\epigraphwidth=\skip60
+\epigraphrule=\skip61
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty
+Package: dirtytalk 2010/11/21 A package making "quoting" easier
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@dirtytalk@qdepth=\count87
+) (./proposal.aux)
 \openout1 = `proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+ ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 14.
  [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./prop
@@ -84,73 +127,75 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write3
 \openout3 = `proposal.toc'.
 
- [1] [2
+ [1]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 59.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 59.
+ [2
 
 ] [3
 
-] [4]
-Overfull \hbox (4.58188pt too wide) in paragraph at lines 106--107
-[]\T1/cmr/m/n/10 ?Love Food, Hate Waste? (LFHW), a cam-paign launched by WRAP,
+] [4
+
+] [5]
+Overfull \hbox (0.16104pt too wide) in paragraph at lines 121--122
+ \T1/cmr/bx/n/10.95 Mo-bile Ap-pli-ca-tions[] \T1/cmr/m/n/10 With most peo-ple 
+own-ing Smart-phones and
  []
 
-[5]
-Overfull \hbox (4.64334pt too wide) in paragraph at lines 111--112
+
+Overfull \hbox (1.78625pt too wide) in paragraph at lines 123--124
+\T1/cmr/m/n/10 by the Dutch gov-ern-ment in-cor-po-rates sim-i-lar fea-tures to
+ LFHW. TooS-
+ []
+
+[6]
+Overfull \hbox (4.64334pt too wide) in paragraph at lines 128--129
  \T1/cmr/bx/n/10.95 Smart-Fridge[] \T1/cmr/m/n/10 This in-ter-net en-abled ap-p
 li-ance was de-signed for home
  []
 
-
-Overfull \hbox (1.20113pt too wide) in paragraph at lines 114--115
- \T1/cmr/bx/n/10.95 RFID[] \T1/cmr/m/n/10 Dutch re-searchers form NXP Semi-con-
-duc-tors have been work-
- []
-
-[6] [7] [8] [9] [10]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 201.
+[7] [8] [9] [10] [11]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 206.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 201.
- [11
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 206.
+ [12
 
 ]
-Overfull \hbox (2.40979pt too wide) in paragraph at lines 205--206
+Overfull \hbox (2.40979pt too wide) in paragraph at lines 210--211
 []\T1/cmr/m/n/10 Time con-sum-ing ac-tiv-i-ties such as meal plan-ning which ha
 s proven
  []
 
 
-Overfull \hbox (1.28606pt too wide) in paragraph at lines 215--216
+Overfull \hbox (1.28606pt too wide) in paragraph at lines 220--221
  \T1/cmr/bx/n/10.95 Fur-ther Ex-ten-sion...[] \T1/cmr/m/n/10 As more ob-jects j
 oin the in-ter-net of things,
  []
 
-[12] [13]
-Overfull \hbox (3.26804pt too wide) in paragraph at lines 282--283
-[]\T1/cmr/bx/n/10 Obtain Un-der-stand-ing of RFID clas-si-fi-ca-tions and Reade
-r
- []
-
-[14
-
-] [15
+[13] [14] [15
 
 ] [16
 
 ] [17
 
+] [18
+
 ] (./proposal.aux) ) 
 Here is how much of TeX's memory you used:
- 563 strings out of 493117
- 6326 string characters out of 6135433
- 58436 words of memory out of 5000000
- 4072 multiletter control sequences out of 15000+600000
- 17402 words of font info for 38 fonts, out of 8000000 for 9000
+ 1059 strings out of 493117
+ 14320 string characters out of 6135433
+ 68394 words of memory out of 5000000
+ 4532 multiletter control sequences out of 15000+600000
+ 18075 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 22i,4n,19p,1579b,194s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,5n,21p,1579b,284s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-supe
 r/cm-super-t1.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-supe
@@ -158,18 +203,19 @@ r/sfbx1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/
 sfbx1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sf
 bx1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx
 1440.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfcc09
-00.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfcc1200
-.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfcc1440.p
-fb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/l
-ocal/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on proposal.pdf (18 pages, 267972 bytes).
+00.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfcc1000
+.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfcc1200.p
+fb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on proposal.pdf (19 pages, 277382 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
+ 127 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

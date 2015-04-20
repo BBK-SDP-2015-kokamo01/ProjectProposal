@@ -7,6 +7,8 @@
 \usepackage[T1]{fontenc}
 
 \newlength{\drop}
+\usepackage{epigraph}
+\usepackage{dirtytalk}
 
 %%%%%%%START%%%%%%%
 \begin{document}
@@ -23,7 +25,7 @@
     \rule{\textwidth}{1.6pt}
     \\[\baselineskip]
     \scshape
-    {\Large Ubiquitous Consumer Inventory Management System For Waste Reduction\\}
+    {\Large Ubiquitous Consumer Inventory Management System For Waste Prevention\\}
 %    Location, date from--to\par
     \vspace*{2\baselineskip}
     %Edited by \\[\baselineskip]
@@ -44,6 +46,20 @@
 \clearpage
 
 %........................
+% Epigraph
+%........................
+\centering
+\setlength{\epigraphwidth}{1\textwidth\centering}
+\epigraph{\say{Its highest ideal is to make a computer so exciting,
+so wonderful, so interesting, that we never want to be
+without it. A less-traveled path I call the \say{invisible}; its
+highest ideal is to make a computer so imbedded, so fitting,
+so natural, that we use it without even thinking about it. I
+have also called this notion \say{Ubiquitous Computing}.}}
+{\textsc{-Mark Weiser,}\textit{ `Creating the Invisible Interface' 1994}}
+
+\clearpage
+%........................
 % Abstract
 %........................
 \abstract{Abstract}
@@ -56,32 +72,33 @@ blah blah
 \section{Introduction}
 
 \subsection{Background}
-Over production of produce is a global issue with food waste exceeding two billion tonnes annually. Such large quantities of waste has sever negative social, environmental and economical impacts. The multifaceted nature of the food supply chain gives ample opportunity for waste to occur and inadequate waste prevention methods could cause figures to rise. Further more, such complex pipelines poses great difficulties in the accurate quantification of waste generated, meaning that the figures are likely to be higher than reported. A clear understanding of the chain is necessary to identify the vulnerable components where waste can arise, below is a brief description of each of the three main entities that comprise the chain and their accountability to the statistics.
+Over production of food is a global issue with waste exceeding two billion tonnes annually. Such large quantities of waste has severe negative social, environmental and economical impacts. The multifaceted nature of the food supply chain give ample opportunity for waste to occur and inadequate waste prevention methods could cause figures to rise. Further more, such complex pipelines poses great difficulties in the accurate quantification of waste generated, meaning that the figures are likely to be higher than reported. A clear understanding of the chain is necessary to identify the vulnerable components where waste can arise, below is a brief description of each of the three main entities that comprise the chain and their accountability to the statistics.
 
-\paragraph{Producers}At the start exists the agriculturalists and farmers who cultivate plants and livestock. These entities serve as the primary source of supply to the market and respond to orders placed by retailers. Over production is often encouraged by the merchant to compensate for the possibility of an unfruitful harvest or an unexpected rise in demand. 
+\paragraph{Producers}At the start exists the agriculturalists and farmers who cultivate the plants and livestocks. These entities serve as the primary source of supply to the market and respond to orders placed by retailers. Over production is often encouraged by the merchant to compensate for the possibility of an unfruitful harvest or an unexpected and sudden rise in demand. 
 
-\paragraph{Retailers}The intermediator between producer and consumer are the retailers and vendors, the most dominant being Supermarkets, namely, Sainsbury?s, Tesco, Asda and Morrison. Perpetual competition for marketshare leads to aggressive advertising and competitive pricing wars, with millions of pounds at stake urgency for quantity control becomes a lesser priority. Errors in sales forecasts can result to wastage or idle stock occupying valuable real-estate. Having more stock than necessary is unfavourable for business as the rental of warehouses can cost millions annually. Ascetically unpleasing but perfectly consumable food is is deemed unworthy of stocking and rejected by vendors.
+\paragraph{Retailers}The intermediator between producer and consumer are the retailers and vendors, the most dominant being Supermarkets, namely Sainsbury's, Tesco, Asda and Morrison. Perpetual competition for marketshare leads to aggressive advertising and competitive pricing wars, with millions of pounds at stake urgency for quantity control becomes a lesser priority. Errors in sales forecasts can also result to wastage or idle stock occupying valuable real-estate. Having more stock than necessary is unfavourable for business as the rental of warehouses can cost millions annually. Waste can even occur on a superficial level, where
+ascetically unpleasing but perfectly consumable food is is deemed unworthy of stocking and rejected.
 
-\paragraph{Consumers}At the end of the chain are the consumers that are regularly influenced by enticing ?buy-one-get-one-free? offers and other multi-buy promotions. Retailers markdown items that are nearing expiration to sell  to the consumer as an attempt to compensate for potential losses. This method of damage control while beneficial to the supermarkets have negative implications on the consumers. Loss can also occur due to basic human errors of simply forgetting to consume the food in time. Fast paced lifestyles coupled with unpredictability attribute to the difficulties in keeping track of past purchases and expiration dates contributing to the overflowing landfill sites. 
+\paragraph{Consumers}At the end of the chain are the consumers that are regularly influenced by enticing `buy-one-get-one-free' offers and other bulk buying promotions. Retailers markdown items that are nearing expiration to sell  to the consumer as an attempt to compensate for potential losses. This method of damage control while beneficial to the supermarkets have negative implications on the consumers. Loss can also occur due to basic human errors of simply forgetting to consume the food in time. Fast paced and unpredictable lifestyles attribute to the difficulties in keeping track of past purchases and expiration dates, resulting to the  contribution to the overflowing landfill sites. 
 
 \vspace{\baselineskip}
 
-This project will take a consumer-centric approach to tackle the issue of waste. The United Kingdom alone is estimated to generate15million tonnes of food waste every year, 7 million of which is accountable to domestic households. Having stated this, retailers contribute largely to the figures as they strive to meet contrived demands, self-orchestrated by marketing to boost revenue, causing waste that would have resided at the retailer to be pushed down the chain and ultimately dumped with the consumers. By providing consumers tools to better manage their inventory that would aid a lifestyle of maximal resource utilisation with minimum waste, demand could be controlled keeping waste at bay with the retailers. Essentially creating an upstream ripple and discouraging the over production of food by targeting the root cause of the problem.
+This project will take a consumer-centric approach to tackle the issue of waste. The United Kingdom alone is estimated to generate15million tonnes of food waste every year, 7 million of which is accountable to domestic households. Having stated this, retailers contribute largely to the figures as they strive to meet contrived demands self-orchestrated by marketing to boost revenue, causing waste that would have resided at the retailer to be pushed down the chain and ultimately dumped with the consumers. By providing consumers tools to better manage their inventory that would aid a lifestyle of maximal resource utilisation with minimum waste, demand could be controlled keeping waste at bay with the retailers. Essentially creating an upstream ripple and discouraging the over production of food by targeting the root cause of the problem.
 
 \vspace{\baselineskip}
 \vspace{\baselineskip}
 \vspace{\baselineskip}
 
 \subsection{Problem}
-\paragraph{Environmental} When food is wasted, this is the direct repercussion of over production and a needless contribution to the expanding carbon foot print. Processes such as pesticide application, cooking, packaging creation and disposal, distribution and temperature controlled storage all require copious amounts of fuel and energy. Waste is being generated at such a rapid rate maintaining this in landfill sites is becoming unfeasible.
+\paragraph{Environmental}When food is wasted, this is the direct repercussion of over production and a needless contribution to the expanding carbon foot print. Processes such as pesticide application, cooking, packaging creation and disposal, distribution and temperature controlled storage all require copious amounts of fuel and energy. Waste is being generated at such a rapid rate maintaining this in landfill sites is becoming unfeasible.
 
-\paragraph{Economical} Typically a UK household has been reported to throw away an average of \pounds940 worth of food annually. Amounting to roughly 50kg of waste that must be collected, managed and recycled, putting pressure on councils all of which can result in higher taxes and wasted resources.
+\paragraph{Economical}A typical UK household has been reported to throw away an average of \pounds940 worth of food annually. This amounts to roughly 50kg of waste that must be collected, managed and recycled, putting pressure on councils all of which can result in higher taxes and wasted resources.
 
-\paragraph{Social} Influenced by the retailers and succumbing to the bargain deals, customers frequently over purchase food causing over consumption. Needlessly consuming to avoid loss can pose serious health risks such as obesity, diabetes, high blood pressure, and cardiovascular diseases, these are potentially life threatening and can impact the populations life expectancy and add pressure on the health care system. 
+\paragraph{Social} Influenced by the retailers and succumbing to the bargain deals, customers frequently over purchase food causing over consumption. Needlessly consuming to avoid loss can pose serious health risks such as obesity, diabetes, high blood pressure, and cardiovascular diseases, these are potentially life threatening and can impact the populations life expectancy and add pressure on healthcare systems. 
 
-\paragraph{Human memory} Failed stock keeping of household items is one of the primary causes of food expiring before consumption. The human brain has limited capacity to store and recall information. Research by George Armitage Miller, a prominent figure in the field of cognitive phycology discovered that the number of objects an average human can hold in working memory is seven, give or take two.[2] Foods vary in categories such as meats, fish, fruit, vegetables and nearly all come with different expiration dates, relying on memory alone is impractical. 
+\paragraph{Human memory}Failed stock keeping of household items is one of the primary causes of food expiring before consumption. The human brain has limited capacity to store and recall information. Research by George Armitage Miller, a prominent figure in the field of cognitive phycology discovered that the number of objects an average human can hold in working memory is seven, give or take two.[2] Foods vary in categories such as meats, fish, fruit, vegetables and nearly all come with different expiration dates, relying on memory alone is impractical. 
 
-\paragraph{Lifestyle} Busy schedules dissuade people to use produces brought in advance and instead opt for the quick and easier choice of eating out, thus items purchased with the intentions of consumption end up as waste. Combining compatible ingredient to create an appetising dish, in addition the complication of prioritising use-by-dates of fresh produces can be time-consuming and arduous task. Households usually have multiple residents and double purchasing of items is common due to lack of communication. 
+\paragraph{Lifestyle} Busy schedules dissuade people to use produces brought in advance and instead opt for the quick and easier choice of eating out, thus items purchased with the intentions of consumption end up as waste. Combining compatible ingredient to create an appetising dish in addition the complication of prioritising use-by-dates of fresh produces can be time-consuming and an arduous task. Households usually have multiple residents and double purchasing of items is common due to lack of communication. 
 
 \vspace{\baselineskip}
 
@@ -95,26 +112,25 @@ Image will explain-Supermarkets and other retailers contribute almost 2 million 
 \subsection{Current Waste Management Methods}
 
 \paragraph{Manual Efforts}
-Various campaigns have been launched by governments across Europe with the intention to educate consumers on the implications of food waste and waste prevention methods. Such organisations as Waste \& Resources Action Programme (WRAP), a registered charity part funded by the UK Government, have been raising awareness by interacting with communities and working to promote waste avoidance. Physical interactions can be effective and inspirational but the labour force required to generate and sustain interest is costly and impractical, hence the movement towards digital mediums.
+Various campaigns have been launched by governments across Europe with the intention to educate consumers on the implications of food waste and waste prevention methods. Such organisations as Waste \& Resources Action Programme (WRAP), a registered charity part funded by the UK Government, have been raising awareness by interacting with communities and working to promote waste avoidance. Physical interactions can be effective and inspirational but the labour force required to generate and sustain interest is costly and unmaintainable, hence the movement towards digital mediums.
 
 \paragraph{Nanotechnology}
-Scientists in Beijing have developed an item-level smart tag using nanotechnology to indicate when food is spoiling. The metallic nanorods in the gel mimic the length of time microbes propagate in foods. The more bacteria the further in the decomposition process it is in, the tags alter in colour and each colour corresponds to the lifespan of the produce. The tag react to varying tempters that can have an effect on the shelf life of a product, this could potentially remove the necessity of sell-by-dates. This is currently being meticulous tested to avoid any inaccuracy that could pose a potential health risk to consumers. Nanotechnology could potentially replace printed use-by-dates on products and could provide users with the an accurate reading of the longevity of food but this requires the user to manually open the fridge and memorise the colour of the tags. Presently there is no method for the tags to communicate.
+Scientists in Beijing have developed an item-level smart tag using nanotechnology to indicate when food is spoiling. The metallic nanorods in a gel mimic the length of time microbes propagate in foods. The tags alter in colour according to the presence of bacteria and each colour corresponds to the decomposition stage of the produce. The tag react to varying tempters that can have an effect on the shelf life of a product. This technology is currently being meticulous tested to avoid any inaccuracy that could pose a potential health risk to consumers. Nanotechnology could potentially replace printed use-by-dates on products and could provide users with the an accurate reading of the longevity of food but this requires the user to manually open the fridge and memorise the colour of the tags. Presently there is no method for the tags to communicate.
 
 \paragraph{Mobile Applications}
-With most people owning smartphones and as a result of Apple and Google?s infamous app stores, the instantaneous time to market is hugely advantageous to developers. 
+With most people owning Smartphones and as a result of Apple and Google's infamous App Stores, the instantaneous time to market is hugely advantageous to developers. 
 
-?Love Food, Hate Waste? (LFHW), a campaign launched by WRAP, which primarily operates through an interactive website have developed an app with helpful features such as a shopping lists memo maker, recipe suggestions, portion size suggestions. Other governments are also promoting the use of mobile applications. ?Smart Cooking? developed by the Netherlands Nutrition Centre Foundation (NNCF) funded by the Dutch government incorporates similar features to LFHW. TooSkee and LeanPath are other examples of food management apps. Developed in the US, receipts are scanned and items are logged. Much like the other mobile applications it will suggest dishes and remind the user to consume products before the expiration date. Dates must be entered manually as the application relies on barcodes to be scanning. 
+`Love Food, Hate Waste' (LFHW), a campaign launched by WRAP, which primarily operates through an interactive website have developed an app with helpful features such as a shopping lists memo maker, recipe suggestions, portion size suggestions. Other governments are also promoting the use of mobile applications. `Smart Cooking' developed by the Netherlands Nutrition Centre Foundation (NNCF) funded by the Dutch government incorporates similar features to LFHW. TooSkee and LeanPath are other examples of food management apps. Developed in the US, receipts are scanned and items are logged. Much like the other mobile applications it will suggest dishes and remind the user to consume products before the expiration date. Dates must be entered manually as barcodes are not able to provide this information. 
 
-Without a doubt mobile application is the most effective way to get the software into the hands of the consumer but with an over-crowded market place where a single bad review can jeopardise the success of an App, quality and functionality is paramount as users have become increasingly intolerant of a poor interface design or performance such as delayed content loading.
+Without a doubt Smartphone apps are the most effective way to deliver the software to the consumer but with an over-crowded market place where a single bad review can jeopardise the success of an app, quality and functionality is paramount as users have become increasingly intolerant of a poor interface design or performance such as delayed content loading.
 
 \paragraph{SmartFridge}
-This internet enabled appliance was designed for home food management including the automated replenishment of stock. The user will scan products using a laser built into the fridge and will monitor the foods and suggest recipes depending on the content. This information is accessible through a smart device either provided by the manufacture or via smartphone. This eagerly anticipated technological innovation was somewhat anti-climatic as flaws in the practicality of the product surfaced. Items had to be manually entered due to the lack data and the recommendations were not as helpful as initially thought, together with the unit costing over \$20,000 many were reluctant to invest.
+This internet enabled appliance was designed for home food management including the automated replenishment of stock. The user will scan products using a laser built into the fridge and recipes are suggested depending on the content. Inventory information is accessible through a Smart device either provided by the manufacture or via Smartphone. This eagerly anticipated technological innovation was somewhat anti-climatic as flaws in the practicality of the product surfaced. Items had to be manually entered due to the lack data and the recommendations were not as helpful as initially thought, together with the unit costing over \$20,000 many were reluctant to invest.
 
-\paragraph{RFID}
-Dutch researchers form NXP Semiconductors have been working with the Netherlands Packaging Centre (NPC),  to develop a sensor enabled RFID tag to monitor environmental changes produce is exposed to through the supply chain. The Pasteur sensor tag has the capacity of measuring shifts in temperature and gas conditions during transportation and various stages of storage. This data is calculated to give an accurate reading of the products shelf life, thus being able to prioritise the trading of supplies and can reduce the likelihood of waste. At the currents state this is only available at the producer-level for the shipment of large volumes to suppliers. 
+\paragraph{Radio Frequency Identification (RFID)}
+Dutch researchers form NXP Semiconductors have collaborated with the Netherlands Packaging Centre (NPC),  to develop a sensor enabled RFID tag capable of monitoring environmental changes food is exposed to through the supply chain. The Pasteur sensor tag has the capacity of measuring shifts in temperature and gas conditions during transportation and various stages of storage. This data is analysed to give an accurate reading of the products shelf life, thus being able to prioritise the trading of supplies and reducing the likelihood of waste. At the currents state this is only available at the producer-level for the shipment of large volumes to suppliers. 
 
-The use of RFID has been prevalent in the supply chain but it is yet to be deployed at the item-level and is primarily used for asset monitoring rather than waste management. RFID in the supply chain has been recognition for it?s contribution to stock monitoring and the simplistic way in which shipments can be identified. The next section will discuss how products are identified and explore the limitations of current methods and the benefits of item-level RFID tagging. 
-
+The use of RFID has been prevalent in the supply chain but it is yet to be deployed at the item-level and is primarily used for asset monitoring rather than waste management. RFID in the supply chain has gained recognition for it?s contribution to stock monitoring and the simplistic way in which shipments can be identified. The next section will discuss how products are identified and explore the limitations of current methods of identification and the benefits of RFID tagging at the item-level. 
 
 \vspace{\baselineskip}
 \vspace{\baselineskip}
@@ -122,57 +138,46 @@ The use of RFID has been prevalent in the supply chain but it is yet to be deplo
 
 \subsection{Product Identification}
 
-\subsubsection{RFID vs Barcodes}Currently barcodes are the most widely used method of item identification. Barcodes have been implemented in the supply chain since the 1970?s for stock monitoring and sales total analysis as well as the acceleration and digitalisation of the checkout process. Barcode are universally recognised and inexpensive to print making it difficult for manufacturers to accept other technologies. There are however a few disadvantages to this technology.
+\subsubsection{RFID vs Barcodes}Currently barcodes are the most widely used method of item identification. Barcodes have been implemented in the supply chain since the 1970's for stock monitoring and sales total analysis as well as the acceleration and digitalisation of the checkout process. Barcode are universally recognised and inexpensive to print making it difficult for manufacturers be accepting of other technologies. However a few disadvantages to this technology. Firstly, for the barcode to be read successfully there must be no obstructions between the laser and the barcode, this includes dirt or scratches that distort the image. Secondly, the laser must be kept parallel to the barcode for a successful read and simultaneous scanning is not possible. It is also note worthy to mention that barcodes are unique to the product type but not at the item-level. For example it is not possible to distinguish the difference between one carton of milk and another made by the same manufacturer, meaning a machine is not able to distinguish one item from another.
 
-Firstly, for the barcode to be read successfully there must be no obstructions between the laser and the barcode, this includes dirt or scratches that distort the image. Secondly, the laser must be kept parallel to the barcode for a successful read and simultaneous scanning is not possible. It is also note worthy to mention that barcodes are unique to the product type but not at the item-level. For example it is not possible to distinguish the difference between one milk carton and another made by the same manufacturer, meaning a machine is not able to distinguish one item from another.
+In contrast RFID does not require a laser as it utilises electromagnetic radio fields for communication. So long as the tag is within the vicinity of the field it can be read and even facilitate the simultaneous reads of multiple tags. Tag have varied memory capacity but typically very low usually the size of a URL can be stored, this is enough to bridge between object and the internet where additional data can be stored or updated as external data storage is abundantly available. URL's also provide individuality to an object, allowing customised granular information to be stored and accessible. Once the barcode is printed it is hardcoded on to the product giving little room for errors but with the RFID remote alterations of the product is possible.
 
-In contrast RFID does not require a laser, RFID utilises electromagnetic radio fields for communication. So long as the tag is within the vicinity of the field it can be read and even facilitate the simultaneous reads of multiple tags. Tag have varied memory capacity but typically very low, usually the size of a URL can be stored, this is enough to bridge between object and the internet where additional data can be stored or updated as external data storage is abundant. URL?s also provide individuality to an object, allowing customised granular information to be stored and accessible at the item-level. Once the barcode is printed it is hardcoded on to the product giving little room for errors but with the RFID remote alterations of the product is possible.
-
-RFID offerers simplicity as demonstrated by contactless payment and the Oyster card for the London transport system. RFID is also already prevalent in supply chains to monitor and track stock and even livestock. Companies such Marks \& Spenser have tagged their clothing for inventory keeping and theft prevention. While RFID is becoming more accepted some will question whether item-level uniqueness is a necessity for the food supply chain, where the product lifecycle can be as short as a few days and if the practical values out weigh the economical penalties. The next section will highlight advantages and disadvantages.
+RFID offerers simplicity as demonstrated by contactless payment and the Oyster card for the London transport system. RFID is also already prevalent in supply chains to monitor and track stock and even livestock. Companies such Marks \& Spenser have tagged their clothing for inventory keeping and theft prevention. While this technology is becoming more accepted some will question whether item-level uniqueness is a necessity for the food supply chain, where the product lifecycle can be as short as a few days and if the practical values out weigh the economical penalties. The next section will discuss the advantages and disadvantages.
 
 \subsubsection{Importance of Item-Level Identification}
-\emph{'The amount of food waste in the industrialised countries exceeds the total first
-production of the whole continent of Africa. This is an incredible waste of human effort
-and environmental and economic cost. I say, ?On some estimates?, because we very
-rapidly found that the estimates in this field are rather difficult, which limits the degree
-to which the EU can play as effective a role as it perhaps ought. We found that
-measurement of food waste at different stages of the chain and between different
-countries was pretty incompatible. Until that is resolved, the EU level probably has to
-be aspirational, exculpatory and a matter of learning from best practice. 12'}
 
 \paragraph{Remote Amendment of Human Errors}
-Perfectly consumable foods is regularly recalled and wasted due to human errors such as misprinted information on the label or neglecting to provide information that doesn?t abide by food standard regulations.With RFID, tags can be remotely updated, issuing immediate alerts to consumers of the mistake and the amended error. This provides a different approach to error management.
+Perfectly consumable foods is regularly recalled and wasted due to human errors such as misprinted information on the label or neglecting to provide information that doesn't abide by food standard regulations. With RFID tags can be updated remotely issuing immediate alerts to consumers of the mistake and the amended error. This provides a different approach to error management.
 
 \paragraph{Food Safety and traceability}
-In the past there has been numerous incidents where products have been recalled due to the presence of bacteria or abnormalities. A notable incident is the 2013 meat adulteration scandal in the EU, where traces of horse meat where discovered in various products such as minced meat and ready prepared meals. The time and resources to trace back through the supply chain was estimated to have cost the Food Standard Agency (FSA) \pounds900,000 between 2011?2012. And a further \pounds1.6 million between 2012?13 \cite{3}. Other casualties include the reputations and integrity of the blameless producers falsely accused due to inaccurate data that implicated them as the guilty. 
+In the past there has been numerous incidents where products have been recalled due to the presence of bacteria or abnormalities. A notable incident is the 2013 meat adulteration scandal in the EU, where traces of horse meat where discovered in various products such as minced meat and ready prepared meals. The time and resources to trace back through the supply chain was estimated to have cost the Food Standard Agency (FSA) \pounds900,000 between 2011 and 2012 and a further \pounds1.6 million between 2012 and 2013 \cite{3}. Other casualties include the reputations and integrity of the blameless producers falsely accused due to inaccurate data that implicated them as the guilty. 
 
 With item-level identification the contaminated produce could be traced back immediately and the products recalled. For example if an infected animal is used in various products, all items holding that particular code can be instantly traceable, compartmentalising the outbreak and maximising efficiency in damage control. 
 
-With item-level identification the contaminated produce could be traced back immediately and the products recalled. For example if an infected animal is used in various products, all items holding that particular code can be instantly traceable, compartmentalising the outbreak and maximising efficiency in damage control. 
+With item-level identification the contaminated produce could be traced back immediately and the offending products recalled. For example if an infected animal is used in various products, all items holding that particular code can be instantly traceable, compartmentalising the outbreak and maximising efficiency in damage control. 
 
 \paragraph{Transparency \& Consumer Rights}
-The law enforces that labels of fresh meat must contain the country of origin, but this does not apply to the same meat that is processed, such as hamburgers, pies and sausages. (cite article 18) Meats may also be mixed providing that the animals are slaughtered in the same country, meaning a single hamburger could be made up of several cows. 
+The law enforces that labels of fresh meat must contain the country of origin, but this does not apply to the same meat that are processed, such as hamburgers, pies and sausages. (cite article 18) Meats may also be mixed providing that the animals are slaughtered in the same country, meaning a single hamburger could be made up of several cows. 
 
-The Regulations of the EU parliament and council state that abattoirs and agriculturalists must provide documentation containing country of birth, rearing, slaughter, cutting and slaughterhouse and cutting plant approval numbers for the product(cite) when sourcing retailers or informing officials. But this is not enforced at the consumer level, meaning the information is not being passed down the supply chain. It is evident that meats have unique backgrounds, ranging from the rearing environments, type of feed consumed and drugs administered. This information can help make consumers make better decisions whether it is for the health, environmental or ethically conscious individuals. The Food Standard Agency published a report on the labelling guidance of food 
-
-?It is clear that many consumers want more information on the origin of meat ingredients in meat products, and in the Agency?s consumer research the ingredients in dairy produce also score highly in this respect. The law requires an origin declaration on fresh beef but not on the same product when it has been seasoned. Providing information on the origin of all ingredients in all products would be disproportionately burdensome for industry, and would risk overloading the label with information that is not
-seen as important by consumers.? - Food Standard Agency ?country of origin labelling guidence?
+%%%%HERE 1
+The Regulations of the EU parliament and council state that abattoirs and agriculturalists must provide documentation containing country of birth, rearing, slaughter, cutting and slaughterhouse and cutting plant approval numbers for the product(cite) when sourcing retailers or informing officials. But this is not enforced at the consumer level, meaning the information is not being passed down the supply chain. It is evident that meats have unique backgrounds, ranging from the rearing environments, type of feed consumed and drugs administered. This information can help make consumers make better decisions whether it is for health reasons, environmental or ethically conscious individuals. The Food Standard Agency published a report on the labelling guidance of food 
 
 With the use of RFID the overloading of the label would no longer be a reason to with hold information from the consumer and the consumers as individuals can decide what information is of importance to them rather than a collective opinion that can be washed over.
 
 Areas such as Japan where vegetables and livestock were exposed to radiation due to the nuclear leak[cite nuclear leak?] raises health concerns and articulate (transpicuous) detail of a product is high priority.
 
-
 \paragraph{Supply Chain Intelligence} As well as waste management item-level identification can benefit other areas of the supply chain. Data analysis can be carried out to better business intelligence. Accurate behavioural analysis of consumers could minimise 
 As with any data collection the issue of privacy arises but this is not within the scope of this project. 
 
 Electronic product code (EPC)Developed in Massachusetts Institute of Technology Auto-ID Centre, with the aim of providing a unique identification for every physical object in the world. EPC Network
-
+%%%%HERE 2
+\paragraph{Privacy}
+%%%%HERE 3
+\paragraph{Cost and Environment}
 
 \vspace{\baselineskip}
 \vspace{\baselineskip}
 \vspace{\baselineskip}
-
 
 \subsection{Ubiquitous Computing}
 \paragraph{A bit of history} The first appliance to go online was a Coca-Cola vending machine developed in Carnegie Mellon University in 1982. Users were able to connect via the internet and check if the canned beverages were chilled, this information would be the deciding factor on whether the user would make the trip to the machine. This technological advancement gave an insight into a new era were objects were able to cater to our immediate needs, depending on the current circumstance and deliver us information with which we are able to make an informed decision. With the enablement of machine to machine communications, a once passive and inanimate object is able to actively communicate with other ?things? through a network, sharing data and working harmoniously to maximise efficiency to permissively aid our everyday lives.
@@ -181,9 +186,9 @@ Electronic product code (EPC)Developed in Massachusetts Institute of Technology 
 
 This notion of efficiency driven, interconnected networks can be applied to the supply chain. Interleaving processes can be machine managed, making it less error prone and complex pipelines and components become transparent. Allowing the promulgation of waste occurrence to it?s counterparts so that preemptive waste prevention measures could be established in advance. An example of this is if a store shelf holding boxes of cornflakes can report to the start of the chain that there are still x-units to sell, so for the next x dates cornflakes need not be produced. Giving opportunity for demand to catch up and reducing back-log of stock.
 
-
-
 \clearpage
+
+
 %........................
 % Aims & Objectives
 %........................
@@ -272,40 +277,40 @@ A fridge that contains a reader that reads tagged items A fridge that contains a
 \paragraph{Further Extension\dots} As more objects join the internet of things, modules will connect with existing systems, supporting one another and providing the ability to develop more sophisticated intelligence with shared data. Devices such as fitness trackers that calculate the amount of calories exhausted can work cooperatively and recommend the optimal diet for the individual to lead a healthy lifestyle. Smart shopping solution that aids the shopper through a personalised shopping experience with the use of RFID reader embedded smartCarts such as MyGROCER[5] could work in conjunction with the fridge and retailers can responsibly source shoppers with personalised promotions. BigData analysis on consumer purchases. With nfc enabled products if the shopper is passing a point and it reads the shopping list and the item is there an signal can be made to remind to pick one up. bins that can sense how much food is being wasted
 
 \fi
-
 \clearpage
 \subsection{Objectives}
 
 The objectives have been stated with consideration given to the time allocated to complete the project. 
 
 \begin{enumerate}
-   \item \textbf{Obtain Understanding of  RFID classifications and Reader capabilities}
+
+   \item \textbf{Obtain Knowledge of RFID classifications and Reader capabilities}
    	\begin{flushleft}Investigating various classifications of RFID tags and readers to better understand the capabilities and limitation. Based on acquired knowledge, one should achieve the expertise to critically assess and select the most appropriate hardware for the use-case of the project.
-	\end{flushleft}
+  	\end{flushleft}
+	
    \item \textbf{Tag and Reader Prototype Setup}
-   \begin{flushleft}
-  Gaining the knowledge of the technological underpinnings of RFID technology and tag to reader communications. Successful hardware configuration for demonstration purposes. 
-  \end{flushleft}
-   \item \textbf{RFID Architecture \&  Front and back end Compatibility}
-   \begin{flushleft}Understanding how different components are architected and managing compatibility issues. Effective delivery of content to the consumer through a simple GUI.
-  \end{flushleft}
+   	\begin{flushleft}Gaining the understanding of the technological underpinnings of RFID technology and tag to reader communications. Successful hardware configuration for demonstration purposes.
+  	\end{flushleft}
+  
+   \item \textbf{RFID Architecture \&  Front end, back end Compatibility}
+   	\begin{flushleft}Understanding how different components are architected and managing compatibility issues. Effective delivery of content to the consumer through a simple GUI.
+  	\end{flushleft}
+  
    \item \textbf{Android Development}
-   \begin{flushleft}Understanding the Android API and the development process form concept to implementation. 
-  \end{flushleft}
+   	\begin{flushleft}Understanding the Android API and the development process form concept to implementation. 
+  	\end{flushleft}
+  
    \item \textbf{Configuration of third-party Cloud Service}
-   \begin{flushleft} Ensuring the compatibility of 
-current cutting edge technology mainstream software works.
- \end{flushleft}
+   	\begin{flushleft} Ensuring the compatibility of current cutting edge technology mainstream software works.
+ 	\end{flushleft}
+ 
   \item \textbf{Testing}
-   \begin{flushleft}Delivery of maintainable and transferable code. Gaining confidence and understanding of best practices for production code development. Manual testing to support the demonstration. 
-
- \end{flushleft}
- \item \textbf{Product Demonstration}A short demonstration and critical evaluation of the prototype. Discussion of the functionality of the application and discoveries and constraints encountered.
-
-   \begin{flushleft} 
-   
- \end{flushleft}
-
+   	\begin{flushleft}Delivery of maintainable and transferable code. Gaining confidence and understanding of best practices for production code development. Manual testing to support the demonstration. 
+ 	\end{flushleft}
+ 
+ \item \textbf{Product Demonstration}
+ 	\begin{flushleft}A short demonstration and critical evaluation of the prototype. Discussion of the functionality of the application and discoveries and constraints encountered.
+ 	\end{flushleft}
 \end{enumerate}
 
 \subsection{Limitations}
@@ -313,35 +318,13 @@ current cutting edge technology mainstream software works.
 
 
 %........................
-% Development
-%........................
-
-
-\paragraph{System Architecture}
-
-\paragraph{Hardware}
-RFID various types available, be specific here about NFC
-
-\paragraph{Data Persistance}
-DynamoDB
-
-\paragraph{Software Design}
-Using Java for it?s platform independent nature with the use of design patterns and 
-Running the androud operating system. Android offerers developer friendly environment and most devices come with NFC readable devices. Large user base.
-
-\paragraph{Testing}
-*Simulate an item recall from the supermarkets
-
-\paragraph{Risks \& Pitfalls}
-The configuration of multitude of interconnected processors each with difficult capabilities and comparabilities.
-
-\clearpage
-
-%........................
 % Methodology
 %........................
 \section{Methodology}
-
+\subsection{System Architecture}
+\paragraph{Data Persistance}
+\subsection{Risks \& Pitfalls}
+\clearpage
 
 %........................
 % Schedule
@@ -366,11 +349,9 @@ The configuration of multitude of interconnected processors each with difficult 
 Environment, Food and Rural Affairs Committee: Evidence,
 example:Article 3 of Commission Implementing Regulation EU
 
-
 \end{thebibliography}
 
 \end{document}
-
 %%%
 \setlength{\parindent}{0pt}
 \begin{document}

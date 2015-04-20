@@ -1,42 +1,41 @@
-\contentsline {section}{\numberline {1}Introduction}{3}
-\contentsline {subsection}{\numberline {1.1}Background}{3}
-\contentsline {paragraph}{Producers}{3}
-\contentsline {paragraph}{Retailers}{3}
-\contentsline {paragraph}{Consumers}{3}
-\contentsline {subsection}{\numberline {1.2}Problem}{4}
-\contentsline {paragraph}{Environmental}{4}
-\contentsline {paragraph}{Economical}{4}
-\contentsline {paragraph}{Social}{4}
-\contentsline {paragraph}{Human memory}{4}
-\contentsline {paragraph}{Lifestyle}{4}
-\contentsline {subsection}{\numberline {1.3}Current Waste Management Methods}{5}
-\contentsline {paragraph}{Manual Efforts}{5}
-\contentsline {paragraph}{Nanotechnology}{5}
-\contentsline {paragraph}{Mobile Applications}{5}
-\contentsline {paragraph}{SmartFridge}{6}
-\contentsline {paragraph}{RFID}{6}
-\contentsline {subsection}{\numberline {1.4}Product Identification}{7}
-\contentsline {subsubsection}{\numberline {1.4.1}RFID vs Barcodes}{7}
-\contentsline {subsubsection}{\numberline {1.4.2}Importance of Item-Level Identification}{7}
+\contentsline {section}{\numberline {1}Introduction}{4}
+\contentsline {subsection}{\numberline {1.1}Background}{4}
+\contentsline {paragraph}{Producers}{4}
+\contentsline {paragraph}{Retailers}{4}
+\contentsline {paragraph}{Consumers}{4}
+\contentsline {subsection}{\numberline {1.2}Problem}{5}
+\contentsline {paragraph}{Environmental}{5}
+\contentsline {paragraph}{Economical}{5}
+\contentsline {paragraph}{Social}{5}
+\contentsline {paragraph}{Human memory}{5}
+\contentsline {paragraph}{Lifestyle}{5}
+\contentsline {subsection}{\numberline {1.3}Current Waste Management Methods}{6}
+\contentsline {paragraph}{Manual Efforts}{6}
+\contentsline {paragraph}{Nanotechnology}{6}
+\contentsline {paragraph}{Mobile Applications}{6}
+\contentsline {paragraph}{SmartFridge}{7}
+\contentsline {paragraph}{Radio Frequency Identification (RFID)}{7}
+\contentsline {subsection}{\numberline {1.4}Product Identification}{8}
+\contentsline {subsubsection}{\numberline {1.4.1}RFID vs Barcodes}{8}
+\contentsline {subsubsection}{\numberline {1.4.2}Importance of Item-Level Identification}{8}
 \contentsline {paragraph}{Remote Amendment of Human Errors}{8}
-\contentsline {paragraph}{Food Safety and traceability}{8}
-\contentsline {paragraph}{Transparency \& Consumer Rights}{8}
-\contentsline {paragraph}{Supply Chain Intelligence}{9}
-\contentsline {subsection}{\numberline {1.5}Ubiquitous Computing}{9}
-\contentsline {paragraph}{A bit of history}{9}
+\contentsline {paragraph}{Food Safety and traceability}{9}
+\contentsline {paragraph}{Transparency \& Consumer Rights}{9}
+\contentsline {paragraph}{Supply Chain Intelligence}{10}
+\contentsline {paragraph}{Privacy}{10}
+\contentsline {paragraph}{Cost and Environment}{10}
+\contentsline {subsection}{\numberline {1.5}Ubiquitous Computing}{10}
+\contentsline {paragraph}{A bit of history}{10}
 \contentsline {paragraph}{SmartCities}{10}
-\contentsline {section}{\numberline {2}Aims and Objectives}{11}
-\contentsline {subsection}{\numberline {2.1}Aims}{11}
-\contentsline {paragraph}{Scenario}{12}
-\contentsline {paragraph}{Further Extension\dots }{12}
-\contentsline {subsection}{\numberline {2.2}Objectives}{14}
-\contentsline {subsection}{\numberline {2.3}Limitations}{14}
-\contentsline {paragraph}{System Architecture}{15}
-\contentsline {paragraph}{Hardware}{15}
-\contentsline {paragraph}{Data Persistance}{15}
-\contentsline {paragraph}{Software Design}{15}
-\contentsline {paragraph}{Testing}{15}
-\contentsline {paragraph}{Risks \& Pitfalls}{15}
+\contentsline {section}{\numberline {2}Aims and Objectives}{12}
+\contentsline {subsection}{\numberline {2.1}Aims}{12}
+\contentsline {paragraph}{Scenario}{13}
+\contentsline {paragraph}{Further Extension\dots }{13}
+\contentsline {subsection}{\numberline {2.2}Objectives}{15}
+\contentsline {subsection}{\numberline {2.3}Limitations}{15}
 \contentsline {section}{\numberline {3}Methodology}{16}
-\contentsline {section}{\numberline {4}Schedule}{16}
-\contentsline {subsection}{\numberline {4.1}Timetable}{16}
+\contentsline {subsection}{\numberline {3.1}System Architecture}{16}
+\contentsline {paragraph}{Data Persistance}{16}
+\contentsline {subsection}{\numberline {3.2}Risks \& Pitfalls}{16}
+\contentsline {section}{\numberline {4}Schedule}{17}
+\contentsline {subsection}{\numberline {4.1}Timetable}{17}
