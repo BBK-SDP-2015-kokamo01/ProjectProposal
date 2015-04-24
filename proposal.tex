@@ -258,7 +258,7 @@ To further clarify the functionality of the App the given hypothetical scenario 
 \clearpage
 
 \subsection{Objectives}
-The objectives have been stated with consideration given to the time allocated to complete the project. 
+The objectives have been stated with consideration given to the time allocated to complete the project. The primary deliverable will take the form of a simple proof of concept to be further developed at a later date. 
 
 \begin{enumerate}
 
@@ -270,21 +270,21 @@ The objectives have been stated with consideration given to the time allocated t
    	\begin{flushleft}Gaining the understanding of the technological underpinnings of RFID technology and tag to reader communications. Successful hardware configuration for demonstration purposes.
   	\end{flushleft}
   
-   \item \textbf{RFID Architecture \&  Front end, back end Compatibility}
-   	\begin{flushleft}Understanding how different components are architected and managing compatibility issues. Effective delivery of content to the consumer through a simple GUI.
-  	\end{flushleft}
+   \item \textbf{Front End Development}
+   	\begin{flushleft}Front end development of a simple graphical user interface with minimal functionality, using the Android software development kit (SDK) that will engage with the user. User will view an itemised list of their current inventory.
+		  \end{flushleft}
   
-   \item \textbf{Android Development}
-   	\begin{flushleft}Understanding the Android API and the development process form concept to implementation. 
-  	\end{flushleft}
-  
-   \item \textbf{Configuration of third-party cloud service}
+   \item \textbf{Back End Configuration of Third-Party Cloud Service}
    	\begin{flushleft}
-	Gaining experience of using third-party softwares and API's and ensuring the successful integration with the system and identifying limitations.
- 	\end{flushleft}
+	Backend configuration using cloud service and exploring cloud service API's.  Gaining experience of using third-party softwares and API's and methods of integration. Managing responses from the client side. 
+	 \end{flushleft}
+	 
+	    \item \textbf{Front end, back end Integration}
+   	\begin{flushleft}Understanding the RFID stack and how different components are architected. Managing compatibility issues and adapting to potential change.
+  	\end{flushleft}
  
   \item \textbf{Testing}
-   	\begin{flushleft}Delivery of maintainable and transferable code. Gaining confidence and understanding of best practices for production code development. Manual testing to support the demonstration. 
+   	\begin{flushleft}Delivery of maintainable and transferable code. Gaining confidence and understanding of best practices for production code development. Manual testing using a simple graphical user interface to support the demonstration.
  	\end{flushleft}
  
  \item \textbf{Product Demonstration}
@@ -300,7 +300,9 @@ The objectives have been stated with consideration given to the time allocated t
 \section{Methodology}
 
 \subsection{System Overview \& Communication Paths}
-Figure 1 depicts the system overview and the levels in which the components sit. 
+
+The front end of the system will 
+To better understand Figure 1 depicts the system overview and the levels in which the components sit.
 
   \vspace{\baselineskip}
 \begin{figure}[h!]
@@ -310,40 +312,68 @@ Figure 1 depicts the system overview and the levels in which the components sit.
 \end{figure}
 
 \subsection{Development}
-How i am going to develop this
-
+Below are stages of development with primary deliverables in correspondence to the objectives in the previous section.
 
 \begin{enumerate}
-   \item \textbf{RFID Labeled Groceries}
-   	\begin{flushleft}Research will be carried out to understand the limitations and capabilities of available tags. Cost, range and compatibility will be analysed to select the most applicable tag for the use-case.
-  	\end{flushleft}
+
+   \item \textbf{Select RFID \& Label Groceries}
+   	\begin{flushleft}Firstly, research on currently available RFID tags will be carried out to understand the limitations and capabilities. Cost, range and compatibility will be taken into consideration when selecting a appropriate tag for the use-case. Secondly, investigation of existing systems using RFID to further understand the technology. 
+	\paragraph{Outcome:} Selection and application of appropriate tags, together will explanation and backup of the decision, followed by discuss potential pay-offs that may have influenced the final choice.
+	  	\end{flushleft}
 	  \vspace{\baselineskip}
 
-   \item \textbf{Getting the development environment ready}
-   	\begin{flushleft}improting libraries installing the SDK and researching
-  	\end{flushleft}
+   \item \textbf{Research into RFID stack}
+   	\begin{flushleft}Research into the RFID stack and the nessasry componets to support introperbility and understanding the functionality of the layers that comprise the stack.
+	\paragraph{Outcome:} Gain awarness of the overall system to begin architecting the system. To assess potential risks and difficulties that may lie ahead.
+\end{flushleft}
+
+   \item \textbf{Setting up the development environment}
+   	\begin{flushleft}Installation of integrated development environment(IDE), software development kit,(SDK), importing libraries and plugins. RFID enabled Android phone will be used as the reader and a testing platform.  
+		\paragraph{Outcome:} Setup of an environment fit to begin development.
+		\end{flushleft}
+	  \vspace{\baselineskip}
+
+	   \item \textbf{Experimentation with Android}
+   	\begin{flushleft}Using Android SDK develop a client application to manage reader to tag communications. Java will be the chosen language as supported by the SDK. Simple GUI will be created to in prepartion of messages triggering to the server.
+	
+	\paragraph{Outcome:} 
+	Creating of a java interface using the RESTful API in preparation for the connection to server.  	\end{flushleft}
+	\vspace{\baselineskip}
   
-   \item \textbf{Cloud Based Web Server \& Database}
-   	\begin{flushleft}Using AWS' mobile development SDK. Programming language Java
-  	\end{flushleft}
-  
-   \item \textbf{Smartphone Running Android Operating System}
-   	\begin{flushleft}RESTful API for interoperbility and transferability, push notification so the device can engage with the consumer
+   \item \textbf{Back end Configuration }
+   	\begin{flushleft}Backend development using AWS' mobile development SDK. Using Amazon's Lambda API, client messages will be managed. Main logic of the appliceation developed.
+	\paragraph{Outcome:} Main logic implemented. Program should persist the contents of the fridge and respond to change in state and priority listing of items. Successful Messages and request handeling form server.
+	\vspace{\baselineskip}
   	\end{flushleft}
 	
-   \item \textbf{Smartphone Running Android Operating System}
-   	\begin{flushleft}RESTful API for interoperbility and transferability, push notification so the device can engage with the consumer
+	   \item \textbf{Cloud Database Integration}
+   	\begin{flushleft} Using Amazons Simple Storage Soloution (S3) set up
+	\paragraph{Outcome:} Successful data persistance and retriecl d=
+	\vspace{\baselineskip}
+  	\end{flushleft}
+	
+   \item \textbf{Testing}
+   	\begin{flushleft}Testing of the application will be 
+  	\paragraph{Outcome:} Critical Analiysis and error responset. depending on test results
+	\vspace{\baselineskip}
+  	\end{flushleft}
+	
+	   \item \textbf{Demo}
+   	\begin{flushleft}Demonstrate the functionality of the prototype.
   	\end{flushleft}
 \end{enumerate}
 
+\paragraph{Agile}With the heavy use of new technologies the favourable development methodology is agaile with
 
-
-\paragraph{Agile}With the heavy use of new technologies and
 
 
 \subsection{Risks \& Pitfalls}
-The 
-reader logic might just have to use android phone to read
+\paragraph{Cloud Services}
+server might just end up local
+
+\paragraph{New Technology}
+
+\paragraph{Compatibility \& Languages}
 
 \clearpage
 
@@ -352,6 +382,14 @@ reader logic might just have to use android phone to read
 %........................
 \section{Schedule}
 \subsection{Timetable}
+
+Week 1: 8th June
+
+Week 2
+
+
+13 weeks
+14 September 2015- DEADLINE
 
 \clearpage
 %........................
