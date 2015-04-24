@@ -110,11 +110,6 @@ This project will take a consumer-centric approach to tackle the issue of waste.
 \paragraph{Lifestyle} Busy schedules dissuade people to use produces brought in advance and instead opt for the quick and easier choice of eating out, thus items purchased with the intentions of consumption end up as waste. Combining compatible ingredient to create an appetising dish in addition the complication of prioritising use-by-dates of fresh produces can be time consuming and an arduous task. Households usually have multiple residents and double purchasing of items is common due to break down in communication. 
 
 \vspace{\baselineskip}
-
-**Image of pie goes here** // put in Appendix
-Image will explain-Supermarkets and other retailers contribute almost 2 million tonnes to the statistics and Approximately 3.6 million tonnes of the waste comes from the manufactures such as farmers and the agricultural industry. 
-
-\vspace{\baselineskip}
 \vspace{\baselineskip}
 \vspace{\baselineskip}
 
@@ -215,6 +210,12 @@ The aim is to demonstrate the use of item-level RFID tagging of food products to
 
 As mentioned previously, content monitoring apps are readily available to consumers. But after analysis of the technologies such as the Smart Fridge and the LFHW waste management App, it became evident that the arduous steps necessary to register the items rendered it incompatible with the hectic modern lifestyle of the consumers. Items must be scanned item by item with careful precision, lining up the laser and barcode for a successful reads. If there are any obstructions the item will be inaccessible and manual intervention is required. Even after a successful read the information accessible digitally is limited and crucial details such as use-by-dates requires manual input from the user. This shortcoming of the process hinders the usability of such technologies and with finite memory on smartphones, real-estate is valuable and Apps are discarded and forgotten just as quickly as they were installed.
 
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.9\textwidth]{system2.png}
+      \caption{demo}
+\end{figure}
+
 \paragraph{Concept}The proposed concept will incorporate RFID technology as a means of registration. Items will be pre-tagged and granular item-level detail such as use-by-dates and ingredients accessible. There will be no need to alter the consumers usual behaviour and process of restocking their fridge. Items simply need to be placed in the fridge as usual and the readers will recognise the items automatically. As the fridge door closes readers will scan the fridge and record any changes keeping the inventory up to date. Data can be stored using a cloud database giving plenty of leeway for future expansion and highly scalable data retrieval and persistence mechanisms. The information captured will be organised, analysed and presented to the consumer in an user-friendly format via a Smartphone. By equipping the consumer with an app, waste can be reduced and over purchasing can be avoided. The following points will provide solutions and articulate how the app intends to overcome the current issues stated in part one.
 
 \vspace{\baselineskip}
@@ -249,7 +250,7 @@ To further clarify the functionality of the App the given hypothetical scenario 
 
 \subsection{Limitations}
 
-\paragraph{Infrastructure}Although the technology is available the primary set back is the lack of infrastructure in place to support RFID enabled grocery products. It would require significant changes to the supply chain and business processes \cite{pervasiveComp} as experienced by MyGROCER. Barcode printing has it's roots firmly planted in the supply chain and the transition is slow. With this restriction the prototype will be setup in a hypothetical environment.
+\paragraph{Infrastructure}Although the technology is available the primary set back is the lack of infrastructure in place to support RFID enabled grocery products. It would require significant changes to the supply chain and business processes \cite{pervasiveComp} as experienced by MyGROCER. Barcode printing has it's roots firmly planted in the supply chain and the transition to RFID labelling is slow. With this restriction the prototype will be setup in a hypothetical environment.
 
 \paragraph{Cost and Environment}Food is mass produced daily resulting in large scale utilisation of tags, this raises concerns for the environment as tags contain non-biodegradable materials such as metal, plastic and petrochemical based materials.\cite{bioTags} Research and production of biodegradable RFID tags are progressing but at the present time it is not available. In the past cost has also effected the move to RFID usage for groceries. The cost of tags has significantly decreased over the past decade but including the process of tagging in the supply chain work flow would still require new machinery and alteration to current operations. 
 
@@ -298,42 +299,46 @@ The objectives have been stated with consideration given to the time allocated t
 %........................
 \section{Methodology}
 
-How i am going to develop this
-
 \subsection{System Overview \& Communication Paths}
 Figure 1 depicts the system overview and the levels in which the components sit. 
 
-
-\vspace{\baselineskip}
-
-\begin{figure}[h!]
-  \caption{High-Level System Overview.}
   \vspace{\baselineskip}
+\begin{figure}[h!]
   \centering
-    \includegraphics[width=0.5\textwidth]{system5.png}
+    \includegraphics[width=0.9\textwidth]{system6.png}
+      \caption{High-Level System Overview.}
 \end{figure}
-\begin{enumerate}
 
+\subsection{Development}
+How i am going to develop this
+
+
+\begin{enumerate}
    \item \textbf{RFID Labeled Groceries}
-   	\begin{flushleft}Groceries will be tagged using the correct class of RFID. Research will be carried out to understand the limitations and capabilities of available tags. Cost, range and compatibility will be analysed to select the most applicable tag for the use-case.
+   	\begin{flushleft}Research will be carried out to understand the limitations and capabilities of available tags. Cost, range and compatibility will be analysed to select the most applicable tag for the use-case.
   	\end{flushleft}
 	  \vspace{\baselineskip}
 
-   \item \textbf{Gateway-RFID Interogator}
-   	\begin{flushleft}A device which acknowledges the existence of the tagged items and routes the information in the tags to the server. sources will be obtained form existing systems. The reader will have a unique identifier, signifying the fridge. As Smartphones are equipped with RFID readers for the prototype a phone will act as a reader. Proof of concept 
+   \item \textbf{Getting the development environment ready}
+   	\begin{flushleft}improting libraries installing the SDK and researching
   	\end{flushleft}
   
    \item \textbf{Cloud Based Web Server \& Database}
-   	\begin{flushleft}Using AWS' cloud based API's and mobile development SDK. Programming language Java
+   	\begin{flushleft}Using AWS' mobile development SDK. Programming language Java
   	\end{flushleft}
   
    \item \textbf{Smartphone Running Android Operating System}
    	\begin{flushleft}RESTful API for interoperbility and transferability, push notification so the device can engage with the consumer
   	\end{flushleft}
+	
+   \item \textbf{Smartphone Running Android Operating System}
+   	\begin{flushleft}RESTful API for interoperbility and transferability, push notification so the device can engage with the consumer
+  	\end{flushleft}
 \end{enumerate}
 
-What do you refer to by the cloud/disk icon in the middle (is it a database, a web server, an API, etc).
-\paragraph{Agile}
+
+
+\paragraph{Agile}With the heavy use of new technologies and
 
 
 \subsection{Risks \& Pitfalls}
@@ -349,7 +354,6 @@ reader logic might just have to use android phone to read
 \subsection{Timetable}
 
 \clearpage
-
 %........................
 % Bibliography
 %........................
