@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.27)  23 APR 2015 00:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.27)  24 APR 2015 01:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -45,6 +45,38 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedRightParindent=\skip55
 \JustifyingParindent=\skip56
 )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
@@ -67,19 +99,9 @@ Package: dirtytalk 2010/11/21 A package making "quoting" easier
 (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
-)
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
@@ -95,28 +117,82 @@ Package etexcmds Info: Could not find \expanded.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@dirtytalk@qdepth=\count87
-) (./proposal.aux)
+\c@dirtytalk@qdepth=\count88
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen105
+\WF@size=\dimen106
+\c@WF@wrappedlines=\count89
+\WF@box=\box26
+\WF@everypar=\toks15
+Package: wrapfig 2003/01/31  v 3.6
+)
+(./proposal.aux)
 \openout1 = `proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 14.
- [1
+LaTeX Info: Redefining \selectfont on input line 16.
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./prop
-osal.toc
+(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count90
+\scratchdimen=\dimen107
+\scratchbox=\box27
+\nofMPsegments=\count91
+\nofMParguments=\count92
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count93
+\MPscratchDim=\dimen108
+\MPnumerator=\count94
+\makeMPintoPDFobject=\count95
+\everyMPtoPDFconversion=\toks17
+) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+[1
+
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./proposal.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -129,87 +205,68 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [1]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 59.
+(Font)              <7> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 59.
+(Font)              <5> on input line 61.
  [2
 
 ] [3
 
 ] [4
 
-] [5]
-Overfull \hbox (16.96689pt too wide) in paragraph at lines 117--118
- \T1/cmr/bx/n/10.95 Anaer-o-bic Di-ges-tion[] \T1/cmr/m/n/10 Closed-loop so-lu-
-tions that con-vert bio-methane
- []
-
-
-Overfull \hbox (0.16104pt too wide) in paragraph at lines 123--124
+] [5] [6]
+Overfull \hbox (0.16104pt too wide) in paragraph at lines 133--134
  \T1/cmr/bx/n/10.95 Mo-bile Ap-pli-ca-tions[] \T1/cmr/m/n/10 With most peo-ple 
 own-ing Smart-phones and
  []
 
-[6]
-Overfull \hbox (1.78625pt too wide) in paragraph at lines 125--126
+
+Overfull \hbox (1.78625pt too wide) in paragraph at lines 135--136
 \T1/cmr/m/n/10 by the Dutch gov-ern-ment in-cor-po-rates sim-i-lar fea-tures to
  LFHW. TooS-
  []
 
 
-Overfull \hbox (4.64334pt too wide) in paragraph at lines 130--131
+Overfull \hbox (4.64334pt too wide) in paragraph at lines 140--141
  \T1/cmr/bx/n/10.95 Smart-Fridge[] \T1/cmr/m/n/10 This in-ter-net en-abled ap-p
 li-ance was de-signed for home
  []
 
-[7] [8] [9]
+[7] [8] [9] [10]
 
-LaTeX Warning: Citation `T' on page 10 undefined on input line 188.
+LaTeX Warning: Citation `weiser' on page 11 undefined on input line 196.
 
-[10]
-Overfull \hbox (7.92365pt too wide) in paragraph at lines 195--196
-\T1/cmr/m/n/10 favourable to ubiq-ui-tous sys-tems which po-ten-tially pro-cess
- large amounts
- []
-
-
-Overfull \hbox (6.83643pt too wide) in paragraph at lines 197--198
+[11]
+Overfull \hbox (6.83643pt too wide) in paragraph at lines 204--205
  \T1/cmr/bx/n/10.95 Smart-phones[] \T1/cmr/m/n/10 Smart-phones have un-doubtabl
 y ac-cel-er-ated the move-
  []
 
-[11] [12]
-Overfull \hbox (5.2843pt too wide) in paragraph at lines 211--212
-[]\T1/cmr/m/n/10 paragraphConceptThe pro-posed con-cept will in-cor-po-rate RFI
-D tech-
- []
+[12]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 223.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 216.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 216.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 223.
  [13
 
 ]
-Overfull \hbox (2.40979pt too wide) in paragraph at lines 220--221
-[]\T1/cmr/m/n/10 Time con-sum-ing ac-tiv-i-ties such as meal plan-ning which ha
-s proven
- []
-
-
-LaTeX Warning: Citation `w' on page 14 undefined on input line 235.
-
 [14] [15] [16
 
-] [17] [18
+] <images/system5.png, id=73, 561.09625pt x 757.83125pt>
+File: images/system5.png Graphic file (type png)
 
-] [19
+<use images/system5.png>
+Package pdftex.def Info: images/system5.png used on input line 313.
+(pdftex.def)             Requested size: 180.0pt x 243.11226pt.
+ [17
+
+ <./images/system5.png>] [18] [19
 
 ]
-Underfull \hbox (badness 5147) in paragraph at lines 327--329
+Underfull \hbox (badness 5147) in paragraph at lines 379--381
 []\T1/cmr/m/n/10 World Health Or-gan-i-sa-tion, \T1/cmr/m/it/10 Health risk as-
 sess-ment from
  []
@@ -223,16 +280,16 @@ LaTeX Warning: There were undefined references.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 169 ({)
+### simple group (level 1) entered at line 181 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 1066 strings out of 493117
- 14398 string characters out of 6135433
- 68394 words of memory out of 5000000
- 4539 multiletter control sequences out of 15000+600000
- 18075 words of font info for 39 fonts, out of 8000000 for 9000
+ 2026 strings out of 493117
+ 28186 string characters out of 6135433
+ 87879 words of memory out of 5000000
+ 5451 multiletter control sequences out of 15000+600000
+ 19526 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,5n,21p,1579b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,5n,23p,1583b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm
 -super-t1.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sf
@@ -243,16 +300,18 @@ bx1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx
 fb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/l
-ocal/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/loc
-al/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local
-/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/t
-exlive/2014/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on proposal.pdf (21 pages, 290874 bytes).
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local
+/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/t
+exlive/2014/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on proposal.pdf (21 pages, 346744 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
+ 142 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

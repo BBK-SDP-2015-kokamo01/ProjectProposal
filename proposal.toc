@@ -8,7 +8,7 @@
 \contentsline {paragraph}{Economical}{5}
 \contentsline {paragraph}{Social}{5}
 \contentsline {paragraph}{Human memory}{5}
-\contentsline {paragraph}{Lifestyle}{5}
+\contentsline {paragraph}{Lifestyle}{6}
 \contentsline {subsection}{\numberline {1.3}Current Waste Management Methods}{6}
 \contentsline {paragraph}{Manual Efforts}{6}
 \contentsline {paragraph}{Anaerobic Digestion}{6}
@@ -23,22 +23,23 @@
 \contentsline {paragraph}{Food Safety and traceability}{9}
 \contentsline {paragraph}{Transparency \& Consumer Rights}{9}
 \contentsline {paragraph}{Personal Recommendation}{10}
-\contentsline {subsection}{\numberline {1.5}Ubiquitous Computing}{10}
-\contentsline {paragraph}{Brief history}{10}
+\contentsline {subsection}{\numberline {1.5}Ubiquitous Computing}{11}
+\contentsline {paragraph}{Brief history}{11}
 \contentsline {paragraph}{RFID \& Cloud Services}{11}
-\contentsline {paragraph}{Smartphones}{11}
+\contentsline {paragraph}{Smartphones}{12}
 \contentsline {section}{\numberline {2}Aims and Objectives}{13}
 \contentsline {subsection}{\numberline {2.1}Aims}{13}
+\contentsline {paragraph}{Concept}{13}
 \contentsline {paragraph}{Scenario}{14}
 \contentsline {paragraph}{Further Extension\dots }{14}
-\contentsline {subsection}{\numberline {2.2}Limitations}{16}
-\contentsline {paragraph}{Infrastructer}{16}
-\contentsline {paragraph}{Privacy}{16}
-\contentsline {paragraph}{Cost and Environment}{16}
+\contentsline {subsection}{\numberline {2.2}Limitations}{15}
+\contentsline {paragraph}{Infrastructure}{15}
+\contentsline {paragraph}{Cost and Environment}{15}
+\contentsline {paragraph}{Privacy}{15}
 \contentsline {subsection}{\numberline {2.3}Objectives}{16}
-\contentsline {section}{\numberline {3}Methodology}{18}
-\contentsline {subsection}{\numberline {3.1}System Architecture}{18}
-\contentsline {paragraph}{Data Persistance AGILE!!!!}{18}
+\contentsline {section}{\numberline {3}Methodology}{17}
+\contentsline {subsection}{\numberline {3.1}System Overview \& Communication Paths}{17}
+\contentsline {paragraph}{Agile}{18}
 \contentsline {subsection}{\numberline {3.2}Risks \& Pitfalls}{18}
 \contentsline {section}{\numberline {4}Schedule}{19}
 \contentsline {subsection}{\numberline {4.1}Timetable}{19}
