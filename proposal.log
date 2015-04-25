@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.27)  25 APR 2015 17:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.27)  25 APR 2015 20:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -215,29 +215,32 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ] [4
 
 ] [5] [6]
-Overfull \hbox (0.16104pt too wide) in paragraph at lines 128--129
+Overfull \hbox (0.16104pt too wide) in paragraph at lines 126--127
  \T1/cmr/bx/n/10.95 Mo-bile Ap-pli-ca-tions[] \T1/cmr/m/n/10 With most peo-ple 
 own-ing Smart-phones and
  []
 
 
-Overfull \hbox (1.78625pt too wide) in paragraph at lines 130--131
+LaTeX Warning: Citation `foodWaste' on page 7 undefined on input line 128.
+
+
+Overfull \hbox (1.78625pt too wide) in paragraph at lines 128--129
 \T1/cmr/m/n/10 by the Dutch gov-ern-ment in-cor-po-rates sim-i-lar fea-tures to
  LFHW. TooS-
  []
 
 
-Overfull \hbox (4.64334pt too wide) in paragraph at lines 135--136
+Overfull \hbox (4.64334pt too wide) in paragraph at lines 133--134
  \T1/cmr/bx/n/10.95 Smart-Fridge[] \T1/cmr/m/n/10 This in-ter-net en-abled ap-p
 li-ance was de-signed for home
  []
 
-[7] [8] [9]
+[7] [8]
 
-LaTeX Warning: Citation `weiser' on page 10 undefined on input line 191.
+LaTeX Warning: Citation `3' on page 9 undefined on input line 163.
 
-[10] [11]
-Overfull \hbox (6.83643pt too wide) in paragraph at lines 199--200
+[9] [10] [11]
+Overfull \hbox (6.83643pt too wide) in paragraph at lines 198--200
  \T1/cmr/bx/n/10.95 Smart-phones[] \T1/cmr/m/n/10 Smart-phones have un-doubtabl
 y ac-cel-er-ated the move-
  []
@@ -273,27 +276,38 @@ Package pdftex.def Info: images/system6.png used on input line 309.
  <./images/system6.png>] [19] [20] [21] [22
 
 ]
-Underfull \hbox (badness 5147) in paragraph at lines 496--498
-[]\T1/cmr/m/n/10 World Health Or-gan-i-sa-tion, \T1/cmr/m/it/10 Health risk as-
-sess-ment from
+Underfull \hbox (badness 10000) in paragraph at lines 491--493
+[]\T1/cmr/m/n/10 Graham-Rowe, Ella, Donna C. Jes-sop, and Paul
+ []
+
+
+Underfull \hbox (badness 6316) in paragraph at lines 491--493
+\T1/cmr/m/n/10 Sparks.\T1/cmr/m/it/10 Identifying mo-ti-va-tions and bar-ri-ers
+ to min-imis-ing
  []
 
 [23
 
-] (./proposal.aux)
+]
+Underfull \hbox (badness 5147) in paragraph at lines 512--514
+[]\T1/cmr/m/n/10 World Health Or-gan-i-sa-tion, \T1/cmr/m/it/10 Health risk as-
+sess-ment from
+ []
+
+[24] (./proposal.aux)
 
 LaTeX Warning: There were undefined references.
 
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 176 ({)
+### simple group (level 1) entered at line 174 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 2035 strings out of 493117
- 28328 string characters out of 6135433
- 88887 words of memory out of 5000000
- 5458 multiletter control sequences out of 15000+600000
+ 2043 strings out of 493117
+ 28400 string characters out of 6135433
+ 88915 words of memory out of 5000000
+ 5466 multiletter control sequences out of 15000+600000
  20227 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,5n,23p,1598b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -316,10 +330,10 @@ exlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive
 /2014/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on proposal.pdf (24 pages, 511383 bytes).
+Output written on proposal.pdf (25 pages, 513337 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
+ 161 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
