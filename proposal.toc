@@ -39,13 +39,22 @@
 \contentsline {subsection}{\numberline {2.3}Objectives}{17}
 \contentsline {section}{\numberline {3}Methodology}{18}
 \contentsline {subsection}{\numberline {3.1}System Overview \& Communication Paths}{18}
-\contentsline {subsection}{\numberline {3.2}Development}{18}
-\contentsline {paragraph}{Agile}{20}
-\contentsline {subsection}{\numberline {3.3}Risks \& Pitfalls}{20}
-\contentsline {paragraph}{New Technology}{20}
-\contentsline {paragraph}{Compatibility \& Languages}{20}
-\contentsline {section}{\numberline {4}Schedule}{21}
-\contentsline {subsection}{\numberline {4.1}Timetable}{21}
-\contentsline {paragraph}{\textbf {Week 1: 8th June: }}{21}
-\contentsline {paragraph}{\textbf {Week 1: 8th June: }}{21}
-\contentsline {paragraph}{\textbf {Week 1: 8th June: }}{21}
+\contentsline {paragraph}{Agile}{18}
+\contentsline {subsection}{\numberline {3.2}Development}{19}
+\contentsline {subsection}{\numberline {3.3}Risks \& Pitfalls}{21}
+\contentsline {paragraph}{New Technology}{21}
+\contentsline {paragraph}{Architecture}{21}
+\contentsline {paragraph}{Compatibility \& Languages}{21}
+\contentsline {section}{\numberline {4}Schedule}{22}
+\contentsline {subsection}{\numberline {4.1}Timetable}{22}
+\contentsline {paragraph}{\textbf {Week 1: 8th June: }}{22}
+\contentsline {paragraph}{\textbf {Week 2: 15th June:}}{22}
+\contentsline {paragraph}{\textbf {Week 3: 22th June:}}{22}
+\contentsline {paragraph}{\textbf {Week 4: 29th June:}}{22}
+\contentsline {paragraph}{\textbf {Week 5-7: 6th July-20th July:}}{22}
+\contentsline {paragraph}{\textbf {Week 7-10: 27th July-10th August:}}{22}
+\contentsline {paragraph}{\textbf {Week 11: 17th August: }}{22}
+\contentsline {paragraph}{\textbf {Week 12: 24th August: }}{22}
+\contentsline {paragraph}{\textbf {Week 13: 31th August: }}{22}
+\contentsline {paragraph}{\textbf {Week 14: 7th September: }}{22}
+\contentsline {paragraph}{\textbf {Week 15: 14th September: }}{22}
