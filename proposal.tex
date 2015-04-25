@@ -302,7 +302,7 @@ The objectives have been stated with consideration given to the time allocated t
 \subsection{System Overview \& Communication Paths}
 
 The front end of the system will 
-To better understand Figure 1 depicts the system overview and the levels in which the components sit.
+To better understand the development proccess Figure 2 depicts the system overview and levels in which the components sit. Directed communication paths  
 
   \vspace{\baselineskip}
 \begin{figure}[h!]
@@ -315,66 +315,78 @@ To better understand Figure 1 depicts the system overview and the levels in whic
 Below are stages of development with primary deliverables in correspondence to the objectives in the previous section.
 
 \begin{enumerate}
-
+%1
    \item \textbf{Select RFID \& Label Groceries}
-   	\begin{flushleft}Firstly, research on currently available RFID tags will be carried out to understand the limitations and capabilities. Cost, range and compatibility will be taken into consideration when selecting a appropriate tag for the use-case. Secondly, investigation of existing systems using RFID to further understand the technology. 
-	\paragraph{Outcome:} Selection and application of appropriate tags, together will explanation and backup of the decision, followed by discuss potential pay-offs that may have influenced the final choice.
+   	\begin{flushleft}Firstly, research on currently available RFID tags will be carried out to understand the limitations and capabilities that will influence the final choice. Cost, range and compatibility will be taken into consideration when selecting a appropriate tag for the use-case. Secondly, investigation of existing systems using RFID to further understand the technology. 
+	
+	\emph{\textbf{Outcome:}} Selection and application of appropriate tags, together will explanation and backup of the decision, followed by discuss potential pay-offs that may have influenced the final choice.
 	  	\end{flushleft}
 	  \vspace{\baselineskip}
-
-   \item \textbf{Research into RFID stack}
-   	\begin{flushleft}Research into the RFID stack and the nessasry componets to support introperbility and understanding the functionality of the layers that comprise the stack.
-	\paragraph{Outcome:} Gain awarness of the overall system to begin architecting the system. To assess potential risks and difficulties that may lie ahead.
-\end{flushleft}
-
+	  \vspace{\baselineskip}
+   \item \textbf{Research RFID stack}
+%2
+   	\begin{flushleft}Research the RFID stack and the nessasry componets to support introperbility and understanding the functionality of the layers that comprise the stack. Knowledge obtained may highlight potential risks and difficulties that lie ahead.
+	
+	\emph{\textbf{Outcome:}}Awareness of the various layers of the stack. System design and architecture established. \end{flushleft}
+	  \vspace{\baselineskip}
+%3
    \item \textbf{Setting up the development environment}
    	\begin{flushleft}Installation of integrated development environment(IDE), software development kit,(SDK), importing libraries and plugins. RFID enabled Android phone will be used as the reader and a testing platform.  
-		\paragraph{Outcome:} Setup of an environment fit to begin development.
+		
+		\emph{\textbf{Outcome:}}  Setup of an environment fit to begin development.
 		\end{flushleft}
 	  \vspace{\baselineskip}
-
-	   \item \textbf{Experimentation with Android}
-   	\begin{flushleft}Using Android SDK develop a client application to manage reader to tag communications. Java will be the chosen language as supported by the SDK. Simple GUI will be created to in prepartion of messages triggering to the server.
+%4
+	   \item \textbf{Front end development with Android}
+   	\begin{flushleft}Using Android SDK develop a client application to manage reader to tag communications. Java will be the chosen language as supported by the SDK.
 	
-	\paragraph{Outcome:} 
-	Creating of a java interface using the RESTful API in preparation for the connection to server.  	\end{flushleft}
+	\emph{\textbf{Outcome:}} A java interface using the RESTful API. Implementation and development of client to send requests to sever. Simple Graphical user interface will little functionality to trigger requests. 	
+	\end{flushleft}
 	\vspace{\baselineskip}
-  
+ 
+%5
    \item \textbf{Back end Configuration }
-   	\begin{flushleft}Backend development using AWS' mobile development SDK. Using Amazon's Lambda API, client messages will be managed. Main logic of the appliceation developed.
-	\paragraph{Outcome:} Main logic implemented. Program should persist the contents of the fridge and respond to change in state and priority listing of items. Successful Messages and request handeling form server.
+   	\begin{flushleft}Backend development using AWS' mobile development SDK. Using Amazon's Lambda API, client messages will be managed. Main logic of the application developed.
+	
+	\emph{\textbf{Outcome:}} Main logic implemented. Program that logs the contents of the fridge and updates the client when the state of the fridge is altered. Priority listing of items that the consumer can view through Android device. Successful Messages and request handeling form server.
 	\vspace{\baselineskip}
   	\end{flushleft}
-	
+%6	
 	   \item \textbf{Cloud Database Integration}
-   	\begin{flushleft} Using Amazons Simple Storage Soloution (S3) set up
-	\paragraph{Outcome:} Successful data persistance and retriecl d=
+   	\begin{flushleft} Configure Amazons DynamoDB to respond to server requests. Create a central database for global product information to be stored. Fridge identifier and inventory to also be stored.
+	
+	\emph{\textbf{Outcome:}} Data persisted and server is able to respond to 
 	\vspace{\baselineskip}
   	\end{flushleft}
-	
+	  \vspace{\baselineskip}
+	  
+%7	
    \item \textbf{Testing}
-   	\begin{flushleft}Testing of the application will be 
-  	\paragraph{Outcome:} Critical Analiysis and error responset. depending on test results
+   	\begin{flushleft}Testing of the application will be carried out and documented throughout the process. Reflection of test results and assessment of the next process will be carried out. 
+  	
+	\emph{\textbf{Outcome:}} Documentation of test results and critical analysis of each stage. 
 	\vspace{\baselineskip}
   	\end{flushleft}
-	
-	   \item \textbf{Demo}
+%8	
+	   \item \textbf{Demonstration}
    	\begin{flushleft}Demonstrate the functionality of the prototype.
+	
+	\emph{\textbf{Outcome:}}A proof of concept in the form of an Android application with simple functionality.
+
   	\end{flushleft}
 \end{enumerate}
+\vspace{\baselineskip}
 
-\paragraph{Agile}With the heavy use of new technologies the favourable development methodology is agaile with
+\paragraph{Agile}With the heavy use of new and complex technologies the favourable approach is the agile development methodology. Incremental sprints offers flexibility and quick and dirty prototypes are outputted for fast feedback. This proccess responds well to change and unpredictable development processes. With the project being an idivisule effort the project will not be able to follow a pure form of agile but will At the start of each day objectives and targets will be established for each sprint deliverables will be stated in responce to previous sprints and nessary changes made.
 
-
+\vspace{\baselineskip}
+\vspace{\baselineskip}
+\vspace{\baselineskip}
 
 \subsection{Risks \& Pitfalls}
-\paragraph{Cloud Services}
-server might just end up local
+\paragraph{New Technology}With the use of new technology there is a high possibility of unforseen problems to arise. Solving the issue could slow the development process. Originally planned and organised decisions may be forced to change. Responding to change and managing enhancement to pay-off balancing could be tough. 
 
-\paragraph{New Technology}
-
-\paragraph{Compatibility \& Languages}
-
+\paragraph{Compatibility \& Languages}As with most complex and new systems compatibility of components could cause production. 
 \clearpage
 
 %........................
@@ -383,7 +395,14 @@ server might just end up local
 \section{Schedule}
 \subsection{Timetable}
 
-Week 1: 8th June
+\paragraph{\textbf{Week 1: 8th June:	}} Hi
+
+\paragraph{\textbf{Week 1: 8th June:	}} 
+
+\paragraph{\textbf{Week 1: 8th June:	}} 
+
+
+Reseach of RFID	
 
 Week 2
 

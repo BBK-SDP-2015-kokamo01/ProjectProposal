@@ -40,17 +40,12 @@
 \contentsline {section}{\numberline {3}Methodology}{18}
 \contentsline {subsection}{\numberline {3.1}System Overview \& Communication Paths}{18}
 \contentsline {subsection}{\numberline {3.2}Development}{18}
-\contentsline {paragraph}{Outcome:}{18}
-\contentsline {paragraph}{Outcome:}{19}
-\contentsline {paragraph}{Outcome:}{19}
-\contentsline {paragraph}{Outcome:}{19}
-\contentsline {paragraph}{Outcome:}{19}
-\contentsline {paragraph}{Outcome:}{20}
-\contentsline {paragraph}{Outcome:}{20}
 \contentsline {paragraph}{Agile}{20}
 \contentsline {subsection}{\numberline {3.3}Risks \& Pitfalls}{20}
-\contentsline {paragraph}{Cloud Services}{20}
 \contentsline {paragraph}{New Technology}{20}
 \contentsline {paragraph}{Compatibility \& Languages}{20}
 \contentsline {section}{\numberline {4}Schedule}{21}
 \contentsline {subsection}{\numberline {4.1}Timetable}{21}
+\contentsline {paragraph}{\textbf {Week 1: 8th June: }}{21}
+\contentsline {paragraph}{\textbf {Week 1: 8th June: }}{21}
+\contentsline {paragraph}{\textbf {Week 1: 8th June: }}{21}
