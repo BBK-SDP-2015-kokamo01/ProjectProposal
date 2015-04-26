@@ -1,16 +1,20 @@
 \documentclass[a4paper, 11pt]{article}
+
 %\usepackage[parfill]{parskip}
 \usepackage{ragged2e}
 \usepackage{graphicx}
 \graphicspath{ {images/} }
-%\title{Some Title I haven't decided yet}
-%\author{Keimi Okamoto}
 \usepackage[T1]{fontenc}
 
 \newlength{\drop}
 \usepackage{epigraph}
 \usepackage{dirtytalk}
 \usepackage{wrapfig}
+\usepackage{quoting}
+
+%\usepackage[pdftex,active,tightpage]{preview} 
+%\setlength\PreviewBorder{2mm} 
+\usepackage{gantt}
 
 
 %%%%%%%START%%%%%%%
@@ -52,7 +56,7 @@
 % Epigraph
 %........................
 \centering
-\setlength{\epigraphwidth}{1\textwidth\centering}
+%\setlength{\epigraphwidth}{1\textwidth\centering}
 \epigraph{\say{Its highest ideal is to make a computer so exciting,
 so wonderful, so interesting, that we never want to be
 without it. A less-traveled path I call the \say{invisible}; its
@@ -65,8 +69,7 @@ have also called this notion \say{Ubiquitous Computing}.}}
 %........................
 % Abstract
 %........................
-\abstract{Abstract}
-blah blah
+\abstract{It is estimated that the United Kingdom generates 7 million tonnes of food waste annually. This colossal amount of waste has devastating impacts on the economy and society. The majority of this statistic is accountable to the domestic household, poor inventory keeping and busy lifestyles of the consumer all contribute to waste. This project proposes the use of item-level Radio Frequency Identification(RFID) as a method of food identification. This will enable the digital and remote access of granular item information such as use-by-dates. This information can be accessed ubiquitously through a Smartphone allowing the consumer access to their inventory at any place, any time resulting in the reduction of waste.}
 \clearpage
 
 %........................
@@ -75,17 +78,17 @@ blah blah
 \section{Introduction}
 
 \subsection{Background}
-Over production of food is a global issue with waste exceeding two billion tonnes annually\cite{waste}. Such large quantities of waste has severe negative social, environmental and economical impacts. The multifaceted nature of the food supply chain give ample opportunity for waste to occur and inadequate waste prevention methods could cause figures to rise.\cite{FoodWaste} Further more, such complex pipelines poses great difficulties in the accurate quantification of waste generated, meaning that the figures are likely to be higher than reported.\cite{waste} A clear understanding of the chain is necessary to identify the vulnerable components where waste can arise, below is a brief description of each of the three main entities that comprise the chain and their accountability to the statistics.
+Over production of food is a global issue with waste exceeding two billion tonnes annually\cite{waste}. Such large quantities of waste has severe negative social, environmental and economical impacts. The multifaceted nature of the food supply chain give ample opportunity for waste to occur and inadequate waste prevention methods could cause figures to rise.\cite{FoodWaste} Further more, such complex pipelines pose great difficulties in the accurate quantification of waste generated, meaning that the figures are likely to be higher than reported.\cite{waste} A clear understanding of the chain is necessary to identify the vulnerable components where waste can arise, below is a brief description of each of the three main entities that comprise the chain and their accountability to the statistics.
 
-\paragraph{Producers}At the start exists the agriculturalists and farmers who cultivate the plants and livestocks. These entities serve as the primary source of supply to the market and respond to orders placed by retailers. Over production is often encouraged by the merchant to compensate for the possibility of an unfruitful harvest or an unexpected and sudden rise in demand.\cite{waste}
+\paragraph{Producers}At the top is the agriculturalists and farmers who cultivate the plants and livestocks. These entities serve as the primary source of supply to the market and respond to orders placed by retailers. Over production is often encouraged by the merchant to compensate for the possibility of an unfruitful harvest or an unexpected and sudden rise in demand.\cite{waste}
 
-\paragraph{Retailers}The intermediator between producer and consumer are the retailers and vendors. At the time of writing, the most dominant being Supermarkets, namely Sainsbury's, Tesco, Asda and Morrison. Perpetual competition for marketshare leads to aggressive advertising and competitive pricing wars, with millions of pounds at stake urgency for quantity control becomes a lesser priority. Errors in sales forecasts can also result to wastage or idle stock occupying valuable real-estate with rental costing millions annually. Waste can even occur on a superficial level where ascetically unpleasing but perfectly consumable food is is deemed unworthy of stocking and rejected.\cite{FoodWaste} 
+\paragraph{Retailers}The intermediator between producer and consumer are the retailers and vendors. At the time of writing, the most dominant being Supermarkets, namely Sainsbury's, Tesco, Asda and Morrison. Perpetual competition for marketshare leads to aggressive advertising and competitive pricing wars, with millions of pounds at stake urgency for quantity control becomes a lesser priority. Errors in sales forecasts can result in idle stock needlessly occupying valuable real-estate costing millions in rental annually. Waste can even occur on a superficial level where ascetically unpleasing but perfectly consumable food is is deemed unworthy of stocking and rejected.\cite{FoodWaste} 
 
-\paragraph{Consumers}At the end of the chain are the consumers that are regularly persuaded to over purchase by enticing `buy-one-get-one-free' offers and other bulk buying promotions. Retailers markdown items that are nearing expiration to sell  to the consumer as an attempt to compensate for potential losses. This method of damage control while beneficial to the supermarkets have negative implications on the consumers. Loss can also occur due to basic human errors of simply forgetting to consume the food in time. Fast paced and unpredictable lifestyles attribute to the difficulties in keeping track of past purchases and expiration dates, resulting to the  contribution to the overflowing landfill sites.\cite{FoodWaste} 
+\paragraph{Consumers}At the end of the chain are the consumers that are regularly persuaded to over purchase by enticing bulk buying promotions. Retailers markdown items that are nearing expiration to sell  to the consumer as an attempt to compensate for potential losses. This method of damage control while beneficial to the supermarkets have negative implications on the consumers. Loss can also occur due to basic human errors of simply forgetting to consume the food in time. Fast paced and unpredictable lifestyles attribute to the difficulties in keeping track of past purchases and expiration dates, resulting to the  contribution to the overflowing landfill sites.\cite{FoodWaste} 
 
 \vspace{\baselineskip}
 
-This project will take a consumer-centric approach to tackle the issue of waste. The United Kingdom alone is estimated to generate 15 million tonnes of food waste every year, 7 million of which is accountable to domestic households.\cite{statistic} Having stated this, retailers contribute largely to the figures as they strive to meet contrived demands self-orchestrated by marketing to boost revenue, causing waste that would have resided at the retailer to be pushed down the chain and ultimately dumped with the consumers.\cite{waste} By providing consumers tools to better manage their inventory that would aid a lifestyle of maximal resource utilisation with minimum waste, demand could be controlled keeping waste at bay with the retailers. Essentially creating an upstream ripple and discouraging the over production of food by targeting the root cause of the problem.
+This project will take a consumer-centric approach to tackle the issue of waste. The United Kingdom alone is estimated to generate 15 million tonnes of food waste every year, 7 million of which is accountable to domestic households.\cite{statistic} Having stated this, retailers contribute largely to the figures as they strive to meet contrived demands self-orchestrated by marketing to boost revenue, causing waste that would have resided at the retailer to be pushed down the chain and ultimately dumped with the consumers.\cite{waste} Providing consumers with tools to better manage their inventory would aid a lifestyle of maximal resource utilisation with minimum waste. Waste could be kept at bay with the retailers, essentially creating an upstream ripple and discouraging the over production of food by targeting the root cause of the problem.
 
 \vspace{\baselineskip}
 \vspace{\baselineskip}
@@ -93,9 +96,14 @@ This project will take a consumer-centric approach to tackle the issue of waste.
 
 \subsection{Problem}
 
-\begin{center}
-\say{\footnotesize{\emph{It has been estimated that 89 million tonnes of food are wasted each year in the EU, a figure which could rise to approximately 126 million tonnes by 2020 if no action is taken. The United Nations' Food and Agriculture Organisation (FAO) states that every year consumers in industrialised countries waste approximately 222 million tonnes of food, which is almost as much as the entire net food production of sub-Saharan Africa, equating to 230 million tonnes.}}}-European Union Committee, \emph{Counting the Cost of Food Waste: EU Food Waste Prevention}, 2014\cite{FoodWaste}
-\end{center}
+
+
+\quotingsetup{vskip=0pt}
+
+\begin{quoting}
+\say{\footnotesize{\emph{It has been estimated that 89 million tonnes of food are wasted each year in the EU, a figure which could rise to approximately 126 million tonnes by 2020 if no action is taken. The United Nations' Food and Agriculture Organisation (FAO) states that every year consumers in industrialised countries waste approximately 222 million tonnes of food, which is almost as much as the entire net food production of sub-Saharan Africa, equating to 230 million tonnes.}}}
+-European Union Committee, \emph{Counting the Cost of Food Waste: EU Food Waste Prevention}, 2014\cite{FoodWaste}
+\end{quoting}
 
 \paragraph{Environmental}When food is wasted, this is the direct repercussion of over production and a needless contribution to the expanding carbon foot print. Processes such as pesticide application, cooking, packaging creation and disposal, distribution and temperature controlled storage all require copious amounts of fuel and energy. Waste is being generated at such a rapid rate maintaining this in landfill sites is becoming unfeasible.\cite{waste}
 
@@ -146,7 +154,7 @@ The use of RFID has been prevalent in the supply chain but it is yet to be deplo
 
 \subsubsection{RFID vs Barcodes}Currently barcodes are the most widely used method of item identification. Barcodes have been implemented in the supply chain since the 1970's for stock monitoring and sales total analysis as well as the acceleration and digitalisation of the checkout process. Barcode are universally recognised, inexpensive to print and many businesses have the printing process built into the production line, making it difficult for manufacturers accept other technologies. However, there are a few disadvantages to this technology. Firstly, for the barcode to be read successfully there must be no obstructions between the laser and the barcode, this includes dirt or scratches that distort the image. Secondly, the laser must be kept parallel to the barcode for a successful read and simultaneous scanning is not possible. It is also note worthy to mention that barcodes are unique to the product type but not at the item-level. For example it is not possible to distinguish the difference between one carton of milk and another made by the same manufacturer but with different item-level information such as sell-by-dates, the machine will view them as identical objects.
 
-In contrast, RFID does not require a laser as it utilises electromagnetic radio fields for communication. So long as the tag is within the vicinity of the field it can be read and even facilitate the simultaneous reads of multiple tags. Tag have varied memory capacity but typically very low usually the size of a uniform resource locator(URL) can be stored, this is enough to bridge between object and the internet where additional data can be stored or updated as external data storage is abundantly available. URL's also provide individuality to an object, allowing customised granular information to be stored and accessible. Once the barcode is printed it is hardcoded on to the product giving little room for errors but with RFID remote alterations of the product is possible.
+In contrast, RFID does not require a laser as it utilises electromagnetic radio fields for communication. So long as the tag is within the vicinity of the field it can be read and even facilitate the simultaneous reads of multiple tags. Tag have varied memory capacity but typically very low usually the size of a uniform resource locator(URL) can be stored, this is enough to bridge between object and the internet where additional data can be stored or updated as external data storage is abundantly available. URL's also provide individuality to an object, allowing customised granular information to be stored and accessible. Once the barcode is printed it is hardcoded on to the product giving little room for errors but with RFID remote alterations of the product is possible.\cite{georgeR}
 
 RFID offerers simplicity as demonstrated by contactless payment and the Oyster card for the London transport system. RFID is also already prevalent in supply chains to monitor and track stock and even livestock. Companies such Marks \& Spenser have tagged their clothing for inventory keeping and theft prevention. As the popularity rises some will question whether item-level uniqueness is a necessity for the food supply chain, where the product lifecycle can be as short as a few days and if the practical values out weigh the economical penalties. 
 
@@ -168,10 +176,19 @@ With item-level identification the contaminated produce could be traced back imm
 The law enforces that labels of fresh meat must contain the country of origin, but this does not apply to the same meat that are processed, such as hamburgers, pies and sausages. (cite article 18) Meats may also be mixed providing that the animals are slaughtered in the same country, meaning a single hamburger could be made up of several cows.\cite{FSA}
 
 The Regulations of the EU parliament and council state that abattoirs and agriculturalists must provide documentation containing country of birth, rearing, slaughter, cutting along with slaughterhouse and cutting plant approval numbers for the productcite\cite{FSA} when sourcing retailers or informing officials. But this is not enforced at the consumer level, meaning the information is not being passed down. It is evident that meats in particular have unique backgrounds. Ranging from the rearing environments, type of feed consumed and drugs administered. This information can help make consumers make better decisions whether it is for health reasons, environmental or ethically conscious individuals. The Food Standard Agency published a report on the labelling guidance of food:
-
+%%%
+%%%
+%%%
+%%%
+%%%
 \vspace{\baselineskip}
+
+\quotingsetup{vskip=0pt}
+
+\begin{quoting}
 \say{\emph{It is clear that many consumers want more information on the origin of meat ingredients in meat products, and in the Agency's consumer research the ingredients in dairy produce also score highly in this respect. The law requires an origin declaration on fresh beef but not on the same product when it has been seasoned. Providing information on the origin of all ingredients in all products would be disproportionately burdensome for industry, and would risk overloading the label with information that is not
-seen as important by consumers.}} {\textsc{- Food Standard Agency}\textit{`country of origin labelling guidence'}\cite{FSA}
+seen as important by consumers.}}- Food Standard Agency, \emph{`country of origin labelling guidence}'\cite{FSA}
+\end{quoting}
 \vspace{\baselineskip}
 
 With the use of RFID the overloading of the label would no longer be a reason to with hold information from the consumer and the consumers as individuals can decide what information is of importance.
@@ -294,6 +311,11 @@ The objectives have been stated with consideration given to the time allocated t
 \clearpage
 
 
+
+
+
+
+
 %........................
 % Methodology
 %........................
@@ -407,6 +429,28 @@ Below are stages of development with primary deliverables in correspondence to t
 
 
 \section{Schedule}
+
+
+
+%\begin{preview}
+\tikzset{every picture/.style={xscale=0.69,transform shape}}
+  \begin{gantt}{10}{15}
+    \begin{ganttitle}
+    \numtitle{1}{1}{15}{1}
+    \end{ganttitle}
+    \ganttbar{1}{0}{2}
+    \ganttbar{2}{2}{3}
+    \ganttbarcon{3}{8}{2}
+    \ganttmilestone[color=cyan]{4}{4}
+    \ganttbar{5}{2}{2}
+    \ganttbar[color=cyan]{6}{4}{4}
+    \ganttbar{7}{4}{2}
+    \ganttcon{4}{5}{4}{7}
+    \ganttmilestonecon{8}{7}
+    \ganttbarcon{9}{8}{2}
+  \end{gantt}
+%\end{preview}
+
 \subsection{Timetable}
 Timetable provided goes against agile so change could happen testing is done at every stage so will be ommited to remove duplicatiion 
 \vspace{\baselineskip}
@@ -434,20 +478,20 @@ Timetable provided goes against agile so change could happen testing is done at 
 \begin{itemize}
   \item Reader to recognise tag
   \end{itemize}
-\paragraph{\textbf{Week 5-7: 6th July-20th July:}} \textbf{\emph{Development stage 5: }}
+\paragraph{\textbf{Week 5-7: 6th July-27th July:}} \textbf{\emph{Development stage 5: }}
 
 
 %\paragraph{\textbf{Week 6: 13th July:	}} \textbf{\emph{Development stage 5: }}
 
 %\paragraph{\textbf{Week 7: 20th July:	}} \textbf{\emph{Development stage 5: }}
 
-\paragraph{\textbf{Week 7-10: 27th July-10th August:}} \textbf{\emph{Development stage 6: }}
+\paragraph{\textbf{Week 7-10: 27th July-17th August:}} \textbf{\emph{Development stage 6: }}
 
 %\paragraph{\textbf{Week 9: 3th August:	}} \textbf{\emph{Development stage 6: }}
 
 %\paragraph{\textbf{Week 10: 10th August:	}} \textbf{\emph{Development stage 6: }}
 
-\paragraph{\textbf{Week 11: 17th August:	}} \textbf{\emph{Development stage 6: }}
+\paragraph{\textbf{Week 11: 17th August-24th August:	}} \textbf{\emph{Development stage 6: }}
 
 \paragraph{\textbf{Week 12: 24th August:	}} \textbf{\emph{Development stage 7: }}
 
@@ -457,6 +501,11 @@ Timetable provided goes against agile so change could happen testing is done at 
 
 \paragraph{\textbf{Week 15: 14th September:	}} 
 
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
 13 weeks
 14 September 2015- DEADLINE
 
@@ -469,64 +518,64 @@ Timetable provided goes against agile so change could happen testing is done at 
 % [5] U. J. Gelinas, et al., Business Processes and Information Technology. Cincinnati: South-Western/%Thomson Learning, 2004.
 \begin{thebibliography}{29}
 
-\bibitem{waste}W. Carr, E.Downing, \emph{Food Waste}, Science and Environment Section, House of Commons, 2 December 2014
+\bibitem{waste}W. Carr, E.Downing, \emph{\say{Food Waste}}, Science and Environment Section, House of Commons, 2 December 2014
 \vspace{\baselineskip}
 
-\bibitem{FoodWaste}European Union Committee, \emph{Counting the Cost of Food Waste: EU Food Waste Prevention}, London : The Stationery Office Limited, House of Lords, 6 April 2014
+\bibitem{FoodWaste}European Union Committee, \emph{\say{Counting the Cost of Food Waste: EU Food Waste Prevention}}, London : The Stationery Office Limited, House of Lords, 6 April 2014
 \vspace{\baselineskip}
 
-\bibitem{memory}G.A Miller, \emph{Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information}, vol. 63. Cambridge, MA: The Psychological Review, 1956.
+\bibitem{memory}G.A Miller, \emph{\say{Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information}}, vol. 63. Cambridge, MA: The Psychological Review, 1956.
 \vspace{\baselineskip}
 
 %pichart ref
-\bibitem{WRAP}P.Whitehead \emph{et al}, \emph{Estimates of waste in the food and drink supply chain}, WRAP, July 2002.
+\bibitem{WRAP}P.Whitehead \emph{et al}, \emph{\say{Estimates of waste in the food and drink supply chain}}, WRAP, July 2002.
 \vspace{\baselineskip}
 
-\bibitem{obesity}M. White, \emph{Food access and obesity.} Obesity reviews 8.s1 (2007): 99-107.
+\bibitem{obesity}M. White, \emph{\say{Food access and obesity.}} Obesity reviews 8.s1 (2007): 99-107.
 \vspace{\baselineskip}
 
-\bibitem{statistic}Government Statistical Service, \emph{Uk Statistics on waste 2010-2012 }, Department for Environment, food and Rural Affairs, March 2015
+\bibitem{statistic}Government Statistical Service, \emph{\say{Uk Statistics on waste 2010-2012}}, Department for Environment, food and Rural Affairs, March 2015
 \vspace{\baselineskip}
 
-\bibitem{motivation}Graham-Rowe, Ella, Donna C. Jessop, and Paul Sparks.\emph{Identifying motivations and barriers to minimising household food waste.} Resources, Conservation and Recycling 84 (2014): 15-23.
+\bibitem{motivation}Graham-Rowe, Ella, Donna C. Jessop, and Paul Sparks.\emph{\say{Identifying motivations and barriers to minimising household food waste.}} Resources, Conservation and Recycling 84 (2014): 15-23.
 \vspace{\baselineskip}
 
-\bibitem{horsy}Environment, Food and Rural Affairs Committee, \emph{Food Contamination},vol. 1, authority of the House of Commons London: The Stationery Office Limited, 2013.
+\bibitem{horsy}Environment, Food and Rural Affairs Committee, \emph{\say{Food Contamination}},vol. 1, authority of the House of Commons London: The Stationery Office Limited, 2013.
 \vspace{\baselineskip}
 
-\bibitem{anarobic}Li, Lei, et al. \emph{Early warning indicators for monitoring the process failure of anaerobic digestion system of food waste.} Bioresource technology 171 (2014): 491-494.
+\bibitem{anarobic}Li, Lei, \emph{et al.} \emph{\say{Early warning indicators for monitoring the process failure of anaerobic digestion system of food waste.}} Bioresource technology 171 (2014): 491-494.
 \vspace{\baselineskip}
 
-\bibitem{nano}Handford, Caroline E., et al, \emph{Implications of nanotechnology for the agri-food industry: Opportunities, benefits and risks}, Trends in Food Science \& Technology 40.2 2014: 226-241.
+\bibitem{nano}Handford, Caroline E., et al, \emph{\say{Implications of nanotechnology for the agri-food industry: Opportunities, benefits and risks}}, Trends in Food Science \& Technology 40.2 2014: 226-241.
 \vspace{\baselineskip}
 
-\bibitem{georgeR}G. Rouss
+\bibitem{georgeR}G. Roussos, \emph{\say{Networked RFID System, software \& services}}, 1st edition, Springer, August 29, 2008
 \vspace{\baselineskip}
 
-\bibitem{rfidFood} R. Chen, \emph{Using RFID Technology in Food Produce Traceability},WSEAS Transaction on information science and applications, November 2008
+\bibitem{rfidFood} R. Chen, \emph{\say{Using RFID Technology in Food Produce Traceability}},WSEAS Transaction on information science and applications, November 2008
 \vspace{\baselineskip}
 
-\bibitem{FSA}Food Standard Agency, \emph{Country of Origin Labelling Guidance}, October 2008
+\bibitem{FSA}Food Standard Agency, \emph{\say{Country of Origin Labelling Guidance}}, October 2008
 \vspace{\baselineskip}
 
-\bibitem{fukushima}World Health Organisation, \emph{Health risk assessment from the nuclear accidentafter the 2011 Great East Japan Earthquake and Tsunami based on a preliminary dose estimation}, ISBN9789241505130 Geneva, Switzerland: WHO Press, 2013
+\bibitem{fukushima}World Health Organisation, \emph{\say{Health risk assessment from the nuclear accident after the 2011 Great East Japan Earthquake and Tsunami based on a preliminary dose estimation}}, ISBN9789241505130 Geneva, Switzerland: WHO Press, 2013
 \vspace{\baselineskip}
 
-\bibitem{myGrocer}P. Kourouthanasis, D. Spinellis, G. Roussos, G. Giaglis, \emph{Intelligent cokes and diapers: MyGrocer ubiquitous computing environment}, First International Mobile Business Conference, pp. 150--172, July 2002.
+\bibitem{myGrocer}P. Kourouthanasis\emph{et al.}, \emph{\say{Intelligent cokes and diapers: MyGrocer ubiquitous computing environment}}, First International Mobile Business Conference, pp. 150--172, July 2002.
 \vspace{\baselineskip}
 
-\bibitem{weiser}M. Weiser, \emph{Creating the invisible interface}, 7th annual ACM symposium on User interface software and technology, 1994
+\bibitem{weiser}M. Weiser, \emph{\say{Creating the invisible interface}}, 7th annual ACM symposium on User interface software and technology, 1994
 
-\bibitem{weiserLimit}M. Weiser, \emph{Some Computer Science Issues in Ubiquitous Computing}, CACM, July 1993
+\bibitem{weiserLimit}M. Weiser, \emph{\say{Some Computer Science Issues in Ubiquitous Computing}}, CACM, July 1993
 \vspace{\baselineskip}
 
-\bibitem{HadoopInAction}C. Lam, \emph{Hadoop in Action}, 1st edition, Manning Publications, 25th Dec. 2010
+\bibitem{HadoopInAction}C. Lam, \emph{\say{Hadoop in Action}}, 1st edition, Manning Publications, 25th Dec. 2010
 \vspace{\baselineskip}
 
-\bibitem{pervasiveComp}P. Kourouthanassis, G. Roussos, \emph{Developing Consumer- Friendly Pervasive Retail Systems}, IEEE, Page(s): 32	- 39, 2003
+\bibitem{pervasiveComp}P. Kourouthanassis, G. Roussos, \emph{\say{Developing Consumer- Friendly Pervasive Retail Systems}}, IEEE, Page(s): 32	- 39, 2003
 \vspace{\baselineskip}
 
-\bibitem{bioTags}Y. Duroc, D. Kaddour, \emph{RFID potential impacts and future evolution for green projects},26000 Valence, France, Elsevier Ltd, 2012
+\bibitem{bioTags}Y. Duroc, D. Kaddour, \emph{\say{RFID potential impacts and future evolution for green projects}},26000 Valence, France, Elsevier Ltd, 2012
 \vspace{\baselineskip}
 
 \end{thebibliography}

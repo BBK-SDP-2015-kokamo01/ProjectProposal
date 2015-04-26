@@ -51,10 +51,10 @@
 \contentsline {paragraph}{\textbf {Week 2: 15th June:}}{22}
 \contentsline {paragraph}{\textbf {Week 3: 22th June:}}{22}
 \contentsline {paragraph}{\textbf {Week 4: 29th June:}}{22}
-\contentsline {paragraph}{\textbf {Week 5-7: 6th July-20th July:}}{22}
-\contentsline {paragraph}{\textbf {Week 7-10: 27th July-10th August:}}{22}
-\contentsline {paragraph}{\textbf {Week 11: 17th August: }}{22}
-\contentsline {paragraph}{\textbf {Week 12: 24th August: }}{22}
-\contentsline {paragraph}{\textbf {Week 13: 31th August: }}{22}
-\contentsline {paragraph}{\textbf {Week 14: 7th September: }}{22}
-\contentsline {paragraph}{\textbf {Week 15: 14th September: }}{22}
+\contentsline {paragraph}{\textbf {Week 5-7: 6th July-27th July:}}{22}
+\contentsline {paragraph}{\textbf {Week 7-10: 27th July-17th August:}}{22}
+\contentsline {paragraph}{\textbf {Week 11: 17th August-24th August: }}{23}
+\contentsline {paragraph}{\textbf {Week 12: 24th August: }}{23}
+\contentsline {paragraph}{\textbf {Week 13: 31th August: }}{23}
+\contentsline {paragraph}{\textbf {Week 14: 7th September: }}{23}
+\contentsline {paragraph}{\textbf {Week 15: 14th September: }}{23}
