@@ -1,4 +1,5 @@
 \documentclass[a4paper, 11pt]{article}
+\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm]{geometry} 
 
 %\usepackage[parfill]{parskip}
 \usepackage{ragged2e}
@@ -11,51 +12,67 @@
 \usepackage{dirtytalk}
 \usepackage{wrapfig}
 \usepackage{quoting}
-
-%\usepackage[pdftex,active,tightpage]{preview} 
-%\setlength\PreviewBorder{2mm} 
 \usepackage{gantt}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{lipsum}
+
+\pagestyle{fancy}
+
 \renewcommand{\epigraphflush}{center}
 \renewcommand{\epigraphwidth}{1\textwidth}
 
-%%%%%%%START%%%%%%%
-\begin{document}
-  \begin{titlepage}
+\renewcommand{\sectionmark}[1]{\markboth{#1}{}}
+
+\lhead{}
+\rhead{}
+\chead{Ubiquitous Consumer Inventory Management System For Waste Prevention}
+\lfoot{Chapter \thesection}
+\rfoot{\thepage\ of \pageref{LastPage}}
+\cfoot{\fancyplain{}{\leftmark }} 
+
+
+
+\title{
     \drop=0.1\textheight
     \centering
     \vspace*{\baselineskip}
     \rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt}
     \rule{\textwidth}{0.4pt}\\[\baselineskip]
-    {\Large{MSc Computer Science\\[0.3\baselineskip] }} 	
-    {\huge{Project Proposal\\[0.3\baselineskip] }}
-	
+    {\LARGE Ubiquitous Consumer Inventory Management System For Waste Prevention}\\[0.2\baselineskip]
     \rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt}
-    \rule{\textwidth}{1.6pt}
-    \\[\baselineskip]
+    \rule{\textwidth}{1.6pt}\\[\baselineskip]
     \scshape
-    {\Large Ubiquitous Consumer Inventory Management System For Waste Prevention\\}
-%    Location, date from--to\par
-    \vspace*{2\baselineskip}
-    %Edited by \\[\baselineskip]
-    {\normalsize\emph{Supervisor: }{\large Professor George Roussos\par}}
-    {\normalsize\emph{Author: }{\large Keimi Okamoto\par}}
-    
-    {\itshape 2015}
-    \vfill
-    {\large BIRKBECK UNIVERSITY OF LONDON\par}
-{\footnotesize DEPARTMENT OF COMPUTER SCIENCE \& INFORMATION SYSTEMS}\par
-  \end{titlepage}
-  
-%\maketitle
+}
+
+\author{Keimi Okamoto \\[9pt]
+	MSc Computer Science\\
+	Birkbeck, University of London \\[9pt]
+	Supervisor: Professor George Roussos
+}
+
+
+%%%%%%%START%%%%%%%
+\begin{document}
+	\maketitle
+	\thispagestyle{empty}
+	\newpage
+	\thispagestyle{empty}
+	\begin{center}
+	\textsl{This proposal is substantially the result of my own work, expressed in my own words, except where explicitly indicated in the text. I give my permission for it to be submitted to the JISC Plagiarism Detection Service.}
+	\end{center}
+	\newpage
 %........................
 % Contents
 %........................
+\thispagestyle{empty}
 \tableofcontents
 \clearpage
 
 %........................
 % Epigraph
 %........................
+\thispagestyle{empty}
 \epigraph{\say{Its highest ideal is to make a computer so exciting,
 so wonderful, so interesting, that we never want to be
 without it. A less-traveled path I call the \say{invisible}; its
@@ -68,12 +85,14 @@ have also called this notion \say{Ubiquitous Computing}.}}
 %........................
 % Abstract
 %........................
+\thispagestyle{empty}
 \abstract{It is estimated that the United Kingdom generates 7 million tonnes of food waste annually. This colossal amount of waste has devastating impacts on the economy and society. The majority of this statistic is accountable to the domestic household, poor inventory keeping and busy lifestyles of the consumer all contribute to waste. This project proposes the use of item-level Radio Frequency Identification(RFID) as a method of food identification. This will enable the digital and remote access of granular item information such as use-by-dates. This information can be accessed ubiquitously through a Smartphone allowing the consumer access to their inventory at any place, any time resulting in the reduction of waste.}
 \clearpage
 
 %........................
 % Introduction
 %........................
+\setcounter{page}{1}
 \section{Introduction}
 
 \subsection{Background}
@@ -515,6 +534,7 @@ Timetable provided goes against agile so change could happen testing is done at 
 
 
 % [5] U. J. Gelinas, et al., Business Processes and Information Technology. Cincinnati: South-Western/%Thomson Learning, 2004.
+\thispagestyle{empty}
 \begin{thebibliography}{29}
 
 \bibitem{waste}W. Carr, E.Downing, \emph{\say{Food Waste}}, Science and Environment Section, House of Commons, 2 December 2014
@@ -578,6 +598,7 @@ Timetable provided goes against agile so change could happen testing is done at 
 \vspace{\baselineskip}
 
 \end{thebibliography}
+\thispagestyle{empty}
 
 \end{document}
 \setlength{\parindent}{0pt}
