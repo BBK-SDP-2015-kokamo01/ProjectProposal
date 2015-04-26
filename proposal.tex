@@ -1,7 +1,6 @@
 \documentclass[a4paper, 11pt]{article}
 \usepackage[a4paper,width=150mm,top=25mm,bottom=25mm]{geometry} 
 
-%\usepackage[parfill]{parskip}
 \usepackage{ragged2e}
 \usepackage{graphicx}
 \graphicspath{ {images/} }
@@ -16,40 +15,53 @@
 \usepackage{fancyhdr}
 \usepackage{lastpage}
 \usepackage{lipsum}
-
-\pagestyle{fancy}
+\usepackage{titling}
 
 \renewcommand{\epigraphflush}{center}
 \renewcommand{\epigraphwidth}{1\textwidth}
 
+%........................
+% Header/Footers
+%........................
+\pagestyle{fancy}
 \renewcommand{\sectionmark}[1]{\markboth{#1}{}}
 
 \lhead{}
-\rhead{}
 \chead{Ubiquitous Consumer Inventory Management System For Waste Prevention}
+\rhead{}
+
 \lfoot{Chapter \thesection}
-\rfoot{\thepage\ of \pageref{LastPage}}
 \cfoot{\fancyplain{}{\leftmark }} 
+\rfoot{\thepage\ of \pageref{LastPage}}
 
+%........................
+% Title Page
+%........................
+\centering
 
-
-\title{
-    \drop=0.1\textheight
-    \centering
-    \vspace*{\baselineskip}
+\pretitle{
     \rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt}
     \rule{\textwidth}{0.4pt}\\[\baselineskip]
-    {\LARGE Ubiquitous Consumer Inventory Management System For Waste Prevention}\\[0.2\baselineskip]
-    \rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt}
-    \rule{\textwidth}{1.6pt}\\[\baselineskip]
-    \scshape
 }
 
-\author{Keimi Okamoto \\[9pt]
-	MSc Computer Science\\
-	Birkbeck, University of London \\[9pt]
-	Supervisor: Professor George Roussos
+\title{\LARGE Ubiquitous Consumer Inventory Management System For Waste Prevention}
+
+\posttitle{
+    \rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt}
+    \rule{\textwidth}{1.6pt}\\[\baselineskip]
 }
+
+\preauthor{}
+
+\author{Keimi Okamoto}
+
+\postauthor{
+ 		\vspace{5mm}\\MSc Computer Science\\
+		Birkbeck, University of London \\
+		Supervisor: Professor George Roussos
+}
+
+\date{}
 
 
 %%%%%%%START%%%%%%%
@@ -406,7 +418,7 @@ Below are stages of development with primary deliverables in correspondence to t
   	\end{flushleft}
 %7
 	   \item \textbf{Cloud Database Integration}
-   	\begin{flushleft} Configure Amazon?s DynamoDB to respond to server requests. Create a central database for global product information to be stored.
+   	\begin{flushleft} Configure Amazon's DynamoDB to respond to server requests. Create a central database for global product information to be stored.
 	
 	\emph{\textbf{Outcome:}} Central database created for the storage of item details.
 	\vspace{\baselineskip}
