@@ -18,9 +18,25 @@
 \renewcommand{\epigraphflush}{center}
 \renewcommand{\epigraphwidth}{1\textwidth}
 
+%........................
+% Header/Footers
+%........................
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\sectionmark}[1]{\markboth{#1}{}}
+
+\lhead{}
+\chead{}
+\rhead{}
+
+\lfoot{Section \thesection}
+\cfoot{\fancyplain{}{\leftmark }} 
+\rfoot{\thepage\ of \pageref{LastPage}}
+
 %%%%%%%START%%%%%%%
 \begin{document}
   \begin{titlepage}
+	\thispagestyle{empty}
     \drop=0.1\textheight
     \centering
     \vspace*{\baselineskip}
@@ -49,13 +65,15 @@
 %\maketitle
 %........................
 % Contents
-%........................
+%.......................
+\thispagestyle{empty}
 \tableofcontents
 \clearpage
 
 %........................
 % Epigraph
 %........................
+\thispagestyle{empty}
 \epigraph{\say{Its highest ideal is to make a computer so exciting,
 so wonderful, so interesting, that we never want to be
 without it. A less-traveled path I call the \say{invisible}; its
@@ -68,8 +86,9 @@ have also called this notion \say{Ubiquitous Computing}.}}
 %........................
 % Abstract
 %........................
+\thispagestyle{empty}
 \abstract{It is estimated that the United Kingdom generates 7 million tonnes of food waste annually. This colossal amount of waste has devastating impacts on the economy and society. The majority of this statistic is accountable to the domestic household, poor inventory keeping and busy lifestyles of the consumer all contribute to waste. This project proposes the use of item-level Radio Frequency Identification(RFID) as a method of food identification. This will enable the digital and remote access of granular item information such as use-by-dates. This information can be accessed ubiquitously through a Smartphone allowing the consumer access to their inventory at any place, any time resulting in the reduction of waste.}
-\clearpage
+\newpage
 
 %........................
 % Introduction
