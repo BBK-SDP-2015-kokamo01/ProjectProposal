@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.27)  26 APR 2015 19:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.27)  26 APR 2015 19:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -553,7 +553,14 @@ e
 ABD: EveryShipout initializing macros [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./prop
-osal.toc)
+osal.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+)
 \tf@toc=\write4
 \openout4 = `proposal.toc'.
 
@@ -566,63 +573,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ] [3
 
-]
+] [4
 
-LaTeX Warning: Citation `waste' on page 4 undefined on input line 81.
-
-
-LaTeX Warning: Citation `FoodWaste' on page 4 undefined on input line 81.
-
-
-LaTeX Warning: Citation `waste' on page 4 undefined on input line 81.
-
-
-LaTeX Warning: Citation `waste' on page 4 undefined on input line 83.
-
-
-LaTeX Warning: Citation `FoodWaste' on page 4 undefined on input line 85.
-
-
-LaTeX Warning: Citation `FoodWaste' on page 4 undefined on input line 87.
-
-
-LaTeX Warning: Citation `statistic' on page 4 undefined on input line 91.
-
-
-LaTeX Warning: Citation `waste' on page 4 undefined on input line 91.
-
-[4
-
-]
-
-LaTeX Warning: Citation `FoodWaste' on page 5 undefined on input line 105.
-
-
-LaTeX Warning: Citation `waste' on page 5 undefined on input line 108.
-
-
-LaTeX Warning: Citation `FoodWaste' on page 5 undefined on input line 110.
-
-
-LaTeX Warning: Citation `obesity' on page 5 undefined on input line 112.
-
-
-LaTeX Warning: Citation `memory' on page 5 undefined on input line 114.
-
-[5]
-
-LaTeX Warning: Citation `motivation' on page 6 undefined on input line 116.
-
-
-LaTeX Warning: Citation `FoodWaste' on page 6 undefined on input line 125.
-
-
-LaTeX Warning: Citation `anarobic' on page 6 undefined on input line 128.
-
-
-LaTeX Warning: Citation `FoodWaste' on page 6 undefined on input line 131.
-
-[6]
+] [5] [6]
 Overfull \hbox (0.16104pt too wide) in paragraph at lines 136--137
  \T1/cmr/bx/n/10.95 Mo-bile Ap-pli-ca-tions[] \T1/cmr/m/n/10 With most peo-ple 
 own-ing Smart-phones and
@@ -643,61 +596,17 @@ Overfull \hbox (4.64334pt too wide) in paragraph at lines 143--144
 li-ance was de-signed for home
  []
 
-
-LaTeX Warning: Citation `rfidFood' on page 7 undefined on input line 146.
-
-[7]
-
-LaTeX Warning: Citation `georgeR' on page 8 undefined on input line 159.
-
-[8]
+[7] [8]
 
 LaTeX Warning: Citation `3' on page 9 undefined on input line 173.
 
-
-LaTeX Warning: Citation `horsy' on page 9 undefined on input line 173.
-
-
-LaTeX Warning: Citation `rfidFood' on page 9 undefined on input line 175.
-
-
-LaTeX Warning: Citation `FSA' on page 9 undefined on input line 178.
-
-
-LaTeX Warning: Citation `FSA' on page 9 undefined on input line 180.
-
-[9]
-
-LaTeX Warning: Citation `FSA' on page 10 undefined on input line 192.
-
-
-LaTeX Warning: Citation `fukushima' on page 10 undefined on input line 198.
-
-
-LaTeX Warning: Citation `myGrocer' on page 10 undefined on input line 200.
-
-
-LaTeX Warning: Citation `pervasiveComp' on page 10 undefined on input line 200.
-
-
-
-LaTeX Warning: Citation `weiser' on page 10 undefined on input line 209.
-
-[10]
-
-LaTeX Warning: Citation `weiserLimit' on page 11 undefined on input line 213.
-
-
-LaTeX Warning: Citation `HadoopInAction' on page 11 undefined on input line 213
-.
-
-[11]
+[9] [10] [11]
 Overfull \hbox (6.83643pt too wide) in paragraph at lines 217--219
  \T1/cmr/bx/n/10.95 Smart-phones[] \T1/cmr/m/n/10 Smart-phones have un-doubtabl
 y ac-cel-er-ated the move-
  []
 
-[12] <images/system2.png, id=64, 1030.85126pt x 770.88pt>
+[12] <images/system2.png, id=63, 1030.85126pt x 770.88pt>
 File: images/system2.png Graphic file (type png)
 
 <use images/system2.png>
@@ -714,20 +623,10 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 243.
- [14]
+ [14] [15]
+[16] [17
 
-LaTeX Warning: Citation `myGrocer' on page 15 undefined on input line 264.
-
-
-LaTeX Warning: Citation `pervasiveComp' on page 15 undefined on input line 272.
-
-
-
-LaTeX Warning: Citation `bioTags' on page 15 undefined on input line 274.
-
-[15] [16] [17
-
-] <images/system6.png, id=81, 756.8275pt x 642.4pt>
+] <images/system6.png, id=80, 756.8275pt x 642.4pt>
 File: images/system6.png Graphic file (type png)
 
 <use images/system6.png>
@@ -780,42 +679,38 @@ Underfull \hbox (badness 2894) in paragraph at lines 576--578
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 13260 strings out of 493117
- 267785 string characters out of 6135433
- 308421 words of memory out of 5000000
- 16438 multiletter control sequences out of 15000+600000
- 18564 words of font info for 35 fonts, out of 8000000 for 9000
+ 13275 strings out of 493117
+ 267956 string characters out of 6135433
+ 308492 words of memory out of 5000000
+ 16448 multiletter control sequences out of 15000+600000
+ 20227 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,6n,61p,1598b,716s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb></u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/l
-ocal/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/loc
-al/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local
-/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/t
-exlive/2014/texmf-dist/fonts/type1/public/cm-super/sfcc0900.pfb></usr/local/tex
-live/2014/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2014/
-texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2014/te
-xmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2014/texm
-f-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2014/texmf-
-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2014/texmf-di
-st/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2014/texmf-dist
-/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on proposal.pdf (25 pages, 511388 bytes).
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local
+/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfcc0900.pfb></usr/local/t
+exlive/2014/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2014/
+texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2014/te
+xmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2014/texm
+f-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2014/texmf-
+dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2014/texmf-di
+st/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on proposal.pdf (25 pages, 505517 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
- 118 compressed objects within 2 object streams
+ 165 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  27 words of extra memory for PDF output out of 10000 (max. 10000000)
 
