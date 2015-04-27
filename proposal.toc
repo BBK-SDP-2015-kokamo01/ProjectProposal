@@ -30,19 +30,19 @@
 \contentsline {section}{\numberline {2}Aims and Objectives}{10}
 \contentsline {subsection}{\numberline {2.1}Aims}{10}
 \contentsline {paragraph}{Concept}{10}
-\contentsline {paragraph}{Scenario}{11}
+\contentsline {paragraph}{Scenario}{12}
 \contentsline {paragraph}{Further Extension\dots }{12}
-\contentsline {subsection}{\numberline {2.2}Limitations}{12}
-\contentsline {paragraph}{Infrastructure}{12}
-\contentsline {paragraph}{Cost and Environment}{12}
+\contentsline {subsection}{\numberline {2.2}Limitations}{13}
+\contentsline {paragraph}{Infrastructure}{13}
+\contentsline {paragraph}{Cost and Environment}{13}
 \contentsline {paragraph}{Privacy}{13}
 \contentsline {subsection}{\numberline {2.3}Objectives}{14}
 \contentsline {section}{\numberline {3}Methodology}{15}
 \contentsline {subsection}{\numberline {3.1}System Overview \& Communication Paths}{15}
 \contentsline {paragraph}{Agile}{15}
 \contentsline {subsection}{\numberline {3.2}Development}{16}
-\contentsline {subsection}{\numberline {3.3}Risks \& Pitfalls}{18}
-\contentsline {paragraph}{New Technology}{18}
+\contentsline {subsection}{\numberline {3.3}Risks \& Pitfalls}{17}
+\contentsline {paragraph}{New Technology}{17}
 \contentsline {paragraph}{Architecture}{18}
 \contentsline {paragraph}{Compatibility}{18}
 \contentsline {paragraph}{Languages}{18}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.27)  27 APR 2015 04:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.27)  27 APR 2015 07:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -587,9 +587,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [1]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 86.
+(Font)              <7> on input line 87.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 86.
+(Font)              <5> on input line 87.
  [2
 
 ] [3
@@ -616,7 +616,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3]
-Overfull \hbox (4.64334pt too wide) in paragraph at lines 158--159
+Overfull \hbox (4.64334pt too wide) in paragraph at lines 159--160
  \T1/cmr/bx/n/10.95 Smart-Fridge[] \T1/cmr/m/n/10 This in-ter-net en-abled ap-p
 li-ance was de-signed for home
  []
@@ -636,7 +636,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [5]
 
-LaTeX Warning: Citation `3' on page 6 undefined on input line 191.
+LaTeX Warning: Citation `3' on page 6 undefined on input line 192.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -659,7 +659,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [8]
-Overfull \hbox (6.83643pt too wide) in paragraph at lines 235--237
+Overfull \hbox (6.83643pt too wide) in paragraph at lines 231--232
  \T1/cmr/bx/n/10.95 Smart-phones[] \T1/cmr/m/n/10 Smart-phones have un-doubtabl
 y ac-cel-er-ated the move-
  []
@@ -674,7 +674,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: images/system2.png Graphic file (type png)
 
 <use images/system2.png>
-Package pdftex.def Info: images/system2.png used on input line 252.
+Package pdftex.def Info: images/system2.png used on input line 249.
 (pdftex.def)             Requested size: 306.0022pt x 228.83092pt.
 
 
@@ -686,14 +686,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [10
 
  <./images/system2.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 261.
+File: images/system2.png Graphic file (type png)
+ <use images/system2.png>
+Package pdftex.def Info: images/system2.png used on input line 257.
+(pdftex.def)             Requested size: 306.0022pt x 228.83092pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 264.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 261.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 264.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -728,7 +732,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: images/system6.png Graphic file (type png)
 
 <use images/system6.png>
-Package pdftex.def Info: images/system6.png used on input line 352.
+Package pdftex.def Info: images/system6.png used on input line 354.
 (pdftex.def)             Requested size: 306.0022pt x 259.73927pt.
 
 
@@ -754,7 +758,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [17]
-Overfull \hbox (8.86786pt too wide) in paragraph at lines 446--447
+Overfull \hbox (8.86786pt too wide) in paragraph at lines 447--448
 \T1/cmr/m/n/10 of mul-ti-ple pro-gram-ming lan-guages caus-ing un-pre-dictable 
 learn-ing curves
  []
@@ -796,12 +800,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [19
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 574--576
+Underfull \hbox (badness 10000) in paragraph at lines 575--577
 []\T1/cmr/m/n/10 Graham-Rowe, Ella, Donna C. Jes-sop, and Paul
  []
 
 
-Underfull \hbox (badness 4328) in paragraph at lines 574--576
+Underfull \hbox (badness 4328) in paragraph at lines 575--577
 \T1/cmr/m/n/10 Sparks.\T1/cmr/m/it/10 ``Identifying mo-ti-va-tions and bar-ri-e
 rs to min-imis-ing
  []
@@ -815,11 +819,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [20
 
 ]
-Underfull \hbox (badness 2894) in paragraph at lines 601--603
+Underfull \hbox (badness 2894) in paragraph at lines 608--610
 \T1/cmr/m/it/10 nu-clear ac-ci-dent af-ter the 2011 Great East Japan Earth-
  []
 
 
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21] 
 AED: lastpage setting LastPage
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -827,19 +837,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21] (./proposal.aux)
+[22] (./proposal.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13442 strings out of 493117
- 270043 string characters out of 6135433
- 313432 words of memory out of 5000000
- 16607 multiletter control sequences out of 15000+600000
+ 13446 strings out of 493117
+ 270065 string characters out of 6135433
+ 313448 words of memory out of 5000000
+ 16611 multiletter control sequences out of 15000+600000
  20227 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,12n,61p,1598b,718s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,12n,61p,1670b,718s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb></u
@@ -859,10 +869,10 @@ xmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2014/texm
 f-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2014/texmf-
 dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2014/texmf-di
 st/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on proposal.pdf (25 pages, 510173 bytes).
+Output written on proposal.pdf (26 pages, 512185 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
- 115 compressed objects within 2 object streams
+ 168 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  27 words of extra memory for PDF output out of 10000 (max. 10000000)
 
