@@ -18,7 +18,7 @@
 \contentsline {paragraph}{Radio Frequency Identification (RFID)}{4}
 \contentsline {subsection}{\numberline {1.4}Product Identification}{5}
 \contentsline {subsubsection}{\numberline {1.4.1}RFID vs Barcodes}{5}
-\contentsline {subsubsection}{\numberline {1.4.2}Importance of Item-Level Identification}{6}
+\contentsline {subsubsection}{\numberline {1.4.2}Importance of item level Identification}{6}
 \contentsline {paragraph}{Remote Amendment of Human Errors}{6}
 \contentsline {paragraph}{Food Safety and traceability}{6}
 \contentsline {paragraph}{Transparency \& Consumer Rights}{6}
@@ -32,8 +32,8 @@
 \contentsline {paragraph}{Concept}{10}
 \contentsline {paragraph}{Scenario}{12}
 \contentsline {paragraph}{Further Extension\dots }{12}
-\contentsline {subsection}{\numberline {2.2}Limitations}{13}
-\contentsline {paragraph}{Infrastructure}{13}
+\contentsline {subsection}{\numberline {2.2}Limitations}{12}
+\contentsline {paragraph}{Infrastructure}{12}
 \contentsline {paragraph}{Cost and Environment}{13}
 \contentsline {paragraph}{Privacy}{13}
 \contentsline {subsection}{\numberline {2.3}Objectives}{14}
