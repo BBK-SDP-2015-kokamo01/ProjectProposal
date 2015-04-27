@@ -3,7 +3,7 @@
 \contentsline {paragraph}{Producers}{1}
 \contentsline {paragraph}{Retailers}{1}
 \contentsline {paragraph}{Consumers}{1}
-\contentsline {paragraph}{Project Outline}{2}
+\contentsline {paragraph}{Proposal Outline}{2}
 \contentsline {subsection}{\numberline {1.2}Problem}{3}
 \contentsline {paragraph}{Environmental}{3}
 \contentsline {paragraph}{Economical}{3}
