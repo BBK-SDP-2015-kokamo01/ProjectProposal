@@ -8,7 +8,7 @@
 \contentsline {paragraph}{Environmental}{3}
 \contentsline {paragraph}{Economical}{3}
 \contentsline {paragraph}{Social}{3}
-\contentsline {paragraph}{Human memory}{3}
+\contentsline {paragraph}{Human memory}{4}
 \contentsline {paragraph}{Lifestyle}{4}
 \contentsline {subsection}{\numberline {1.3}Current Waste Management Methods}{4}
 \contentsline {paragraph}{Manual Efforts}{4}
@@ -26,8 +26,7 @@
 \contentsline {paragraph}{Personal Recommendation}{8}
 \contentsline {subsection}{\numberline {1.5}Ubiquitous Computing}{9}
 \contentsline {paragraph}{Brief History}{9}
-\contentsline {paragraph}{RFID \& Cloud Services}{9}
-\contentsline {paragraph}{Smartphones}{10}
+\contentsline {paragraph}{RFID, Smartphones \& Cloud Services}{9}
 \contentsline {section}{\numberline {2}Aims and Objectives}{11}
 \contentsline {subsection}{\numberline {2.1}Aims}{11}
 \contentsline {paragraph}{Concept}{12}
