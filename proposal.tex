@@ -27,9 +27,10 @@
 \renewcommand{\sectionmark}[1]{\markboth{#1}{}}
 \fancyhf{} % sets both header and footer to nothing
 \renewcommand{\headrulewidth}{0pt}
+\setlength{\footskip}{50pt}
 \lhead{}
 \chead{}
-\rhead{}
+\rhead{Project Proposal}
 
 \lfoot{Section \thesection}
 \cfoot{\fancyplain{}{\leftmark }} 
@@ -89,12 +90,13 @@ have also called this notion \say{Ubiquitous Computing}.}}
 % Abstract
 %........................
 \thispagestyle{empty}
-\abstract{It is estimated that the United Kingdom generates 7 million tonnes of food waste annually. This colossal amount of waste has devastating impacts on the economy and society. The majority of this statistic is accountable to the domestic household, poor inventory keeping and busy lifestyles of the consumer all contribute to waste. This project proposes the use of item-level Radio Frequency Identification(RFID) as a method of food identification. This will enable the digital and remote access of granular item information such as use-by-dates. This information can be accessed ubiquitously through a Smartphone allowing the consumer access to their inventory at any place, any time resulting in the reduction of waste.}
+\abstract{It is estimated that the United Kingdom generates 15 million tonnes of food waste annually.\cite{statistic} This colossal amount of waste has devastating impacts on the economy and society. The majority of this statistic is accountable to the domestic household. Poor inventory keeping and busy lifestyles of the consumer all attribute to waste. This project proposes the exploration of item-level identification of groceries using Radio Frequency Identification(RFID) and the positive effects on waste reduction. With the use of RFID, remote access of granular information such as use-by-dates and nutritional information will become ubiquitously available via a Smartphone application. This technology intends to empower the consumer to reduce both food and monetary waste by prevention of over purchasing.}
 \newpage
 
 %........................
 % Introduction
 %........................
+\setcounter{page}{1}
 \section{Introduction}
 
 \subsection{Background}
@@ -110,13 +112,10 @@ Over production of food is a global issue with waste exceeding two billion tonne
 
 This project will take a consumer-centric approach to tackle the issue of waste. The United Kingdom alone is estimated to generate 15 million tonnes of food waste every year, 7 million of which is accountable to domestic households.\cite{statistic} Having stated this, retailers contribute largely to the figures as they strive to meet contrived demands self-orchestrated by marketing to boost revenue, causing waste that would have resided at the retailer to be pushed down the chain and ultimately dumped with the consumers.\cite{waste} Providing consumers with tools to better manage their inventory would aid a lifestyle of maximal resource utilisation with minimum waste. Waste could be kept at bay with the retailers, essentially creating an upstream ripple and discouraging the over production of food by targeting the root cause of the problem.
 
-\vspace{\baselineskip}
-\vspace{\baselineskip}
+
 \vspace{\baselineskip}
 
 \subsection{Problem}
-
-
 
 \quotingsetup{vskip=0pt}
 
@@ -149,36 +148,35 @@ Sainsbury's and Biffa have introduced a closed-loop solution that converts bio-m
 
 \paragraph{Nanotechnology}
 Scientists in Beijing have developed a smart tag using nanotechnology. The metallic nanorods in the gel tag respond to temperature fluctuation that result in bacteria propagation in foods. The tag alters in colour according to the freshness of the product visually conveying the stage of decomposition of the produce to the consumer. Nanotechnology could replace printed use-by-dates and provide users with an accurate estimation of the longevity of the product. One drawback is the inability for the tags to communicate. Users must manually open the fridge and view the colour of the tags, once the consumer leaves the home the problem of memorisation still persists. \cite{FoodWaste}
-%%%%%%%%%%%
-%%%%%%%%%%%
-%%%%%%%%%%%
+
 \paragraph{Mobile Applications}
-With most people owning Smartphones and as a result of Apple and Google's infamous App Stores, the instantaneous time to market is hugely advantageous to businesses and organisations. 
+With the surge of popularity in Smartphones over the recent decade, apps have become a favourable method of information exchange. Google and Apple?s infamous App-Stores have enabled cost effective and instantaneous delivery of information in a feature rich application to the consumer.
 
-`Love Food, Hate Waste' (LFHW), a campaign launched by WRAP, which primarily operates through an interactive website have developed an app with helpful features such as a shopping lists memo maker, recipe suggestions, portion size suggestions. Other governments are also promoting the use of mobile applications. `Smart Cooking' developed by the Netherlands Nutrition Centre Foundation (NNCF) funded by the Dutch government incorporates similar features to LFHW. TooSkee and LeanPath\cite{foodWaste} are other examples of food management apps. Developed in the US, receipts are scanned and items are logged. Much like the other mobile applications it will suggest dishes and remind the user to consume products before the expiration date. Dates must be entered manually as barcodes are not able to provide this information. 
-
-Without question Smartphone apps are the most effective way to deliver the software to the consumer but with an over-crowded market place where a single bad review can jeopardise the success of an app, quality and functionality is paramount as users have become increasingly intolerant of a poor interface design or performance such as delayed content loading.
+`Love Food, Hate Waste' (LFHW), a campaign launched by WRAP, which primarily operates through an interactive website have developed an self titled app with features such as a shopping lists memo maker, recipe suggestions, portion size suggestions intended to support the reduction of waste. The Netherlands Nutrition Centre Foundation (NNCF) funded by the Dutch government, have released an app `Smart Cooking' that incorporates similar features to LFHW. TooSkee and LeanPath\cite{FoodWaste} are other examples of food management apps developed by organisations in the United States. Much like the other apps it will suggest dishes and remind the user to consume products before the expiration date. Without a doubt Smartphone apps are an effective way to deliver the software to the consumer, But the common draw back all these apps encounter is the need for manual data input due to the lack of information available through barcodes. This is a hindrance to the usability of the app and in an over-crowded market place where a single bad review can jeopardise the success of an app, quality and functionality is paramount as users have become increasingly intolerant of a poor interface design or performance such as delayed content loading.
 
 \paragraph{SmartFridge}
-This internet enabled appliance was designed for home food management including the automated replenishment of stock. The user will scan products using a laser built into the fridge and recipes are suggested depending on the content. Inventory information is accessible through a Smart device either provided by the manufacture or via Smartphone. This eagerly anticipated technological innovation was somewhat anti-climatic as flaws in the practicality of the product surfaced. Items had to be manually entered due to the lack data and the recommendations were not as helpful as initially thought, together with the unit costing over \$20,000 many were reluctant to invest.
+This internet enabled appliance was designed for home food management and the automated replenishment of stock. The user will scan products using a laser built into the fridge and products will be logged. Recipes are suggested depending on the content and notifications were sent to the user via a Smart device either provided by the manufacture or Smartphone. This eagerly awaited technological innovation was somewhat anti-climatic as flaws in the practicality of the product surfaced. Items had to be manually entered due to the lack data barcodes provided resulting in inaccurate representation of inventories. This impacted the quality of recommendations the system was able to offer and overall was not as helpful as initially anticipated. Together with the unit costing over \$20,000 many became reluctant to invest and negative publicity tainted the pubic's perception.\cite{idiotFridge}
 
 \paragraph{Radio Frequency Identification (RFID)}
-Dutch researchers form NXP Semiconductors have collaborated with the Netherlands Packaging Centre (NPC),  to develop a sensor enabled RFID tag capable of monitoring environmental changes food is exposed to through the supply chain.\cite{rfidFood} The Pasteur sensor tag has the capacity of measuring shifts in temperature and gas conditions during transportation and various stages of storage. This data is analysed to give an accurate reading of the products shelf life, thus being able to prioritise the trading of supplies and reducing the likelihood of waste. At the currents state this is only available at the producer-level for the shipment of large volumes to suppliers.
+Dutch researchers form NXP Semiconductors have collaborated with the Netherlands Packaging Centre (NPC),  to develop a sensor enabled RFID tag capable of monitoring environmental changes food is exposed to through the supply chain.\cite{rfidFood} The Pasteur sensor tag has the capacity of measuring shifts in temperature and gas conditions during transportation and various stages of storage. An accurate prediction of the products shelf life is generated from the data collected, thus being able to prioritise the trading of supplies and reducing the likelihood of waste. At the currents state this is only available for large-scale shipments to suppliers from the producers.
 
-The use of RFID has been prevalent in the supply chain but it is yet to be deployed at the item-level and is primarily used for asset monitoring rather than waste management. RFID in the supply chain has gained recognition for it's contribution to real-time stock monitoring and the simplistic way in which shipments can be identified. The next section will discuss the current method of identification at the item-level and how RFID can offer transparency and efficiency, much like it has at the producer and supplier level.
+The use of RFID has been prevalent in the food supply chain and is primarily used for asset monitoring rather than waste management. RFID in the supply chain has gained recognition for it's contribution to real-time stock monitoring and the simplistic way in which shipments can be identified.\cite{RFID} The next section will discuss the current method of product identification and the benefits of RFID deployment at the item-level.
 
 
 \vspace{\baselineskip}
 \vspace{\baselineskip}
 \vspace{\baselineskip}
-
+%%%%%
+%%%%
+%%%%
+%%%%%%
 \subsection{Product Identification}
 
 \subsubsection{RFID vs Barcodes}Currently barcodes are the most widely used method of item identification. Barcodes have been implemented in the supply chain since the 1970's for stock monitoring and sales total analysis as well as the acceleration and digitalisation of the checkout process. Barcode are universally recognised, inexpensive to print and many businesses have the printing process built into the production line, making it difficult for manufacturers accept other technologies. However, there are a few disadvantages to this technology. Firstly, for the barcode to be read successfully there must be no obstructions between the laser and the barcode, this includes dirt or scratches that distort the image. Secondly, the laser must be kept parallel to the barcode for a successful read and simultaneous scanning is not possible. It is also note worthy to mention that barcodes are unique to the product type but not at the item-level. For example it is not possible to distinguish the difference between one carton of milk and another made by the same manufacturer but with different item-level information such as sell-by-dates, the machine will view them as identical objects.
 
 In contrast, RFID does not require a laser as it utilises electromagnetic radio fields for communication. So long as the tag is within the vicinity of the field it can be read and even facilitate the simultaneous reads of multiple tags. Tag have varied memory capacity but typically very low usually the size of a uniform resource locator(URL) can be stored, this is enough to bridge between object and the internet where additional data can be stored or updated as external data storage is abundantly available. URL's also provide individuality to an object, allowing customised granular information to be stored and accessible. Once the barcode is printed it is hardcoded on to the product giving little room for errors but with RFID remote alterations of the product is possible.\cite{georgeR}
 
-RFID offerers simplicity as demonstrated by contactless payment and the Oyster card for the London transport system. RFID is also already prevalent in supply chains to monitor and track stock and even livestock. Companies such Marks \& Spenser have tagged their clothing for inventory keeping and theft prevention. As the popularity rises some will question whether item-level uniqueness is a necessity for the food supply chain, where the product lifecycle can be as short as a few days and if the practical values out weigh the economical penalties. 
+RFID offerers simplicity as demonstrated by contactless payment and the Oyster card for the London transport system. RFID is also already prevalent in supply chains to monitor and track stock and even livestock. Companies such Marks \& Spenser have tagged their clothing for inventory keeping and theft prevention.\cite{retailRFID} As the popularity rises some will question whether item-level uniqueness is a necessity for the food supply chain, where the product lifecycle can be as short as a few days and if the practical values out weigh the economical penalties. 
 
 \vspace{\baselineskip}
 \vspace{\baselineskip}
@@ -192,7 +190,7 @@ Perfectly consumable foods is regularly recalled and wasted due to human errors 
 \paragraph{Food Safety and traceability}
 In the past there has been numerous incidents when products have been recalled due to the presence of bacteria or other abnormalities. A notable incident is the 2013 meat adulteration scandal in the EU, where traces of horse meat where discovered in various products such as minced meat and ready prepared meals. The time and resources to trace back through the supply chain was estimated to have cost the Food Standard Agency (FSA) \pounds900,000 between 2011 and 2012 and a further \pounds1.6 million between 2012 and 2013 \cite{3}. Other casualties include the reputations and integrity of the blameless producers falsely accused due to inaccurate data that implicated them as the guilty.\cite{horsy}
 
-With item-level identification the contaminated produce could be traced back immediately and the products recalled.\cite{rfidFood} For example if an infected animal is used in various products, all items holding that particular code can be instantly traceable, compartmentalising the outbreak and maximising efficiency in damage control. 
+With item-level identification the contaminated produce could be traced back immediately and the products recalled.\cite{rfidFood}\cite{rfidFood2} For example if an infected animal is used in various products, all items holding that particular code can be instantly traceable, compartmentalising the outbreak and maximising efficiency in damage control.
 
 \paragraph{Transparency \& Consumer Rights}
 The law enforces that labels of fresh meat must contain the country of origin, but this does not apply to the same meat that are processed, such as hamburgers, pies and sausages. (cite article 18) Meats may also be mixed providing that the animals are slaughtered in the same country, meaning a single hamburger could be made up of several cows.\cite{FSA}
@@ -368,20 +366,20 @@ Below are stages of development with primary deliverables in correspondence to t
     \item \textbf{Select RFID \& Label Groceries}
    	\begin{flushleft}Firstly, research on currently available RFID tags will be carried out to understand the limitations and capabilities that will influence the final choice. Cost, range and compatibility will be taken into consideration when selecting a appropriate tag for the use-case. Secondly, investigation of existing systems using RFID to further understand the technology. 
 	
-	\emph{\textbf{Outcome:}} Selection and application of appropriate tags, together will explanation and backup of the decision, followed by discuss potential pay-offs that may have influenced the final choice.
+	\emph{\textbf{Outcome:}} Selection and application of appropriate tags, together will explanation and backup of the decision. Followed by the discussion of potential performance pay-offs and enhancements that may have influenced the final choice.
 	  	\end{flushleft}
 	  \vspace{\baselineskip}
 
    \item \textbf{Research RFID stack}
 %2
-   	\begin{flushleft}Research the RFID stack and the considerations to support interoperability of the system. Understanding the core responsibility of the layers that comprise the stack and leading to the discovery of potential risks and difficulties that lie ahead.
+   	\begin{flushleft}Research the RFID stack and the considerations needed to support interoperability of the system. Understanding the core responsibility of the layers that comprise the stack, leading to the discovery of potential risks and difficulties that may lie ahead.
 	
-	\emph{\textbf{Outcome:}}Awareness of the various layers of the stack. System design and architecture established and depicted in the form of a visual diagram. Flow charts and and activity diagrams created to better understand the system processes. 
+	\emph{\textbf{Outcome:}}Awareness of the various layers of the stack. System design and architecture established and depicted in the form of a visual diagram. Flow charts and activity diagrams created to understand the system processes. 
 	\end{flushleft}
 	  \vspace{\baselineskip}
 %3
    \item \textbf{Setting up the development environment}
-   	\begin{flushleft}Installation of integrated development environment(IDE), software development kit,(SDK), importing libraries and plugins. RFID enabled Android phone will be used as the reader and a testing platform.  
+   	\begin{flushleft}Installation of integrated development environment(IDE), software development kit,(SDK), importing libraries and plugins. RFID enabled Android phone to be used as the reader and a testing platform.  
 		
 		\emph{\textbf{Outcome:}}  Setup of an environment fit to begin development.
 		\end{flushleft}
@@ -390,7 +388,7 @@ Below are stages of development with primary deliverables in correspondence to t
 	   \item \textbf{Tag to reader communication}
    	\begin{flushleft}Use Android SDK's RFID library and implement a simple program that is able to read an RFID tag.
 		
-	\emph{\textbf{Outcome:}}Simple program that is able to  acknowledge the existence of a RFID tag. 
+	\emph{\textbf{Outcome:}}Simple program that is able to acknowledge the existence of an RFID tag. 
 		  \vspace{\baselineskip}
 
 %5
@@ -398,37 +396,37 @@ Below are stages of development with primary deliverables in correspondence to t
 	   \item \textbf{Front end development with Android}
    	\begin{flushleft}Using Android SDK develop a client application to manage reader to tag communications through a simple GUI. Java will be the chosen language as supported by the SDK.
 	
-	\emph{\textbf{Outcome:}} A java interface using the RESTful API. Implementation and development of client to send requests to sever. Simple GUI will little functionality to trigger requests to the server. 	
+	\emph{\textbf{Outcome:}} A Java interface and implementation using the RESTful API. A simple GUI to support functionality of client to server communications. 
 	\end{flushleft}
 	\vspace{\baselineskip}
  
 %6
    \item \textbf{Back end Configuration }
-   	\begin{flushleft}Backend development using AWS' mobile development SDK. Using Amazon's Lambda API, client messages will be managed. Main logic of the application developed.
+   	\begin{flushleft}Backend development using AWS' mobile development SDK. Using Amazon's Lambda API, client messages will be managed. Main logic of the application implemented.
 	
-	\emph{\textbf{Outcome:}} Program that logs the contents of the fridge and updates the client when the state of the fridge is altered. Priority listing of items that the consumer can view through Android device. Successful client to server communications.
+	\emph{\textbf{Outcome:}} Program will log the contents of the fridge and the client will be updated when the state of the fridge is altered. Priority listing of items viewable through the GUI.  
 	\vspace{\baselineskip}
   	\end{flushleft}
 %7
 	   \item \textbf{Cloud Database Integration}
-   	\begin{flushleft} Configure Amazon?s DynamoDB to respond to server requests. Create a central database for global product information to be stored.
+   	\begin{flushleft} Configure Amazon's DynamoDB to respond to server requests. Create a central database for global product information to be stored.
 	
-	\emph{\textbf{Outcome:}} Central database created for the storage of item details.
+	\emph{\textbf{Outcome:}} Central database containing a few items for demonstration purposes created for the storage of item details. 
 	\vspace{\baselineskip}
   	\end{flushleft}
 	 
 %8	
    \item \textbf{Testing}
-   	\begin{flushleft}Tests will be carried out and documented throughout the process. Upon reflection of past implementation current situation will be analysed and test results will influence the next process. Unit tests and mocking frame works may be used to support best practices where appropriate.
+   	\begin{flushleft}Tests will be carried out and documented throughout the process. Upon reflection of past implementation, current situation will be influenced. Unit tests and mocking frame works may be used to support best practices where appropriate.
 	  	
-	\emph{\textbf{Outcome:}} Manual test and documentation of test results and critical analysis of each stage. Sufficient unit test coverage for code will be provided.
+	\emph{\textbf{Outcome:}} Manual test and documentation of test results and critical analysis of each stage. Sufficient unit test coverage for code.
 	\vspace{\baselineskip}
   	\end{flushleft}
 %9	
 	   \item \textbf{Demonstration}
    	\begin{flushleft}Creating demonstration of application functionality of the prototype and critically assess the product. Reflect on the development process and discuss leaning outcomes. 
 	
-	\emph{\textbf{Outcome:}}A proof of concept in the form of an Android mobile application with simple functionality.
+	\emph{\textbf{Outcome:}}A proof of concept with simple functionality in the form of an Android mobile application.
 	  	\end{flushleft}
 \end{enumerate}
 \vspace{\baselineskip}
@@ -441,9 +439,12 @@ Below are stages of development with primary deliverables in correspondence to t
 \subsection{Risks \& Pitfalls}
 \paragraph{New Technology}When attempting to build new systems there is a high possibility of encountering unexpected problems. Solving of the issue could slow the development process and originally planned schedules may be forced to change. 
 
-\paragraph{Architecture}During the architecting the balancing of enhancement and pay-off design decision can force prior planning to change. 
+\paragraph{Architecture}The design decision regarding system architecture. Balancing system performance to payoff and making the correct choice under pressure of limited time. The wrong choice may result in high latency or incompatible components.   
 
-\paragraph{Compatibility \& Languages}With most complex and new systems incompatibility of components could cause production difficulties. New languages may have to be used to link components resulting in unpredictable learning curves.
+\paragraph{Compatibility}The compatibility of components is crucial. Using unfamiliar technology there is likelihood of  incompatibility of components that could cause production difficulties that interrupt the development process. 
+
+\paragraph{Languages}The integration of components usually require the use of multiple programming languages causing unpredictable learning curves that could halt development. 
+
 \clearpage
 
 %........................
@@ -452,8 +453,6 @@ Below are stages of development with primary deliverables in correspondence to t
 
 
 \section{Schedule}
-
-
 
 %\begin{preview}
 \tikzset{every picture/.style={xscale=0.85,transform shape}}
@@ -479,18 +478,15 @@ Below are stages of development with primary deliverables in correspondence to t
 
 \subsection{Timetable}
 
-The above gantt chart represents the schedule in which the project will be developed. The horizontal numbers represent the number of weeks available to complete the project and the vertical corresponds to the stages of development mentioned in the previous section. As the agile methodology is used diversion form the plan is anticipated. 
+The above gantt chart represents the schedule for the project commencing form the 22nd June 2015 to the 14 September 2015. The horizontal numbers represent the number of weeks available to complete the project and the vertical digits corresponds to the stages of development mentioned in the previous section. As the agile methodology is used diversion form the plan is anticipated. Continuous testing will occur throughout the development process. The final two weeks will be allocated for the documentation in the form of a report. 
 
-Report will be documneted thfoug out and 
-Last 2 weeks to finalise report
-
-8th 14 September 2015
 \vspace{\baselineskip}
 
 \begin{enumerate}
 	\item RFID Research and documentation of findings.
 	\item RFID Stack Research
 	\item Environment Setup
+	\item Tag to Reader Communication
 	\item Front End Development
 	\item Back End Development
 	\item Database Configuratiion
@@ -572,6 +568,9 @@ Last 2 weeks to finalise report
 \bibitem{statistic}Government Statistical Service, \emph{\say{Uk Statistics on waste 2010-2012}}, Department for Environment, food and Rural Affairs, March 2015
 \vspace{\baselineskip}
 
+\bibitem{idiotFridge}Susie Steiner, \emph{\say{Smart fridge? Idiot fridge, more like}}, The Guardian, January 11th 2014
+\vspace{\baselineskip}
+
 \bibitem{motivation}Graham-Rowe, Ella, Donna C. Jessop, and Paul Sparks.\emph{\say{Identifying motivations and barriers to minimising household food waste.}} Resources, Conservation and Recycling 84 (2014): 15-23.
 \vspace{\baselineskip}
 
@@ -589,6 +588,12 @@ Last 2 weeks to finalise report
 
 \bibitem{rfidFood} R. Chen, \emph{\say{Using RFID Technology in Food Produce Traceability}},WSEAS Transaction on information science and applications, November 2008
 \vspace{\baselineskip}
+
+\bibitem{rfidFood2}S. Piramuthu, \emph{et al.}, \emph{\say{RFID-generated traceability for contaminated product recall in perishable food supply networks.}} European Journal of Operational Research 225.2 (2013): 253-262.?\vspace{\baselineskip}
+
+\bibitem{retailRFID}G. Roussos, \emph{\say{Enabling RFID in Retail}},IEEE Computer Society, 2006
+
+\bibitem{RFID}A. Sabbaghi, G. Vaidyanathan, \emph{\say{Effectiveness and Efficiency of RFID technology in Supply Chain Management: Strategic values and Challenges}}, Journal of Theoretical and Applied Electronic Commerce Research, April 2008
 
 \bibitem{FSA}Food Standard Agency, \emph{\say{Country of Origin Labelling Guidance}}, October 2008
 \vspace{\baselineskip}

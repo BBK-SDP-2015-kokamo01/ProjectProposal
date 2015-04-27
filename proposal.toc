@@ -1,49 +1,50 @@
-\contentsline {section}{\numberline {1}Introduction}{4}
-\contentsline {subsection}{\numberline {1.1}Background}{4}
-\contentsline {paragraph}{Producers}{4}
-\contentsline {paragraph}{Retailers}{4}
-\contentsline {paragraph}{Consumers}{4}
-\contentsline {subsection}{\numberline {1.2}Problem}{5}
-\contentsline {paragraph}{Environmental}{5}
-\contentsline {paragraph}{Economical}{5}
-\contentsline {paragraph}{Social}{5}
-\contentsline {paragraph}{Human memory}{5}
-\contentsline {paragraph}{Lifestyle}{6}
-\contentsline {subsection}{\numberline {1.3}Current Waste Management Methods}{6}
-\contentsline {paragraph}{Manual Efforts}{6}
-\contentsline {paragraph}{Anaerobic Digestion}{6}
-\contentsline {paragraph}{Nanotechnology}{6}
-\contentsline {paragraph}{Mobile Applications}{7}
-\contentsline {paragraph}{SmartFridge}{7}
-\contentsline {paragraph}{Radio Frequency Identification (RFID)}{7}
-\contentsline {subsection}{\numberline {1.4}Product Identification}{8}
-\contentsline {subsubsection}{\numberline {1.4.1}RFID vs Barcodes}{8}
-\contentsline {subsubsection}{\numberline {1.4.2}Importance of Item-Level Identification}{9}
-\contentsline {paragraph}{Remote Amendment of Human Errors}{9}
-\contentsline {paragraph}{Food Safety and traceability}{9}
-\contentsline {paragraph}{Transparency \& Consumer Rights}{9}
-\contentsline {paragraph}{Personal Recommendation}{10}
-\contentsline {subsection}{\numberline {1.5}Ubiquitous Computing}{11}
-\contentsline {paragraph}{Brief history}{11}
-\contentsline {paragraph}{RFID \& Cloud Services}{11}
-\contentsline {paragraph}{Smartphones}{12}
-\contentsline {section}{\numberline {2}Aims and Objectives}{13}
-\contentsline {subsection}{\numberline {2.1}Aims}{13}
-\contentsline {paragraph}{Concept}{13}
-\contentsline {paragraph}{Scenario}{14}
-\contentsline {paragraph}{Further Extension\dots }{15}
-\contentsline {subsection}{\numberline {2.2}Limitations}{15}
-\contentsline {paragraph}{Infrastructure}{15}
-\contentsline {paragraph}{Cost and Environment}{15}
-\contentsline {paragraph}{Privacy}{16}
-\contentsline {subsection}{\numberline {2.3}Objectives}{17}
-\contentsline {section}{\numberline {3}Methodology}{18}
-\contentsline {subsection}{\numberline {3.1}System Overview \& Communication Paths}{18}
-\contentsline {paragraph}{Agile}{18}
-\contentsline {subsection}{\numberline {3.2}Development}{19}
-\contentsline {subsection}{\numberline {3.3}Risks \& Pitfalls}{21}
-\contentsline {paragraph}{New Technology}{21}
-\contentsline {paragraph}{Architecture}{21}
-\contentsline {paragraph}{Compatibility \& Languages}{21}
-\contentsline {section}{\numberline {4}Schedule}{22}
-\contentsline {subsection}{\numberline {4.1}Timetable}{22}
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {subsection}{\numberline {1.1}Background}{1}
+\contentsline {paragraph}{Producers}{1}
+\contentsline {paragraph}{Retailers}{1}
+\contentsline {paragraph}{Consumers}{1}
+\contentsline {subsection}{\numberline {1.2}Problem}{2}
+\contentsline {paragraph}{Environmental}{2}
+\contentsline {paragraph}{Economical}{2}
+\contentsline {paragraph}{Social}{2}
+\contentsline {paragraph}{Human memory}{2}
+\contentsline {paragraph}{Lifestyle}{3}
+\contentsline {subsection}{\numberline {1.3}Current Waste Management Methods}{3}
+\contentsline {paragraph}{Manual Efforts}{3}
+\contentsline {paragraph}{Anaerobic Digestion}{3}
+\contentsline {paragraph}{Nanotechnology}{3}
+\contentsline {paragraph}{Mobile Applications}{4}
+\contentsline {paragraph}{SmartFridge}{4}
+\contentsline {paragraph}{Radio Frequency Identification (RFID)}{4}
+\contentsline {subsection}{\numberline {1.4}Product Identification}{5}
+\contentsline {subsubsection}{\numberline {1.4.1}RFID vs Barcodes}{5}
+\contentsline {subsubsection}{\numberline {1.4.2}Importance of Item-Level Identification}{6}
+\contentsline {paragraph}{Remote Amendment of Human Errors}{6}
+\contentsline {paragraph}{Food Safety and traceability}{6}
+\contentsline {paragraph}{Transparency \& Consumer Rights}{6}
+\contentsline {paragraph}{Personal Recommendation}{7}
+\contentsline {subsection}{\numberline {1.5}Ubiquitous Computing}{8}
+\contentsline {paragraph}{Brief history}{8}
+\contentsline {paragraph}{RFID \& Cloud Services}{8}
+\contentsline {paragraph}{Smartphones}{9}
+\contentsline {section}{\numberline {2}Aims and Objectives}{10}
+\contentsline {subsection}{\numberline {2.1}Aims}{10}
+\contentsline {paragraph}{Concept}{10}
+\contentsline {paragraph}{Scenario}{11}
+\contentsline {paragraph}{Further Extension\dots }{12}
+\contentsline {subsection}{\numberline {2.2}Limitations}{12}
+\contentsline {paragraph}{Infrastructure}{12}
+\contentsline {paragraph}{Cost and Environment}{12}
+\contentsline {paragraph}{Privacy}{13}
+\contentsline {subsection}{\numberline {2.3}Objectives}{14}
+\contentsline {section}{\numberline {3}Methodology}{15}
+\contentsline {subsection}{\numberline {3.1}System Overview \& Communication Paths}{15}
+\contentsline {paragraph}{Agile}{15}
+\contentsline {subsection}{\numberline {3.2}Development}{16}
+\contentsline {subsection}{\numberline {3.3}Risks \& Pitfalls}{18}
+\contentsline {paragraph}{New Technology}{18}
+\contentsline {paragraph}{Architecture}{18}
+\contentsline {paragraph}{Compatibility}{18}
+\contentsline {paragraph}{Languages}{18}
+\contentsline {section}{\numberline {4}Schedule}{19}
+\contentsline {subsection}{\numberline {4.1}Timetable}{19}
