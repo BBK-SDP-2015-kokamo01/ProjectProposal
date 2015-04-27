@@ -8,7 +8,7 @@
 \contentsline {paragraph}{Environmental}{3}
 \contentsline {paragraph}{Economical}{3}
 \contentsline {paragraph}{Social}{3}
-\contentsline {paragraph}{Human memory}{4}
+\contentsline {paragraph}{Human memory}{3}
 \contentsline {paragraph}{Lifestyle}{4}
 \contentsline {subsection}{\numberline {1.3}Current Waste Management Methods}{4}
 \contentsline {paragraph}{Manual Efforts}{4}
