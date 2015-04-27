@@ -77,7 +77,7 @@ have also called this notion \say{Ubiquitous Computing}.}}
 %........................
 % Abstract
 %........................
-\abstract{It is estimated that the United Kingdom generates 15 million tonnes of food waste annually.\cite{statistic} This colossal amount of waste has devastating impacts on the economy and society. The majority of this statistic is accountable to the domestic household. Poor inventory keeping and busy lifestyles of the consumer all attribute to waste. This project proposes the exploration of item level identification of groceries using Radio Frequency Identification(RFID) and the positive effects on waste reduction. With the use of RFID, remote access of granular information such as use-by-dates and nutritional information will become ubiquitously available via a Smartphone application. This technology intends to empower the consumer to reduce both food and monetary waste by prevention of over purchasing.}
+\abstract{It is estimated that the United Kingdom generates 15 million tonnes of food waste annually.\cite{statistic} This colossal amount of waste has devastating impacts on the economy and society. The majority of this statistic is accountable to the domestic household. Poor inventory keeping and busy lifestyles of the consumer all attribute to waste. This project proposes the exploration of item level identification of groceries using Radio Frequency Identification(RFID) and the positive affects on waste reduction. With the use of RFID, remote access of granular information such as use-by-dates and nutritional information will become ubiquitously available via a Smartphone application. This technology intends to empower the consumer to reduce both food and monetary waste by enabling an internet enabled fridge to keep inventory of products and expiration dates. The fridge may report any change in state keeping consumers updated and aware of the items they possess.}
 \newpage
 
 
@@ -102,8 +102,11 @@ have also called this notion \say{Ubiquitous Computing}.}}
 \setcounter{page}{1}
 \section{Introduction}
 
-\subsection{Background}Over production of food is a global issue with waste exceeding two billion tonnes annually\cite{waste}. Such large quantities of waste have severe negative social, environmental and economical impacts. The multifaceted nature of the food supply chain give ample opportunity for waste to occur and inadequate waste prevention methods could cause figures to rise.\cite{FoodWaste} Further more, such complex pipelines pose great difficulties in the accurate quantification of waste generated, meaning that the figures are likely to be higher than reported.\cite{waste} A clear understanding of the chain is necessary to identify the vulnerable components where waste can arise, below is a brief description of each of the three main entities that comprise the chain and their accountability to the statistics.\paragraph{Producers}At the top is the agriculturalists and farmers who cultivate the plants and livestock. These entities serve as the primary source of supply to the market and respond to orders placed by retailers. Over production is often encouraged by the merchant to compensate for the possibility of an unfruitful harvest or an unexpected and sudden rise in demand.\cite{waste} \paragraph{Retailers}The intermediate between producer and consumer are the retailers and vendors. At the time of writing, the most dominant being Supermarkets, namely Sainsbury's, Tesco, Asda and Morrison. Perpetual competition for market share leads to aggressive advertising and competitive pricing wars, with millions of pounds at stake urgency for quantity control becomes a lesser priority. Errors in sales forecasts can result in idle stock needlessly occupying valuable real estate costing millions in rental annually. Waste can even occur on a superficial level where ascetically unpleasing but perfectly consumable food is deemed unworthy of stocking and rejected.\cite{FoodWaste} 
+\subsection{Background}Over production of food is a global issue with waste exceeding two billion tonnes annually\cite{waste}. Such large quantities of waste have severe negative social, environmental and economical impacts. The multifaceted nature of the food supply chain give ample opportunity for waste to occur and inadequate waste prevention methods could cause figures to rise.\cite{FoodWaste} Further more, such complex pipelines pose great difficulties in the accurate quantification of waste generated, meaning that the figures are likely to be higher than reported.\cite{waste} A clear understanding of the chain is necessary to identify the vulnerable components where waste can arise. Below is a brief description of each of the three main entities that comprise the chain and their accountability to the statistics. Figure 1. is a visual representation of the total food waste statistics.\paragraph{Producers}At the top is the agriculturalists and farmers who cultivate the plants and livestock. These entities serve as the primary source of supply to the market and respond to orders placed by retailers. Over production is often encouraged by the merchant to compensate for the possibility of an unfruitful harvest or an unexpected and sudden rise in demand.\cite{waste} \paragraph{Retailers}The intermediate between producer and consumer are the retailers and vendors. At the time of writing, the most dominant being Supermarkets, namely Sainsbury's, Tesco, Asda and Morrison. Perpetual competition for market share leads to aggressive advertising and competitive pricing wars, with millions of pounds at stake urgency for quantity control becomes a lesser priority. Errors in sales forecasts can result in idle stock needlessly occupying valuable real estate costing millions in rental annually. Waste can even occur on a superficial level where ascetically unpleasing but perfectly consumable food is deemed unworthy of stocking and rejected.\cite{FoodWaste} 
 \paragraph{Consumers}At the end of the chain are the consumers that are regularly persuaded to over purchase by enticing bulk buying promotions. Retailers will markdown items that are nearing expiration to sell to the consumer as an attempt to compensate for potential losses. This method of damage control while beneficial to the supermarkets has negative implications on the consumers. Loss can also occur due to basic human errors of simply forgetting to consume the food in time. Fast paced and unpredictable lifestyles attribute to the difficulties in keeping track of past purchases and expiration dates, resulting to the contribution to the overflowing landfill sites.\cite{FoodWaste} \vspace{\baselineskip}This project will take a consumer-centric approach to tackle the issue of waste. The United Kingdom alone is estimated to generate 15 million tonnes of food waste every year, 7 million of which is accountable to domestic households.\cite{statistic} Having stated this, retailers contribute largely to the figures as they strive to meet contrived demands self-orchestrated by marketing to boost revenue, causing waste that would have resided at the retailer to be pushed down the chain and ultimately dumped with the consumers.\cite{waste} Providing consumers with tools to better manage their inventory would aid a lifestyle of maximal resource utilisation with minimum waste. Waste could be kept at bay with the retailers, essentially creating an upstream ripple and discouraging the over production of food by targeting the root cause of the problem.
+  \vspace{\baselineskip}
+
+\begin{figure}[h!]  \centering    \includegraphics[width=0.75\textwidth]{system7.png}      \caption{UK Food Waste Statistics}\end{figure}
 
 \vspace{\baselineskip}
 
@@ -129,7 +132,7 @@ With the surge of popularity in Smartphones over the recent decade, apps have be
 `Love Food, Hate Waste' (LFHW), a campaign launched by WRAP, which primarily operates through an interactive website have developed an self titled app with features such as a shopping lists memo maker, recipe suggestions, portion size suggestions intended to support the reduction of waste. The Netherlands Nutrition Centre Foundation (NNCF) funded by the Dutch government, have released an app `Smart Cooking' that incorporates similar features to LFHW. TooSkee and LeanPath\cite{FoodWaste} are other examples of food management apps developed by organisations in the United States. Much like the other apps it will suggest dishes and remind the user to consume products before the expiration date. Without a doubt Smartphone apps are an effective way to deliver the software to the consumer, But the common draw back all these apps encounter is the need for manual data input due to the lack of information available through barcodes. This is a hindrance to the usability of the app and in an over-crowded market place where a single bad review can jeopardise the success of an app, quality and functionality is paramount as users have become increasingly intolerant of a poor interface design or performance such as delayed content loading.
 
 \paragraph{SmartFridge}
-This Internet enabled appliance was designed for home food management and the automated replenishment of stock. The user will scan products using a laser built into the fridge and products will be logged. Recipes are suggested depending on the content and notifications were sent to the user via a Smart device either provided by the manufacture or Smartphone. This eagerly awaited technological innovation was somewhat anti-climatic as flaws in the practicality of the product surfaced. Items had to be manually entered due to the lack data barcodes provided resulting in inaccurate representation of inventories. This impacted the quality of recommendations the system was able to offer and overall was not as helpful as initially anticipated. Together with the unit costing over \$20,000 many became reluctant to invest and negative publicity tainted the pubic's perception.\cite{idiotFridge}
+This Internet enabled appliance was designed for home food management and the automated replenishment of stock. The user will scan products using a laser built into the fridge and products will be logged. Recipes are suggested depending on the content and notifications were sent to the user via a Smart device either provided by the manufacture or Smartphone. This eagerly awaited technological innovation was somewhat anti-climatic as flaws in the practicality of the product surfaced. Items had to be manually entered due to the lack data barcodes provided resulting in inaccurate representation of inventories. This impacted the quality of recommendations the system was able to offer and overall was not as helpful as initially anticipated. Together with the unit costing over \$20,000 many became reluctant to invest and negative publicity tainted the public's perception.\cite{idiotFridge}
 
 \paragraph{Radio Frequency Identification (RFID)}
 Dutch researchers form NXP Semiconductors have collaborated with the Netherlands Packaging Centre (NPC),  to develop a sensor enabled RFID tag capable of monitoring environmental changes food is exposed to through the supply chain.\cite{rfidFood} The Pasteur sensor tag has the capacity of measuring shifts in temperature and gas conditions during transportation and various stages of storage. An accurate prediction of the products shelf life is generated from the data collected, thus being able to prioritise the trading of supplies and reducing the likelihood of waste. At the currents state this is only available for large-scale shipments to suppliers from the producers.
@@ -156,15 +159,15 @@ RFID offers simplicity as demonstrated by contactless payment and the Oyster car
 \vspace{\baselineskip}
 \vspace{\baselineskip}
 
-\subsubsection{Importance of item level Identification}
+\subsubsection{Importance of Item Level Identification}
 
 \paragraph{Remote Amendment of Human Errors}
 Due to human errors such as misprinting information or neglecting to provide adequate information such as allergy information, that abide by food standard regulations perfectly consumable food is recalled and wasted.\cite{FDA} By applying RFID tags to groceries, information could be updated remotely, issuing immediate alerts to consumers informing them of the mistake and the amended error. This provides a different approach to error management.
 
-\paragraph{Food Safety and traceability}
+\paragraph{Food Safety and Traceability}
 In the past there has been numerous incidents when products have been recalled due to the presence of bacteria or other abnormalities. A notable incident is the 2013 meat adulteration scandal in the EU, where traces of horse meat where discovered in various products such as minced meat and ready prepared meals. The time and resources to trace back through the supply chain was estimated to have cost the Food Standard Agency (FSA) \pounds900,000 between 2011 and 2012 and a further \pounds1.6 million between 2012 and 2013 \cite{FSA}. Other casualties include the reputations and integrity of the blameless producers falsely accused due to limited and inaccurate information that implicated them as the guilty.\cite{horsy}
 
-With item level identification the contaminated produce could be traced back immediately and the products recalled.\cite{rfidFood}\cite{rfidFood2} For example if an infected animal is used in various products, all items holding that particular code can be instantly traceable. Effectively compartmentalising the outbreak and maximising efficiency in damage control.
+With item level identification the contaminated produce could be traced back immediately and the products recalled.\cite{rfidFood}\cite{rfidFood2} For example if an infected animal is used in various products, all items holding that particular code can be instantly traceable, effectively compartmentalising the outbreak and maximising efficiency in damage control.
 
 \paragraph{Transparency \& Consumer Rights}
 
@@ -186,7 +189,7 @@ With the use of RFID the overloading of the label would no longer be a reason to
 
 \paragraph{Personal Recommendation} As well as waste management item-level identification can benefit other areas of the supply chain. Personalised promotions and predictive suggestions can increase productivity for the consumer and shopping experience can be greatly enhanced as demonstrated by MyGROCER\cite{myGrocer}. A project that integrated item level RFID into a supermarket to demonstrate a fully automated the check out process, as well as the enhanced shopping experience. MyGROCER provided the consumer with a shopping cart embedded with readers that were able to log the items and transmit the total purchases to the cashier, removing the time consuming task of item scanning. This system proved that the enablement of RFID technology in the supply chain and the creating of ubiquitous objects was beneficial to both consumer and supplier.\cite{pervasiveComp} The concept of objects capable of acknowledging the presence of another objects exhibits the efficiency ubiquitous computing can provide.\vspace{\baselineskip}\vspace{\baselineskip}\vspace{\baselineskip}\subsection{Ubiquitous Computing}%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\paragraph{Brief history} Mark Weiser who has been credited as the founding father of ubiquitous computing as well as the coining of the phrase was motivated by the notion that any person may access any information in any place at any time.\cite{weiser} This notion of peer aware devices generating a response composed by shared logic for the betterment of human lives continues to influence the development of smart devices and Internet enabled objects today.  One of the first appliance to be placed online was a Coca-Cola vending machine developed in Carnegie Mellon University in 1982. Users were able to connect via the Internet and check whether the canned beverages were chilled. This information would be the deciding factor on whether the user would make the trip to the machine. This technological breakthrough gave an insight into a new era were objects were able to cater to our immediate needs. A once passive and inanimate object is able to actively communicate with other `things' through a network, sharing data and working harmoniously to maximise efficiency to permissively aid our everyday lives.
+\paragraph{Brief History} Mark Weiser who has been credited as the founding father of ubiquitous computing as well as the coining of the phrase was motivated by the notion that any person may access any information in any place at any time.\cite{weiser} This notion of peer aware devices generating a response composed by shared logic for the betterment of human lives continues to influence the development of smart devices and Internet enabled objects today.  One of the first appliance to be placed online was a Coca-Cola vending machine developed in Carnegie Mellon University in 1982. Users were able to connect via the Internet and check whether the canned beverages were chilled. This information would be the deciding factor on whether the user would make the trip to the machine. This technological breakthrough gave an insight into a new era were objects were able to cater to our immediate needs. A once passive and inanimate object is able to actively communicate with other `things' through a network, sharing data and working harmoniously to maximise efficiency to permissively aid our everyday lives.
 
 \paragraph{RFID \& Cloud Services}One of the fundamental bottlenecks to Weiser's research was the limitations of computational power available in 1993\cite{weiserLimit}, together with inability for hardware advancements to catch up with his vision. Over the years the way in which people use computers has been revolutionised. Computers have become increasingly compact and portable that the need for desktop computers is decreasing. Cloud vendors such as Amazon and Google offer huge computational power utilising commodity hardware in the form of Cloud Services that Moore's law is no longer applicable\cite{HadoopInAction}. 
 
@@ -204,9 +207,9 @@ As the popularity in RFID technology rises and increasing amounts of physical ob
 \section{Aims and Objectives}
 \subsection{Aims}
 
-The aim is to demonstrate the use of item level RFID tagging of food products to support the prevention of waste. The system should seamlessly integrate into the domestic home environment and aid the consumer with personal inventory management and assisting in the optimum utilisation of resources for the inhabitants. 
+The aim is to demonstrate the use of item level RFID tagging of food products to support the prevention of waste. A fridge will be equipped with an RFID interrogator that senses the presence of near by tags and communicate inventory information through a Smartphone. The system should seamlessly integrate into the domestic home environment and aid the consumer with personal inventory management and assisting in the optimum utilisation of resources for the inhabitants. 
 
-As mentioned previously, content monitoring apps are readily available to consumers. But after analysis of various waste management apps such as the Smart Fridge and TooSkee, it became evident that the arduous steps necessary to register the items rendered it incompatible with the hectic modern lifestyle of the consumers. Any obstructions between the barcode and the laser prevented identification and manual intervention is required. Items must be scanned item by item with careful precision for it to be read. Even after a successful read the information accessible is limited and crucial details such as use-by-dates requires manual input from the user. This shortcoming of the process hinders the usability of the app and with finite memory on smartphones apps are discarded and forgotten just as quickly as they were installed.\begin{figure}[h!]  \centering    \includegraphics[width=0.85\textwidth]{system2.png}      \caption{Concept}\end{figure}\paragraph{Concept}The proposed concept will incorporate RFID technology as a replacement for barcodes. Groceries will be tagged and granular item-level detail such as use-by-dates, allergy and nutrition information will be accessible through a Smartphone. There will be no need to alter the consumers?  usual behaviour and process of restocking their fridge. Items simply need to be placed in the fridge as usual and the readers will recognise the items as illustrated in figure 1. Any changes in the state of the fridge will be recorded keeping the consumer up to date with their current inventory. Data will be stored using a cloud database giving plenty of leeway for future expansion and highly scalable data retrieval and persistence mechanisms. The information captured will be organised, analysed and presented to the consumer in a user-friendly format via a graphical user interface (GUI). By equipping the consumer with an app over purchasing can be avoided and consumers are reminded to use food before they perish, thus minimising waste. The following features will provide solutions and articulate how the app intends to overcome the issues discovered and discussed in part one.
+As mentioned previously, content monitoring apps are readily available to consumers. But after analysis of various waste management apps such as the Smart Fridge and TooSkee, it became evident that the arduous steps necessary to register the items rendered it incompatible with the hectic modern lifestyle of the consumers. Any obstructions between the barcode and the laser prevented identification and manual intervention is required. Items must be scanned item by item with careful precision for it to be read. Even after a successful read the information accessible is limited and crucial details such as use-by-dates requires manual input from the user. This shortcoming of the process hinders the usability of the app and with finite memory on smartphones apps are discarded and forgotten just as quickly as they were installed.\begin{figure}[h!]  \centering    \includegraphics[width=0.85\textwidth]{system2.png}      \caption{Concept}\end{figure}\paragraph{Concept}The proposed concept will incorporate RFID technology as a replacement for barcodes. Groceries will be tagged and granular item-level detail such as use-by-dates, allergy and nutrition information will be accessible through a Smartphone. There will be no need to alter the consumers' usual behaviour and process of restocking their fridge. Items simply need to be placed in the fridge as usual and the readers will recognise the items as illustrated in figure 1. Any changes in the state of the fridge will be recorded keeping the consumer up to date with their current inventory. Data will be stored using a cloud database giving plenty of leeway for future expansion and highly scalable data retrieval and persistence mechanisms. The information captured will be organised, analysed and presented to the consumer in a user-friendly format via a graphical user interface (GUI). By equipping the consumer with an app over purchasing can be avoided and consumers are reminded to use food before they perish, thus minimising waste. The following features will provide solutions and articulate how the app intends to overcome the issues discovered and discussed in part one.
 
 \vspace{\baselineskip}
 
@@ -217,7 +220,7 @@ As mentioned previously, content monitoring apps are readily available to consum
   
   \item Tracking of itemised inventory, ordered in accordance to the use-by-date. Eliminating the need for consumers to rely on memory alone to memorise when certain products must be used.
   
-  \item Statistics analysis of money they have thrown away in the context of food waste can provide motivation for the user to consume purchased foods. Encouraging the minimisation of wastage.
+  \item Statistical analysis of money they have thrown away in the context of food waste can provide motivation for the user to consume purchased foods, encouraging the minimisation of wastage.
    
    \item Automated meal planning feature using the contents of the fridge alleviating the time consuming process of co-ordinating meals to aid fast pasted lives.
     
@@ -230,7 +233,7 @@ As mentioned previously, content monitoring apps are readily available to consum
 
 To further clarify the functionality of the app a hypothetical scenario is provided to evoke a vision of how the software will aid the domestic environment. 
 
-\paragraph{Scenario}On the way home from work Rachel visits the supermarket. She consults her smartphone for a reminder of what her fridge contains back at home. A shopping list has been generated for her. She will need less food than the previous week as she has a family dinner scheduled at her mother's this weekend. She browses the poultry aisle and notices a special offer on chicken, `Buy two get the third free' the label reads. According to the application the fridge already contains chicken that must be consumed by tomorrow. She decides against the purchase and carries on, the next item on the list is milk. But then her phone notifies her that her husband Frank has just stocked the fridge with a one litre carton of semi-skimmed milk. She completes the shopping and arrives home to restocks the fridge. Her daughter Ingrid is on the way home from college. Her parents are working late and she must prepare dinner for herself and her younger brother Dean this evening. As she scrolls through the items on the screen of the Smartphone the app recommends cheese and onion quiche. Ready in twenty minutes and one of Dean's favourites. After dinner Ingrid decides to prepare desert, as she unloads the cheesecake from the fridge her Smartphone signals a warning that the cheesecake contains gelatine. Ingrid is a vegetarian, she opts for the yoghurt instead and serves the cheesecake to her brother. At the end of the week a visual chart representing the analysis of the families savings and quantity of food consumed is broadcasted to all the members. They have made a total of \pounds58 savings compared to the previous month. 
+\paragraph{Scenario}On the way home from work Rachel visits the supermarket. She consults her smartphone for a reminder of what her fridge contains back at home. A shopping list has been generated for her. She will need less food than the previous week as she has a family dinner scheduled at her mother's this weekend. She browses the poultry aisle and notices a special offer on chicken, `Buy two get the third free' the label reads. According to the application the fridge already contains chicken that must be consumed by tomorrow. She decides against the purchase and carries on, the next item on the list is milk. But then her phone notifies her that her husband Frank has just stocked the fridge with a one litre carton of semi-skimmed milk. She completes the shopping and arrives home to restock the fridge. Her daughter Ingrid is on the way home from college. Her parents are working late and she must prepare dinner for herself and her younger brother Dean this evening. As she scrolls through the items on the screen of the Smartphone the app recommends cheese and onion quiche. Ready in twenty minutes and one of Dean's favourites. After dinner Ingrid decides to prepare desert, as she unloads the cheesecake from the fridge her Smartphone signals a warning that the cheesecake contains gelatine. Ingrid is a vegetarian; she opts for the yoghurt instead and serves the cheesecake to her brother. At the end of the week a visual chart representing the analysis of the families savings and quantity of food consumed is broadcasted to all the members. They have made a total of \pounds58 savings compared to the previous month. 
 
 \paragraph{Further Extension\dots} This concept can be expanded to other food storage locations such as the pantry or freezer. As more objects become live and the network expands, systems become increasingly sophisticated. Popular wearable devices such as fitness trackers that calculate the amount of calories exhausted can work cooperatively with the home inventory management system and recommend the optimal diet for the individual to lead a healthy lifestyle. Smart shopping solutions such as MyGROCER\cite{myGrocer} could responsibly source personalised promotions sent directly to the consumer via the app.
 
@@ -242,7 +245,7 @@ To further clarify the functionality of the app a hypothetical scenario is provi
 
 \paragraph{Infrastructure}Although the technology is available the primary set back is the lack of infrastructure in place to support RFID labeled grocery products. It would require significant changes to the supply chain and business processes \cite{pervasiveComp} as experienced by MyGROCER. Barcode printing has it's roots firmly planted in the supply chain and the transition is lagging. With this restriction the prototype will be setup in a hypothetical environment. Central database with sample item details will be made accessible. 
 
-\paragraph{Cost and Environment}Food is mass produced daily resulting in large scale utilisation of tags, this raises concerns for the environment as tags contain non-biodegradable materials such as metal, plastic and petrochemical based materials.\cite{bioTags} Research and production of biodegradable RFID tags are progressing but at the present time it is not available. In the past cost has also effected the move to RFID usage for groceries. The cost of tags has significantly decreased over the past decade but the process of grocery tagging in the supply chain workflow would still require new machinery and alteration to current operations. 
+\paragraph{Cost and Environment}Food is mass produced daily resulting in large scale utilisation of tags, this raises concerns for the environment as tags contain non-biodegradable materials such as metal, plastic and petrochemical based materials.\cite{bioTags} Research and production of biodegradable RFID tags are progressing but at the present time it is not available. In the past cost has also affected the transition to RFID usage for groceries. The cost of tags has significantly decreased over the past decade but the process of grocery tagging in the supply chain workflow would still require new machinery and alteration to current operations. 
 
 \paragraph{Privacy}Data persistence is a fundamental part of any information system. As computers advance the concerns over privacy has become a controversial topic. At some point, for some length, data must be stored giving opportunities for unethical practices that can lead to the abuse and exploitations of an individual. This seems to be a double-edged sword as when data is used in a responsible and respectful manner it is able to provide people with great advancements to their lives but on the other side, ramification of bad practices can be disruptive and invasive. This bottleneck of obtaining data hinders a system's ability to recommend and persuade meaning the system is only as intelligent as the user allows it to be.
 \clearpage
@@ -252,17 +255,16 @@ The objectives have been stated with consideration given to the time allocated t
 
 \begin{enumerate}
 
-   \item \textbf{Obtain Knowledge of RFID classifications and Reader capabilities}
-   	\begin{flushleft}Investigating various classifications of RFID tags and readers to better understand the capabilities and limitation. Based on acquired knowledge, one should gain the expertise to critically assess and select the most appropriate hardware for the use-case of the project.
+   \item \textbf{Obtain Knowledge of RFID Classifications and Reader Capabilities}
+   	\begin{flushleft}Investigations of various classifications of RFID tags and readers to better understand the capabilities and limitation. Based on acquired knowledge one should gain the expertise to critically assess and select the most appropriate hardware for the use-case of the project.
   	\end{flushleft}
 	
    \item \textbf{Tag and Reader Prototype Setup}
-   	\begin{flushleft}Achieving an understanding of the underpinnings of RFID technology and tag to reader communications. Successful hardware configuration for demonstration purposes.
+   	\begin{flushleft}Achieve an understanding of the underpinnings of RFID technology, tag to reader communications and a successful hardware configuration for demonstration purposes.
   	\end{flushleft}
   
    \item \textbf{Front End Development}
-   	\begin{flushleft}Front end development of a simple graphical user interface with minimal functionality, using the Android software development kit (SDK) that will engage with the user. User will view an list of their current inventory.
-		  \end{flushleft}
+   	\begin{flushleft}Develop a simple graphical user interface with minimal functionality, using the Android software development kit (SDK), for the user to view a list of their current inventory. 		  \end{flushleft}
   
    \item \textbf{Back End Configuration of Third-Party Cloud Service}
    	\begin{flushleft}
@@ -270,16 +272,16 @@ The objectives have been stated with consideration given to the time allocated t
 	 \end{flushleft}
 	 
 	 %Architechted, composition 
-	    \item \textbf{Front end, back end Integration}
-   	\begin{flushleft}Understanding the RFID stack and the composition of the varying elementes. Managing compatibility issues and adapting to potential change. 
+	    \item \textbf{Front End, Back End Integration}
+   	\begin{flushleft}Understand the RFID stack with the composition of the varying elements, manage compatibility issues and adapt to potential change.
   	\end{flushleft}
  
   \item \textbf{Testing}
-   	\begin{flushleft}Delivery of maintainable and transferable code. Gaining confidence and understanding of best practices for production code development. Manual testing using a simple graphical user interface to support the demonstration.
+   	\begin{flushleft}By using todays best practices for development (e.g. automated testing and continuous integration) will help ensure delivery of maintainable and transferable code, and manual testing will use a simple graphical user interface to support demonstrations. 
  	\end{flushleft}
  
  \item \textbf{Product Demonstration}
- 	\begin{flushleft}Demonstrative prototype and critical evaluation of prototype. Including discussion of application functionality, discoveries and constraints encountered.
+ 	\begin{flushleft}Demonstration and critical evaluation of a prototype, including discussion of application functionality, discoveries and constraints encountered. 
  	\end{flushleft}
 \end{enumerate}
 \clearpage
@@ -297,7 +299,7 @@ The objectives have been stated with consideration given to the time allocated t
 
 \subsection{System Overview \& Communication Paths}
 
-To better understand the development process figure 2 depicts a simplified system overview and directed communication paths represent the flow of information. Using the client server paradigm the client side application will communicate using the RESTful. The gateway device represents the RFID reader. For this project an Android device with an integrated reader will be utilised. At the middle, AWS will operate. Cloud services are designated the task of persisting and processing data, in addition to the management of the main logic and application deployment. 
+To better understand the development process figure 2 depicts a simplified system overview and directed communication paths represent the flow of information. Using the client server paradigm the client side application will communicate using representational state transfer (REST)\cite{REST}. The gateway device represents the RFID reader. For this project an Android device with an integrated reader will be utilised. At the middle, AWS will operate. Cloud services are designated the task of persisting and processing data, in addition to the management of the main logic and application deployment. 
 
 \begin{figure}[h!]
   \centering
@@ -329,14 +331,14 @@ Below are stages of development with primary deliverables in correspondence to t
 	\end{flushleft}
 	  \vspace{\baselineskip}
 %3
-   \item \textbf{Setting up the development environment}
-   	\begin{flushleft}Installation of integrated development environment (IDE), software development kit (SDK), importing libraries and plugins. RFID enabled Android phone to be used as the reader and a testing platform.  
-		
+   \item \textbf{Setting Up the Development Environment}
+   	\begin{flushleft}The development environment will include an installation of an integrated development environment (IDE), software development kit (SDK), libraries and plugins, and an RFID enabled Android phone to be used as the reader and a testing platform. 
+			
 		\emph{\textbf{Outcome:}}  Setup of an environment fit to begin development.
 		\end{flushleft}
 	  \vspace{\baselineskip}
 %4
-	   \item \textbf{Tag to reader communication}
+	   \item \textbf{Tag to Reader Communication}
    	\begin{flushleft}Use Android SDK's RFID library and implement a simple program that is able to read an RFID tag.
 		
 	\emph{\textbf{Outcome:}}Simple program that is able to acknowledge the existence of an RFID tag. 
@@ -344,19 +346,18 @@ Below are stages of development with primary deliverables in correspondence to t
 
 %5
   	\end{flushleft}
-	   \item \textbf{Front end development with Android}
+	   \item \textbf{Front End Development with Android}
    	\begin{flushleft}Using Android SDK develop a client application to manage reader to tag communications through a simple GUI. Java will be the chosen language as supported by the SDK.
 	
-	\emph{\textbf{Outcome:}} A Java interface and implementation using the RESTful API. A simple GUI to support functionality of client to server communications. 
+	\emph{\textbf{Outcome:}} A Java interface and implementation using a RESTful API. A simple GUI to support functionality of client to server communications. 
 	\end{flushleft}
 	\vspace{\baselineskip}
  
 %6
-   \item \textbf{Back end Configuration }
-   	\begin{flushleft}Backend development using AWS' mobile development SDK. Using Amazon's Lambda API, client messages will be managed. Main logic of the application implemented.
+   \item \textbf{Back End Configuration }
+   	\begin{flushleft}To aid the application, AWS? mobile development SDK will be used in the backend and Amazon?s Lambda API will manage client messages. 
 	
-	\emph{\textbf{Outcome:}} Program will log the contents of the fridge and the client will be updated when the state of the fridge is altered. Priority listing of items viewable through the GUI.  
-	\vspace{\baselineskip}
+	\emph{\textbf{Outcome:}}Program will log the contents of the fridge and the client will be updated when the state of the fridge is altered affecting priority listing of items viewed through the GUI.	\vspace{\baselineskip}
   	\end{flushleft}
 %7
 	   \item \textbf{Cloud Database Integration}
@@ -370,7 +371,7 @@ Below are stages of development with primary deliverables in correspondence to t
    \item \textbf{Testing}
    	\begin{flushleft}Tests will be carried out and documented throughout the process. Upon reflection of past implementation, current situation will be influenced. Unit tests and mocking frame works may be used to support best practices where appropriate.
 	  	
-	\emph{\textbf{Outcome:}} Manual test and documentation of test results and critical analysis of each stage. Sufficient unit test coverage for code.
+	\emph{\textbf{Outcome:}} Manual test and documentation of test results and critical analysis of each stage with sufficient unit test coverage for code.
 	\vspace{\baselineskip}
   	\end{flushleft}
 %9	
@@ -440,7 +441,7 @@ The above gantt chart represents the schedule for the project commencing form th
 	\item Tag to Reader Communication
 	\item Front End Development
 	\item Back End Development
-	\item Database Configuratiion
+	\item Database Configuration
 	\item Testing
 	\item Report detailing and final review of project in preparation for submission and report.
  \end{enumerate}
@@ -575,6 +576,8 @@ The above gantt chart represents the schedule for the project commencing form th
 
 \bibitem{GS1}?GS1, \emph{\say{RFID Bar Code Interoperability GS1 Guideline}}, GS1 Global Office, August 10th 2012
 \vspace{\baselineskip}
+
+\bibitem{REST}F. Roy. "Representational state transfer." Architectural Styles and the Design of Netowork-based Software Architecture (2000): 76-85.
 
 \bibitem{pervasiveComp}P. Kourouthanassis, G. Roussos, \emph{\say{Developing Consumer- Friendly Pervasive Retail Systems}}, IEEE, Page(s): 32	- 39, 2003
 \vspace{\baselineskip}
